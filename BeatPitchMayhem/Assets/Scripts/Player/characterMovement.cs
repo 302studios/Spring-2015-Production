@@ -9,7 +9,7 @@ public class characterMovement : MonoBehaviour {
 	CharacterController controller;
 
 
-	// Walking & Runnings
+	// Walking & Running
 	public bool canControl = true;
 	public float walkSpeed = 8f;
 	public float runSpeed = 13f;
