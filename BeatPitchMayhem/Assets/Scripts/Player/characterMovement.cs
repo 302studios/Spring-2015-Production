@@ -12,7 +12,7 @@ public class characterMovement : MonoBehaviour {
 	// Walking & Running
 	public bool canControl = true;
 	public float walkSpeed = 8f;
-	public float runSpeed = 13f;
+	public float runSpeed;
 	float speedSmoothing = 10f;
 	private float moveSpeed = 0f;
 	private bool movingBack = false;
@@ -30,7 +30,7 @@ public class characterMovement : MonoBehaviour {
 	bool isCrouching = false;
 	public Vector3 cameraLocStanding = Vector3.zero;
 	public Vector3 cameraLocCrouching = Vector3.zero;
-	float crouchSpeed = 5f;
+	float crouchSpeed;
 	float crouchDist = .5f;
 
 	// Leaning Leon
@@ -69,6 +69,9 @@ public class characterMovement : MonoBehaviour {
 		cameraRotLeanLeft = new Vector3 (10f, 0f, 0f);
 		cameraRotLeanRight = new Vector3 (0f, -10f, 0f);
 		cameraRotStanding = theCamera.transform.localRotation.eulerAngles;
+
+		runSpeed = walkSpeed * 1.6f;
+		crouchSpeed = walkSpeed * 0.25f;
 	}
 	
 	// Update is called once per frame
@@ -130,7 +133,11 @@ public class characterMovement : MonoBehaviour {
 		if (isRunning) {
 			targetSpeed *= runSpeed;
 		} 
-		else 
+		else if(isCrouching)
+		{
+			targetSpeed *= crouchSpeed; 
+		}
+		else
 		{
 			targetSpeed *= walkSpeed;
 		}
