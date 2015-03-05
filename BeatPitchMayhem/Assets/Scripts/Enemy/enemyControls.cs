@@ -5,7 +5,9 @@ public class enemyControls : MonoBehaviour {
 
 	// Objects & Components
 	//CharacterController controller;
-	
+
+	// Player
+	characterMovement thePlayer;
 	
 	// Movement
 	public float patrolSpeed = 7f;
@@ -28,9 +30,12 @@ public class enemyControls : MonoBehaviour {
 	int wpNum = 0;
 	public GameObject moveTo;
 	bool waiting = false;
+	public float patrolWaitTime = 1f;
 
 	// Attacking
 	bool isAttacking = false;
+	public float attackWaitTime = 2.5f;
+	Vector3 target;
 
 	// Misc
 	private CollisionFlags collisionFlags;
@@ -41,6 +46,7 @@ public class enemyControls : MonoBehaviour {
 	void Start () {
 
 		moveDirection = transform.TransformDirection(Vector3.forward);
+		thePlayer = GameObject.Find ("First Person Controller").GetComponent<characterMovement>();
 	}
 	
 	// Update is called once per frame
@@ -64,7 +70,7 @@ public class enemyControls : MonoBehaviour {
 		if (this.transform.position == moveTo.transform.position) {
 			if(!waiting){
 				wpNum++;
-				StartCoroutine(waitAtSpot(1f));
+				StartCoroutine(waitAtSpot(patrolWaitTime));
 			}
 			if(wpNum >= waypoints.Length)
 				wpNum = 0;
@@ -75,12 +81,22 @@ public class enemyControls : MonoBehaviour {
 
 	void attack(){
 
+		target = moveTo.transform.position;
+		if (this.tag == "Giant"){
+			target = new Vector3 (target.x, moveTo.transform.position.y, target.z);
+		}
+
+		if (this.tag == "Bat") {
+			if(transform.position.y < target.y)
+				transform.position = new Vector3(transform.position.x, target.y, transform.position.z);
+		}
+
 		transform.position = Vector3.MoveTowards (transform.position, moveTo.transform.position, (chaseSpeed * .01f));
 	}
 
-	void OnTriggerEnter(Collider col){
+	void OnTriggerStay(Collider col){
 
-		if (col.tag == "Player") {
+		if (col.tag == "PlayerFront" && !thePlayer.isCrouching) {
 		
 			isAttacking = true;
 			moveTo = col.gameObject;
@@ -91,10 +107,10 @@ public class enemyControls : MonoBehaviour {
 
 	void OnTriggerExit(Collider col){
 		
-		if (col.tag == "Player") {
+		if (col.tag == "PlayerFront" && !thePlayer.isCrouching) {
 			
 			isAttacking = false;
-			StartCoroutine(waitAtSpot(2.5f));
+			StartCoroutine(waitAtSpot(attackWaitTime));
 		}
 		
 	}

@@ -27,7 +27,7 @@ public class characterMovement : MonoBehaviour {
 	//public LayerMask whatIsGround;
 
 	// Crouching
-	bool isCrouching = false;
+	public bool isCrouching = false;
 	public Vector3 cameraLocStanding = Vector3.zero;
 	public Vector3 cameraLocCrouching = Vector3.zero;
 	float crouchSpeed;
@@ -71,7 +71,7 @@ public class characterMovement : MonoBehaviour {
 		cameraRotStanding = theCamera.transform.localRotation.eulerAngles;
 
 		runSpeed = walkSpeed * 1.6f;
-		crouchSpeed = walkSpeed * 0.25f;
+		crouchSpeed = walkSpeed * 0.4f;
 	}
 	
 	// Update is called once per frame
@@ -130,7 +130,7 @@ public class characterMovement : MonoBehaviour {
 
 		targetSpeed = Mathf.Min (targetDirection.magnitude, 1.0f);
 		isRunning = Input.GetKey(KeyCode.LeftShift);
-		if (isRunning) {
+		if (isRunning && !isCrouching) {
 			targetSpeed *= runSpeed;
 		} 
 		else if(isCrouching)
@@ -177,6 +177,16 @@ public class characterMovement : MonoBehaviour {
 			// Dodge Back
 			if ((Input.GetKeyDown (KeyCode.S)) && !((Input.GetKey(KeyCode.W)) || (Input.GetKey(KeyCode.A)) || (Input.GetKey(KeyCode.D)))) {
 			
+				if (keyCool > 0 && keyCount == 1/*Number of Taps you want Minus One*/) {
+					moveSpeed *= dodgePower;
+					StartCoroutine (dodgeCooling ());
+				} else {
+					keyCool = 0.2f; 
+					keyCount += 1;
+				}
+			}
+			if ((Input.GetKeyDown (KeyCode.W)) && !((Input.GetKey(KeyCode.S)) || (Input.GetKey(KeyCode.A)) || (Input.GetKey(KeyCode.D)))) {
+				
 				if (keyCool > 0 && keyCount == 1/*Number of Taps you want Minus One*/) {
 					moveSpeed *= dodgePower;
 					StartCoroutine (dodgeCooling ());
