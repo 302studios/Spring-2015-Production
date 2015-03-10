@@ -46,7 +46,7 @@ public class characterMovement : MonoBehaviour {
 	// Dodging
 	bool isDodging = false;
 	bool canDodge = true;
-	float dodgePower = 40f;
+	public float dodgePower = 20f;
 	float dodgeCooldown = 1f;
 	public int keyCount = 0;
 	public float keyCool = 0.2f;
@@ -78,7 +78,8 @@ public class characterMovement : MonoBehaviour {
 	void Update () {
 	
 		basicMovement();
-		doubleTapDodge();
+		//doubleTapDodge();
+		spaceDodge ();
 		crouchCamMove ();
 		leaningLeon ();
 
@@ -148,14 +149,46 @@ public class characterMovement : MonoBehaviour {
 
 	}
 
+	void spaceDodge (){
+		
+		// Keyboard Controls
+		if (canDodge) {
+			
+			if ((Input.GetKey (KeyCode.W)) && Input.GetKeyDown (KeyCode.Space) && (!((Input.GetKey (KeyCode.A)) || (Input.GetKey (KeyCode.S)) || (Input.GetKey (KeyCode.D))))) {
+				
+				moveSpeed *= dodgePower;
+				canDodge = false;
+				StartCoroutine (dodgeCooling ());
+			}
+			if ((Input.GetKey (KeyCode.A)) && Input.GetKeyDown (KeyCode.Space) && (!((Input.GetKey (KeyCode.W)) || (Input.GetKey (KeyCode.S)) || (Input.GetKey (KeyCode.D))))) {
+				
+				moveSpeed *= dodgePower;
+				canDodge = false;
+				StartCoroutine (dodgeCooling ());
+			}
+			if ((Input.GetKey (KeyCode.S)) && Input.GetKeyDown (KeyCode.Space) && (!((Input.GetKey (KeyCode.W)) || (Input.GetKey (KeyCode.A)) || (Input.GetKey (KeyCode.D))))) {
+				
+				moveSpeed *= dodgePower;
+				canDodge = false;
+				StartCoroutine (dodgeCooling ());
+			}
+			if ((Input.GetKey (KeyCode.D)) && Input.GetKeyDown (KeyCode.Space) && (!((Input.GetKey (KeyCode.W)) || (Input.GetKey (KeyCode.S)) || (Input.GetKey (KeyCode.A))))) {
+				
+				moveSpeed *= dodgePower;
+				canDodge = false;
+				StartCoroutine (dodgeCooling ());
+			}
+
+		}
+	}
 	void doubleTapDodge (){
 
 		// Keyboard Controls
-		if (canDodge) {
+		if(canDodge){
 			// Dodge Left
 			if ((Input.GetKeyDown (KeyCode.A)) && !((Input.GetKey(KeyCode.W)) || (Input.GetKey(KeyCode.S)) || (Input.GetKey(KeyCode.D)))) {
 			
-				if (keyCool > 0 && keyCount == 1/*Number of Taps you want Minus One*/) {
+				if (keyCool > 0 && keyCount == 1) {
 					moveSpeed *= dodgePower;
 					StartCoroutine (dodgeCooling ());
 				} else {
@@ -166,7 +199,7 @@ public class characterMovement : MonoBehaviour {
 			// Dodge Right
 			if ((Input.GetKeyDown (KeyCode.D)) && !((Input.GetKey(KeyCode.W)) || (Input.GetKey(KeyCode.S)) || (Input.GetKey(KeyCode.A)))) {
 			
-				if (keyCool > 0 && keyCount == 1/*Number of Taps you want Minus One*/) {
+				if (keyCool > 0 && keyCount == 1) {
 					moveSpeed *= dodgePower;
 					StartCoroutine (dodgeCooling ());
 				} else {
@@ -177,7 +210,7 @@ public class characterMovement : MonoBehaviour {
 			// Dodge Back
 			if ((Input.GetKeyDown (KeyCode.S)) && !((Input.GetKey(KeyCode.W)) || (Input.GetKey(KeyCode.A)) || (Input.GetKey(KeyCode.D)))) {
 			
-				if (keyCool > 0 && keyCount == 1/*Number of Taps you want Minus One*/) {
+				if (keyCool > 0 && keyCount == 1) {
 					moveSpeed *= dodgePower;
 					StartCoroutine (dodgeCooling ());
 				} else {
@@ -187,7 +220,7 @@ public class characterMovement : MonoBehaviour {
 			}
 			if ((Input.GetKeyDown (KeyCode.W)) && !((Input.GetKey(KeyCode.S)) || (Input.GetKey(KeyCode.A)) || (Input.GetKey(KeyCode.D)))) {
 				
-				if (keyCool > 0 && keyCount == 1/*Number of Taps you want Minus One*/) {
+				if (keyCool > 0 && keyCount == 1) {
 					moveSpeed *= dodgePower;
 					StartCoroutine (dodgeCooling ());
 				} else {

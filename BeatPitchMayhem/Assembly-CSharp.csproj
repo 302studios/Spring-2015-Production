@@ -63,7 +63,6 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRUGUI.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
      <Compile Include="Assets\Scripts\Enemy\enemyControls.cs" />
-     <Compile Include="Assets\Scripts\Enemy\enemyControlsFlying.cs" />
      <Compile Include="Assets\Scripts\Environment\lightPulse.cs" />
      <Compile Include="Assets\Scripts\Player\characterMovement.cs" />
      <Compile Include="Assets\Scripts\Player\mouseLookBPM.cs" />
@@ -78,6 +77,11 @@
      <Compile Include="Assets\Scripts\World Controls\gameInfo.cs" />
      <Compile Include="Assets\Scripts\World Controls\moveObjectToBeat.cs" />
      <Compile Include="Assets\Scripts\World Controls\worldInfo.cs" />
+     <Compile Include="Assets\crossHairCustom.cs" />
+     <Compile Include="Assets\enemyTrigger.cs" />
+     <Compile Include="Assets\sonicBoom.cs" />
+     <Compile Include="Assets\sonicCompressor.cs" />
+     <Compile Include="Assets\stunUI.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />

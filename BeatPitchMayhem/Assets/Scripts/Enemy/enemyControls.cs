@@ -7,7 +7,7 @@ public class enemyControls : MonoBehaviour {
 	//CharacterController controller;
 
 	// Player
-	characterMovement thePlayer;
+	public characterMovement thePlayer;
 	
 	// Movement
 	public float patrolSpeed = 7f;
@@ -33,12 +33,15 @@ public class enemyControls : MonoBehaviour {
 	public float patrolWaitTime = 1f;
 
 	// Attacking
-	bool isAttacking = false;
+	public bool isAttacking = false;
 	public float attackWaitTime = 2.5f;
 	Vector3 target;
 
 	// Misc
 	private CollisionFlags collisionFlags;
+
+	public bool stunned = false;
+	float stunTime = 3f;
 	
 	
 	
@@ -52,10 +55,16 @@ public class enemyControls : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (!isAttacking)
-			enemyPatrol ();
-		else
-			attack ();
+		if (!stunned) {
+			if (!isAttacking)
+				enemyPatrol ();
+			else
+				attack ();
+		} else
+			moveTo = null;
+
+		Vector3 forward = transform.TransformDirection(Vector3.forward) * 10;
+		Debug.DrawRay(transform.position, forward, Color.green);
 
 	}
 
@@ -82,8 +91,12 @@ public class enemyControls : MonoBehaviour {
 	void attack(){
 
 		target = moveTo.transform.position;
-		if (this.tag == "Giant"){
-			target = new Vector3 (target.x, moveTo.transform.position.y, target.z);
+		if (this.tag == "Brute"){
+			target = new Vector3 (target.x, transform.position.y, target.z);
+		}
+
+		if (this.tag == "Beast"){
+			target = new Vector3 (target.x, transform.position.y, target.z);
 		}
 
 		if (this.tag == "Bat") {
@@ -91,34 +104,27 @@ public class enemyControls : MonoBehaviour {
 				transform.position = new Vector3(transform.position.x, target.y, transform.position.z);
 		}
 
-		transform.position = Vector3.MoveTowards (transform.position, moveTo.transform.position, (chaseSpeed * .01f));
+		transform.position = Vector3.MoveTowards (transform.position, target, (chaseSpeed * .01f));
 	}
 
-	void OnTriggerStay(Collider col){
-
-		if (col.tag == "PlayerFront" && !thePlayer.isCrouching) {
-		
-			isAttacking = true;
-			moveTo = col.gameObject;
-		
-		}
-
-	}
-
-	void OnTriggerExit(Collider col){
-		
-		if (col.tag == "PlayerFront" && !thePlayer.isCrouching) {
-			
-			isAttacking = false;
-			StartCoroutine(waitAtSpot(attackWaitTime));
-		}
-		
-	}
-
-	IEnumerator waitAtSpot(float seconds){
+	public IEnumerator waitAtSpot(float seconds){
 
 		waiting = true;
 		yield return new WaitForSeconds (seconds);
 		waiting = false;
+	}
+
+	public void doStun(){
+
+		StartCoroutine (stunTimer());
+
+	}
+
+	IEnumerator stunTimer(){
+
+		stunned = true;
+		yield return new WaitForSeconds (stunTime);
+		stunned = false;
+
 	}
 }
