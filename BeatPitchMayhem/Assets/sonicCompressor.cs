@@ -32,7 +32,10 @@ public class sonicCompressor : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		if (Input.GetKeyDown (KeyCode.Alpha1) && !cooling)// && !active)
+		if (Input.GetKeyDown (KeyCode.Alpha3) && !cooling)// && !active)
+			active = !active;
+
+		if ((Input.GetKeyDown (KeyCode.Alpha1) || Input.GetKeyDown (KeyCode.Alpha2)) && active)// && !active)
 			active = !active;
 
 		if (active) {

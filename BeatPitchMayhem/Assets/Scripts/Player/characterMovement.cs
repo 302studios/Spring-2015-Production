@@ -88,6 +88,10 @@ public class characterMovement : MonoBehaviour {
 		movement *= Time.deltaTime;
 
 		collisionFlags = controller.Move (movement);
+
+		Vector3 temp = this.transform.position;
+		temp.y = 1.6f;
+		this.transform.position = temp;
 	
 	}
 
@@ -114,6 +118,10 @@ public class characterMovement : MonoBehaviour {
 
 
 		Vector3 targetDirection = (h * right) + (v * forward);
+
+		if (this.transform.position.y > 1.6f) {
+			moveDirection.y = .1f;
+		}
 
 		float targetSpeed = 0f;
 		if (grounded) {
@@ -144,6 +152,7 @@ public class characterMovement : MonoBehaviour {
 		}
 
 		moveSpeed = Mathf.Lerp (moveSpeed, targetSpeed, curSmooth);
+
 		//Animator.doTheThing 
 
 
@@ -252,14 +261,14 @@ public class characterMovement : MonoBehaviour {
 
 	void crouchCamMove(){
 
-		if(Input.GetKeyDown(KeyCode.Z))
+		if(Input.GetKeyDown(KeyCode.LeftControl))
 		{
 			isCrouching = true;
 			theCamera.transform.localPosition = cameraLocCrouching;
 
 		}
 
-		if(Input.GetKeyUp(KeyCode.Z))
+		if(Input.GetKeyUp(KeyCode.LeftControl))
 		{
 			isCrouching = false;	
 			theCamera.transform.localPosition = cameraLocStanding;

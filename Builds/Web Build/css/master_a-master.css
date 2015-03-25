@@ -1,14 +1,16 @@
-#u81
+#u154
 {
-	background-color: transparent;
-	-moz-border-radius: 30px;
-	-webkit-border-radius: 30px;
-	-khtml-border-radius: 30px;
-	border-radius: 30px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #6C6C6C;
+}
+
+#u154_align_to_page
+{
 	position: relative;
 }
 
-#u84
+#u153
 {
 	border-style: none;
 	border-color: transparent;
@@ -16,51 +18,15 @@
 	position: relative;
 }
 
-#u86-5
+#u152-6
 {
 	background-color: transparent;
-	line-height: 36px;
-	font-size: 30px;
-	color: #FFFFFF;
 	text-align: center;
 	position: relative;
 }
 
-#u86
+#u152
 {
-	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
-}
-
-#u87
-{
-	background-color: transparent;
-	position: relative;
-}
-
-#u94-4
-{
-	display: block;
-	vertical-align: top;
-	position: relative;
-}
-
-#u100-4,#u99-16
-{
-	background-color: transparent;
-	font-size: 14px;
 	color: #FFFFFF;
-	text-align: center;
-	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
-	position: relative;
-}
-
-#u99-2
-{
-	font-weight: bold;
-}
-
-#u99
-{
-	text-decoration: underline;
 }
 

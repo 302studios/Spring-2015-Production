@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using SynchronizerData;
 
 public class enemyControls : MonoBehaviour {
 
@@ -18,6 +19,7 @@ public class enemyControls : MonoBehaviour {
 	private bool isMoving = false;
 	bool isChasing = false;
 	private bool slammed = false;
+	bool slowed = false;
 	public Vector3 movement = Vector3.zero;
 	private Vector3 moveDirection = Vector3.zero;
 	public bool grounded = true; // Currently no check for grounded!!!!
@@ -42,7 +44,13 @@ public class enemyControls : MonoBehaviour {
 
 	public bool stunned = false;
 	float stunTime = 3f;
-	
+
+	public bool downBeat = false;
+	public bool upBeat = false;
+	public bool onBeat = false;
+	private BeatObserver beatObserver;
+	public bool canAttack = false;
+	AudioSource source;
 	
 	
 	// Use this for initialization
@@ -50,6 +58,8 @@ public class enemyControls : MonoBehaviour {
 
 		moveDirection = transform.TransformDirection(Vector3.forward);
 		thePlayer = GameObject.Find ("First Person Controller").GetComponent<characterMovement>();
+		beatObserver = GetComponent<BeatObserver>();
+		source = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -66,15 +76,41 @@ public class enemyControls : MonoBehaviour {
 		Vector3 forward = transform.TransformDirection(Vector3.forward) * 10;
 		Debug.DrawRay(transform.position, forward, Color.green);
 
+		if (this.tag == "Brute") {
+			if (downBeat && ((beatObserver.beatMask & BeatType.DownBeat) == BeatType.DownBeat)) {
+				Pulse ();
+			} else
+				canAttack = false;
+		}
+		if (this.tag == "Beast") {
+			if (upBeat && ((beatObserver.beatMask & BeatType.UpBeat) == BeatType.UpBeat)) {
+				Pulse ();
+			} else
+				canAttack = false;
+		}
+		/*if (this.tag == "Bat") {
+			if (onBeat && ((beatObserver.beatMask & BeatType.OnBeat) == BeatType.OnBeat)) {
+				source.Play();
+			} else
+				canAttack = false;
+		}*/
 	}
 
+	void Pulse(){
+
+		canAttack = true;
+
+	}
 
 	void enemyPatrol(){
 
 		moveTo = waypoints[wpNum];		
 
 		if(!waiting)
-			transform.position = Vector3.MoveTowards (transform.position, moveTo.transform.position, (patrolSpeed * .01f));
+			if(slowed)
+				transform.position = Vector3.MoveTowards (transform.position, moveTo.transform.position, (patrolSpeed * .005f));
+			else
+				transform.position = Vector3.MoveTowards (transform.position, moveTo.transform.position, (patrolSpeed * .01f));
 
 		if (this.transform.position == moveTo.transform.position) {
 			if(!waiting){
@@ -103,8 +139,10 @@ public class enemyControls : MonoBehaviour {
 			if(transform.position.y < target.y)
 				transform.position = new Vector3(transform.position.x, target.y, transform.position.z);
 		}
-
-		transform.position = Vector3.MoveTowards (transform.position, target, (chaseSpeed * .01f));
+		if(slowed)
+			transform.position = Vector3.MoveTowards (transform.position, target, (chaseSpeed * .005f));
+		else
+			transform.position = Vector3.MoveTowards (transform.position, target, (chaseSpeed * .01f));
 	}
 
 	public IEnumerator waitAtSpot(float seconds){
@@ -120,11 +158,35 @@ public class enemyControls : MonoBehaviour {
 
 	}
 
+	public void slow(bool isSlow){
+
+		slowed = isSlow;
+		StartCoroutine (slowTimer ());
+	}
+
 	IEnumerator stunTimer(){
 
 		stunned = true;
 		yield return new WaitForSeconds (stunTime);
 		stunned = false;
+
+	}
+
+	IEnumerator slowTimer(){
+		
+
+		yield return new WaitForSeconds (.2f);
+		slowed = false;
+		
+	}
+
+	public void OnTriggerStay(Collider col){
+
+		if (col.tag == "Player" && canAttack) {
+			col.GetComponent<playerInfo>().currHealth -= 10;
+			canAttack = false;
+			source.Play();
+		}
 
 	}
 }

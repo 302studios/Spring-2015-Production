@@ -1,26 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.302-studios.com/images/bpm_name.png</loc>
-    <lastmod>2015-03-06</lastmod>
+    <loc>http://www.whatis302.com/fonts/roboto-light-webfont.woff</loc>
+    <lastmod>2015-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.302-studios.com/images/boomcore_name.png</loc>
-    <lastmod>2015-03-06</lastmod>
+    <loc>http://www.whatis302.com/fonts/roboto-light-webfont.eot</loc>
+    <lastmod>2015-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.302-studios.com/images/u94-4.png</loc>
-    <lastmod>2015-03-06</lastmod>
+    <loc>http://www.whatis302.com/fonts/roboto-light-webfont.svg</loc>
+    <lastmod>2015-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.302-studios.com/index.html</loc>
-    <lastmod>2015-03-06</lastmod>
+    <loc>http://www.whatis302.com/assets/302gifnoloop.gif</loc>
+    <lastmod>2014-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u96-4.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/302gifnoloop.gif</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u142-8.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u125-17.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u125-17-r.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u125-17-m.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u125-17-fs.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u203-grad.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u183-17.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u183-17-r.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u183-17-m.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u183-17-fs.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/placeholder.jpg</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/302nolooptransparent.gif</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/facebook.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/instagram.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/twitter.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u310-grad.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u301-17.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u301-17-r.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u301-17-m.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/images/u301-17-fs.png</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/index.html</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/what-is-302.html</loc>
+    <lastmod>2015-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.whatis302.com/what-is-302-extended-copy.html</loc>
+    <lastmod>2015-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

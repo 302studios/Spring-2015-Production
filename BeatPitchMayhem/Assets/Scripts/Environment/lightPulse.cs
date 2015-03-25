@@ -6,8 +6,8 @@ public class lightPulse : MonoBehaviour {
 
 	private Light lightControls;
 	public bool pulseToggle = false;
-	public int lowIntensity;
-	public int highIntensity;
+	public float lowIntensity;
+	public float highIntensity;
 
 	public bool onBeat = true;
 	public bool downBeat = false;
@@ -25,8 +25,6 @@ public class lightPulse : MonoBehaviour {
 		lightControls = this.gameObject.GetComponent<Light> ();
 		//pulseToggle = false;
 		beatObserver = GetComponent<BeatObserver>();
-		lowIntensity = 0;
-		highIntensity = 8;
 		colorIndex = startColor;
 	
 	}

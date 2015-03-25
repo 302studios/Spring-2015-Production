@@ -1,19 +1,58 @@
-<manifest alg="2" build="569" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1425619704034">
+<manifest alg="2" build="44" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1426928041161">
+  <folder name="fonts">
+    <file name="roboto-light-webfont.woff" crc="3829990550"/>
+    <file name="roboto-light-webfont.eot" crc="478807686"/>
+    <file name="roboto-light-webfont.svg" crc="3906409189"/>
+  </folder>
+  <folder name="assets">
+    <file name="302gifnoloop.gif" crc="3804002144" mt="1399664953000"/>
+  </folder>
   <folder name="css">
-    <file name="site_global.css" crc="3977984863"/>
-    <file name="master_a-master.css" crc="100058509" ref="index"/>
-    <file name="index.css" crc="4289321098" ref="index"/>
+    <file name="site_global.css" crc="422415861"/>
+    <file name="master_a-master.css" crc="4125590682" ref="index:what-is-302:what-is-302-extended-copy"/>
+    <file name="index.css" crc="376443749" ref="index"/>
+    <file name="what-is-302.css" crc="483092960" ref="what-is-302"/>
+    <file name="what-is-302-extended-copy.css" crc="3882804057" ref="what-is-302-extended-copy"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="3769949617" ref="index"/>
-    <file name="museutils.js" crc="4050293121" ref="index"/>
-    <file name="pie.js" crc="3827607177" ref="index"/>
-    <file name="jquery.watch.js" crc="3946357177" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="364326742" ref="index:what-is-302:what-is-302-extended-copy"/>
+    <file name="museutils.js" crc="479751881" ref="index:what-is-302:what-is-302-extended-copy"/>
+    <file name="pie.js" crc="3827607177" ref="index:what-is-302-extended-copy"/>
+    <file name="jquery.watch.js" crc="4232581965" ref="index:what-is-302:what-is-302-extended-copy"/>
+    <file name="webpro.js" crc="3930024250" ref="what-is-302:index:what-is-302-extended-copy"/>
+    <file name="form_check.php" crc="332337308" ref="what-is-302:index:what-is-302-extended-copy"/>
+    <file name="form_throttle.php" crc="3814272331" ref="what-is-302:index:what-is-302-extended-copy"/>
+    <file name="form_process.php" crc="59041389" ref="what-is-302:index:what-is-302-extended-copy"/>
+    <file name="form-u98.php" crc="3769776561" ref="what-is-302"/>
+    <file name="form-u182.php" crc="4081542641" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="445554118" ref="index:what-is-302-extended-copy"/>
+    <file name="form-u293.php" crc="41913822" ref="what-is-302-extended-copy"/>
   </folder>
   <folder name="images">
-    <file name="bpm_name.png" crc="3920269027" ref="index"/>
-    <file name="boomcore_name.png" crc="4131345556" ref="index"/>
-    <file name="u94-4.png" crc="440581723" ref="index"/>
+    <file name="u96-4.png" crc="3988712241" ref="what-is-302"/>
+    <file name="302gifnoloop.gif" crc="3804002144" ref="what-is-302"/>
+    <file name="u142-8.png" crc="4055269261" ref="what-is-302"/>
+    <file name="u125-17.png" crc="4068218507" ref="what-is-302"/>
+    <file name="u125-17-r.png" crc="3780754754" ref="what-is-302"/>
+    <file name="u125-17-m.png" crc="253202857" ref="what-is-302"/>
+    <file name="u125-17-fs.png" crc="3993534137" ref="what-is-302"/>
+    <file name="u203-grad.png" crc="74567734" ref="index"/>
+    <file name="u183-17.png" crc="175882662" ref="index"/>
+    <file name="u183-17-r.png" crc="3600748" ref="index"/>
+    <file name="u183-17-m.png" crc="3914223097" ref="index"/>
+    <file name="u183-17-fs.png" crc="3928994836" ref="index"/>
+    <file name="placeholder.jpg" crc="3843652016" ref="index:what-is-302-extended-copy"/>
+    <file name="302nolooptransparent.gif" crc="294903550" ref="index:what-is-302-extended-copy"/>
+    <file name="facebook.png" crc="317936629" ref="index:what-is-302-extended-copy"/>
+    <file name="instagram.png" crc="260457741" ref="index:what-is-302-extended-copy"/>
+    <file name="twitter.png" crc="4102706121" ref="index:what-is-302-extended-copy"/>
+    <file name="u310-grad.png" crc="3978158007" ref="what-is-302-extended-copy"/>
+    <file name="u301-17.png" crc="175882662" ref="what-is-302-extended-copy"/>
+    <file name="u301-17-r.png" crc="3600748" ref="what-is-302-extended-copy"/>
+    <file name="u301-17-m.png" crc="3914223097" ref="what-is-302-extended-copy"/>
+    <file name="u301-17-fs.png" crc="3928994836" ref="what-is-302-extended-copy"/>
   </folder>
-  <file name="index.html" crc="3970471161" mt="1425619683496" redirect="true"/>
+  <file name="index.html" crc="219027696" mt="1426928007656" redirect="true"/>
+  <file name="what-is-302.html" crc="522018772" mt="1426927961433" redirect="true"/>
+  <file name="what-is-302-extended-copy.html" crc="277838363" mt="1426922569421" redirect="true"/>
 </manifest>

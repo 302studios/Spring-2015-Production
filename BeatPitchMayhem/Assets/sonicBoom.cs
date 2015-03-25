@@ -40,7 +40,7 @@ public class sonicBoom : MonoBehaviour {
 
 		if (col.tag == "Beast" || col.tag == "Brute" || col.tag == "Bat"){
 			col.gameObject.GetComponent<enemyControls> ().doStun ();
-			Debug.Log ("Got em'");
+
 		}
 
 	}

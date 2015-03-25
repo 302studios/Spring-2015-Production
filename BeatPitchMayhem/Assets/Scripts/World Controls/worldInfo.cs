@@ -25,6 +25,10 @@ public class worldInfo : MonoBehaviour {
 				Screen.lockCursor = false; 
 			}
 		}
+
+		if (Input.GetKey (KeyCode.R)) {
+			Application.LoadLevel("Lounge Test");
+		}
 		
 		if((Input.GetMouseButton(0) || Input.GetMouseButton(1))&& Screen.lockCursor == false){
 			Screen.lockCursor = true; 
