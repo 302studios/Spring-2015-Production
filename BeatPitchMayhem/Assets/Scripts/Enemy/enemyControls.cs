@@ -50,6 +50,7 @@ public class enemyControls : MonoBehaviour {
 	public bool onBeat = false;
 	private BeatObserver beatObserver;
 	public bool canAttack = false;
+	public float attackPower;
 	AudioSource source;
 	
 	
@@ -60,6 +61,17 @@ public class enemyControls : MonoBehaviour {
 		thePlayer = GameObject.Find ("First Person Controller").GetComponent<characterMovement>();
 		beatObserver = GetComponent<BeatObserver>();
 		source = GetComponent<AudioSource>();
+		if (this.tag == "Brute"){
+			attackPower = 25f;
+		}
+		
+		if (this.tag == "Beast"){
+			attackPower = 10f;
+		}
+		
+		if (this.tag == "Bat") {
+			attackPower = 5f;
+		}
 	}
 	
 	// Update is called once per frame
@@ -78,28 +90,22 @@ public class enemyControls : MonoBehaviour {
 
 		if (this.tag == "Brute") {
 			if (downBeat && ((beatObserver.beatMask & BeatType.DownBeat) == BeatType.DownBeat)) {
-				Pulse ();
+				canAttack = true;
 			} else
 				canAttack = false;
 		}
 		if (this.tag == "Beast") {
 			if (upBeat && ((beatObserver.beatMask & BeatType.UpBeat) == BeatType.UpBeat)) {
-				Pulse ();
+				canAttack = true;
 			} else
 				canAttack = false;
 		}
-		/*if (this.tag == "Bat") {
+		if (this.tag == "Bat") {
 			if (onBeat && ((beatObserver.beatMask & BeatType.OnBeat) == BeatType.OnBeat)) {
-				source.Play();
+				canAttack = true;
 			} else
 				canAttack = false;
-		}*/
-	}
-
-	void Pulse(){
-
-		canAttack = true;
-
+		}
 	}
 
 	void enemyPatrol(){
@@ -183,7 +189,7 @@ public class enemyControls : MonoBehaviour {
 	public void OnTriggerStay(Collider col){
 
 		if (col.tag == "Player" && canAttack) {
-			col.GetComponent<playerInfo>().currHealth -= 10;
+			col.GetComponent<playerInfo>().currHealth -= attackPower;
 			canAttack = false;
 			source.Play();
 		}

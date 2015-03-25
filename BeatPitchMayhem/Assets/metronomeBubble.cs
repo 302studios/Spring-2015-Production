@@ -47,7 +47,7 @@ public class metronomeBubble : MonoBehaviour {
 		if (col.tag == "Player") {
 			bubbleFade.enabled = true;
 			theMusic.pitch = 0.5f;
-			sync.bpm = origBPM;
+			sync.bpm = origBPM/2;
 		}
 
 

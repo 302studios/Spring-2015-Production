@@ -16,14 +16,48 @@ Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\
 Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Prototype_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Prototype_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Prototype_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.053 seconds
+- Completed reload, in  0.057 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Prototype_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Prototype_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 2.146173 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1225.
+Total: 3.621630 ms (FindLiveObjects: 0.029515 ms CreateObjectMapping: 0.009637 ms MarkObjects: 0.150286 ms  DeleteObjects: 3.095477 ms)
+
 Hello Delay
  
 (Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
 
 Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Prototype_Data\Managed\Boo.Lang.dll (this message is harmless)
+Reset: (0.0, 0.8, 1.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Reset: (0.0, 0.8, 1.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Reset: (0.0, 0.8, 1.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+UnloadTime: 1.940169 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 232.
+Total: 9.978832 ms (FindLiveObjects: 0.007228 ms CreateObjectMapping: 0.007529 ms MarkObjects: 0.096376 ms  DeleteObjects: 9.526468 ms)
+
+UnloadTime: 0.349363 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1227.
+Total: 0.932438 ms (FindLiveObjects: 0.028611 ms CreateObjectMapping: 0.010541 ms MarkObjects: 0.239735 ms  DeleteObjects: 0.367734 ms)
+
+Hello Delay
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+

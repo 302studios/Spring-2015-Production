@@ -19,7 +19,9 @@ public class playerInfo : MonoBehaviour {
 	void Update () {
 
 		if(currHealth < 100)
-			currHealth += 0.05f;
+			currHealth += 0.1f;
+		if (currHealth < 0)
+			Application.LoadLevel ("Game Over");
 
 		float trans = ((maxHealth - currHealth) / 300f);
 		healthFade.color = new Color (1, 0, 0, trans);

@@ -19,6 +19,7 @@ public class BeatCounterWithString : MonoBehaviour {
 	public AudioSource audioSource;
 	public string tagName;
 	public GameObject[] observers;
+	public float audioBpm;
 
 	private float nextBeatSample;
 	private float samplePeriod;
@@ -29,7 +30,7 @@ public class BeatCounterWithString : MonoBehaviour {
 	void Awake ()
 	{
 		// Calculate number of samples between each beat.
-		float audioBpm = audioSource.GetComponent<BeatSynchronizer>().bpm;
+		audioBpm = audioSource.GetComponent<BeatSynchronizer>().bpm;
 		samplePeriod = (60f / (audioBpm * BeatDecimalValues.values[(int)beatValue])) * audioSource.clip.frequency;
 
 		if (beatOffset != BeatValue.None) {
@@ -44,6 +45,11 @@ public class BeatCounterWithString : MonoBehaviour {
 		nextBeatSample = 0f;
 
 		observers = GameObject.FindGameObjectsWithTag(tagName);
+	}
+
+	void Update(){
+		if (audioBpm != audioSource.GetComponent<BeatSynchronizer> ().bpm)
+			awakeCall ();
 	}
 
 	/// <summary>
@@ -101,6 +107,23 @@ public class BeatCounterWithString : MonoBehaviour {
 
 			yield return new WaitForSeconds(loopTime / 1000f);
 		}
+	}
+
+	void awakeCall(){
+		// Calculate number of samples between each beat.
+		audioBpm = audioSource.GetComponent<BeatSynchronizer>().bpm;
+		samplePeriod = (60f / (audioBpm * BeatDecimalValues.values[(int)beatValue])) * audioSource.clip.frequency;
+		
+		/*if (beatOffset != BeatValue.None) {
+			sampleOffset = (60f / (audioBpm * BeatDecimalValues.values[(int)beatOffset])) * audioSource.clip.frequency;
+			if (negativeBeatOffset) {
+				sampleOffset = samplePeriod - sampleOffset;
+			}
+		}
+		
+		samplePeriod *= beatScalar;
+		sampleOffset *= beatScalar;
+		nextBeatSample = 0f;*/
 	}
 
 }
