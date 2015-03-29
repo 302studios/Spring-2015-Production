@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class metronomeBubble : MonoBehaviour {
 
 
-	float destroyTime = 10f; 
+	float destroyTime = 15f; 
 	public Image bubbleFade;
 	public AudioSource theMusic;
 	public BeatSynchronizer sync;

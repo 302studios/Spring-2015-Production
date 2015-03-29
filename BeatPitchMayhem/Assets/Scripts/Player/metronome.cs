@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class metronome : MonoBehaviour {
 
@@ -13,7 +14,10 @@ public class metronome : MonoBehaviour {
 	
 	public Transform bubbleRot;
 
-	public float coolTime = 5f;
+	public float coolTime = 15f;
+
+	public Text name;
+	public Text timer;
 
 
 
@@ -32,6 +36,15 @@ public class metronome : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		if (active) {
+			name.color = Color.yellow;	
+		} else
+			name.color = Color.white;
+
+		if (cooling) {
+			name.color = Color.grey;
+		} else
+			timer.text = "";
 
 		if (Input.GetKeyDown (KeyCode.Alpha1) && !cooling)// && !active)
 			active = !active;
@@ -78,10 +91,14 @@ public class metronome : MonoBehaviour {
 	IEnumerator coolDown(){
 
 
-		yield return new WaitForSeconds (2f);
+		yield return new WaitForSeconds (.5f);
 		active = false;
 		cooling = true;
-		yield return new WaitForSeconds(coolTime);
+		for (float i = coolTime; i >= 0; i--) {
+			timer.text = ("| " + i);
+			timer.color = Color.red;
+			yield return new WaitForSeconds (1);
+		}
 		cooling = false;
 		canShoot = true;
 

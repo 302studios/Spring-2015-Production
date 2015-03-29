@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class lightController : MonoBehaviour {
 
@@ -19,6 +20,9 @@ public class lightController : MonoBehaviour {
 
 	public float coolTime = 5f;
 
+	public Text name;
+	public Text timer;
+
 
 
 	// Use this for initialization
@@ -37,7 +41,17 @@ public class lightController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (active) {
+			name.color = Color.yellow;	
+		} else
+			name.color = Color.white;
 		
+		if (cooling) {
+			name.color = Color.grey;
+		} else
+			timer.text = "";
+
 		reticlePosition ();
 
 		if (Input.GetKeyDown (KeyCode.Alpha2) && !cooling)// && !active)
