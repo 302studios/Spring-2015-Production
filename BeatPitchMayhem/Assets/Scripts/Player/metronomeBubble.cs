@@ -10,6 +10,10 @@ public class metronomeBubble : MonoBehaviour {
 	public AudioSource theMusic;
 	public BeatSynchronizer sync;
 	public float origBPM;
+	GameObject forcefieldR;
+	GameObject forcefieldL;
+	GameObject djBooth;
+	Animator[] djAnims;
 
 
 	// Use this for initialization
@@ -20,11 +24,15 @@ public class metronomeBubble : MonoBehaviour {
 		sync = GameObject.Find ("World").GetComponent<BeatSynchronizer> ();
 		origBPM = sync.bpm;
 		StartCoroutine (beforeDestroy ());
-
+		forcefieldR = GameObject.Find ("ForceField_R");
+		forcefieldL = GameObject.Find ("ForceField_L");
+		djBooth = GameObject.Find ("DJ Booth");
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+
 
 	}
 
@@ -34,6 +42,12 @@ public class metronomeBubble : MonoBehaviour {
 		bubbleFade.enabled = false;
 		theMusic.pitch = 1f;
 		sync.bpm = origBPM;
+		forcefieldR.SetActive(true);
+		forcefieldL.SetActive(true);
+		djAnims = djBooth.GetComponentsInChildren<Animator>();
+		for(int i = 0; i < djAnims.Length; i++){
+			djAnims[i].speed = 1f;
+		}
 		Destroy (this.gameObject);
 
 	}
@@ -48,6 +62,16 @@ public class metronomeBubble : MonoBehaviour {
 			bubbleFade.enabled = true;
 			theMusic.pitch = 0.5f;
 			sync.bpm = origBPM/2;
+		}
+
+		if (col.name == "DJ Booth") {
+			Debug.Log("Bubble hit booth!");
+			forcefieldR.SetActive(false);
+			forcefieldL.SetActive(false);
+			djAnims = djBooth.GetComponentsInChildren<Animator>();
+			for(int i = 0; i < djAnims.Length; i++){
+				djAnims[i].speed = 0.5f;
+			}
 		}
 
 

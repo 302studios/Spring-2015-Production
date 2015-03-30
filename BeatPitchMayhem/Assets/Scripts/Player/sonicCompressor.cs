@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class sonicCompressor : MonoBehaviour {
 
@@ -14,7 +15,8 @@ public class sonicCompressor : MonoBehaviour {
 
 	public float coolTime = 5f;
 
-
+	public Text name;
+	public Text timer;
 
 	// Use this for initialization
 	void Start () {
@@ -32,6 +34,16 @@ public class sonicCompressor : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+		if (active) {
+			name.color = Color.yellow;	
+		} else
+			name.color = Color.white;
+		
+		if (cooling) {
+			name.color = Color.grey;
+		} else
+			timer.text = "";
+
 		if (Input.GetKeyDown (KeyCode.Alpha3) && !cooling)// && !active)
 			active = !active;
 
