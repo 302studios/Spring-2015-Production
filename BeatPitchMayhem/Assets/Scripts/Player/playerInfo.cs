@@ -21,7 +21,7 @@ public class playerInfo : MonoBehaviour {
 	void Start () {
 	
 		currHealth = maxHealth;
-		doorAnim = GameObject.Find ("Doors").GetComponent<Animator> ();
+		//doorAnim = GameObject.Find ("Doors").GetComponent<Animator> ();
 		//source = GetComponent<AudioSource>;
 		unlocked = false;
 	}
