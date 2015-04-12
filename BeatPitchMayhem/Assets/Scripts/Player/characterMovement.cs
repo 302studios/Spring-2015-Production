@@ -21,7 +21,11 @@ public class characterMovement : MonoBehaviour {
 	private bool slammed = false;
 	public Vector3 movement = Vector3.zero;
 	private Vector3 moveDirection = Vector3.zero;
-	public bool grounded = true; // Currently no check for grounded!!!!
+	public bool grounded = true; 
+	float distToGround;
+	public bool vertException = false;
+	public float groundFloor = 1.6f;
+	public float gravity = .05f;
 	//public Transform groundCheck;
 	//float groundRadius = 0.2f;
 	//public LayerMask whatIsGround;
@@ -59,6 +63,7 @@ public class characterMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	
+		distToGround = collider.bounds.extents.y;
 		theCamera = GameObject.Find ("Main Camera");
 		moveDirection = transform.TransformDirection(Vector3.forward);
 		controller = GetComponent<CharacterController>();
@@ -89,10 +94,20 @@ public class characterMovement : MonoBehaviour {
 
 		collisionFlags = controller.Move (movement);
 
-		Vector3 temp = this.transform.position;
-		temp.y = 1.6f;
-		this.transform.position = temp;
+		if(!vertException){
+			Vector3 temp = this.transform.position;
+			temp.y = groundFloor;
+			this.transform.position = temp;
+		}else if(!IsGrounded()){
+			Vector3 temp = this.transform.position;
+			temp.y = temp.y - gravity;
+			this.transform.position = temp;
+		}
 	
+	}
+
+	bool IsGrounded() {
+		return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
 	}
 
 	void basicMovement () {
@@ -120,7 +135,7 @@ public class characterMovement : MonoBehaviour {
 		Vector3 targetDirection = (h * right) + (v * forward);
 
 		if (this.transform.position.y > 1.6f) {
-			moveDirection.y = .1f;
+			moveDirection.y = -1f;
 		}
 
 		float targetSpeed = 0f;
@@ -302,6 +317,23 @@ public class characterMovement : MonoBehaviour {
 			theCamera.transform.localPosition = cameraLocStanding;
 			//theCamera.transform.Rotate(cameraRotStanding);
 		}
+	}
+
+	void OnTriggerStay(Collider col){
+
+		if(col.name == "vertExceptionTrigger"){
+			vertException = true;
+		}
+
+	}
+
+	void OnTriggerExit(Collider col){
+		
+		if(col.name == "vertExceptionTrigger"){
+			//vertException = false;
+			Debug.Log("No more box");
+		}
+		
 	}
 
 }
