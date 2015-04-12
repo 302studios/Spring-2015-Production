@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class thanksForPlaying : MonoBehaviour {
+public class sceneTransition : MonoBehaviour {
+
+	public string sceneName;
 
 	// Use this for initialization
 	void Start () {
@@ -16,6 +18,6 @@ public class thanksForPlaying : MonoBehaviour {
 	void OnTriggerEnter(Collider col){
 
 		if (col.tag == "Player")
-			Application.LoadLevel ("Thanks");
+			Application.LoadLevel (sceneName);
 	}
 }
