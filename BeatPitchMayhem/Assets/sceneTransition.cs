@@ -18,6 +18,6 @@ public class sceneTransition : MonoBehaviour {
 	void OnTriggerEnter(Collider col){
 
 		if (col.tag == "Player")
-			Application.LoadLevel ("L2a-Rock");
+			Application.LoadLevel (sceneName);
 	}
 }
