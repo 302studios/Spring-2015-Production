@@ -90,6 +90,7 @@
      <Compile Include="Assets\Scripts\World Controls\textGrow.cs" />
      <Compile Include="Assets\Scripts\World Controls\worldInfo.cs" />
      <Compile Include="Assets\djBoothForceField.cs" />
+     <Compile Include="Assets\drawFacing.cs" />
      <Compile Include="Assets\movingTexture.cs" />
      <Compile Include="Assets\sceneTransition.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />

@@ -41,6 +41,7 @@ public class enemyControls : MonoBehaviour {
 
 	// Misc
 	private CollisionFlags collisionFlags;
+	Animator anims;
 
 	public bool stunned = false;
 	float stunTime = 3f;
@@ -61,6 +62,7 @@ public class enemyControls : MonoBehaviour {
 		thePlayer = GameObject.Find ("First Person Controller").GetComponent<characterMovement>();
 		beatObserver = GetComponent<BeatObserver>();
 		source = GetComponent<AudioSource>();
+		anims = GetComponent<Animator>();
 		if (this.tag == "Brute"){
 			attackPower = 25f;
 		}
@@ -127,6 +129,9 @@ public class enemyControls : MonoBehaviour {
 				wpNum = 0;
 		}
 
+		Vector3 relativePos = moveTo.transform.position - transform.position;
+		//transform.LookAt(moveTo.transform.position);
+		transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(relativePos), Time.deltaTime);
 
 	}
 
@@ -149,6 +154,17 @@ public class enemyControls : MonoBehaviour {
 			transform.position = Vector3.MoveTowards (transform.position, target, (chaseSpeed * .005f));
 		else
 			transform.position = Vector3.MoveTowards (transform.position, target, (chaseSpeed * .01f));
+
+		if(target == transform.position){
+		
+			transform.LookAt(moveTo.transform.position);
+
+		}
+		else{
+			Vector3 relativePos = target - transform.position;
+			//transform.LookAt(moveTo.transform.position);
+			transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(relativePos), Time.deltaTime);
+		}
 	}
 
 	public IEnumerator waitAtSpot(float seconds){
@@ -192,6 +208,7 @@ public class enemyControls : MonoBehaviour {
 			col.GetComponent<playerInfo>().currHealth -= attackPower;
 			canAttack = false;
 			source.Play();
+			anims.SetTrigger("Attacking");
 		}
 
 	}

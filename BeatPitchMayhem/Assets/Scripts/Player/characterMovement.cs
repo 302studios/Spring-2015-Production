@@ -82,11 +82,16 @@ public class characterMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		basicMovement();
-		//doubleTapDodge();
-		spaceDodge ();
-		crouchCamMove ();
-		leaningLeon ();
+		if(canControl){
+			basicMovement();
+			//doubleTapDodge();
+			spaceDodge ();
+			crouchCamMove ();
+			leaningLeon ();
+		}
+
+		if(Input.GetKeyDown(KeyCode.B))
+			canControl = !canControl;
 
 		// Calculate actual motion
 		movement = moveDirection * moveSpeed;
