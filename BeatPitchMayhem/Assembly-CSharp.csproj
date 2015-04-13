@@ -91,6 +91,7 @@
      <Compile Include="Assets\Scripts\World Controls\worldInfo.cs" />
      <Compile Include="Assets\djBoothForceField.cs" />
      <Compile Include="Assets\movingTexture.cs" />
+     <Compile Include="Assets\sceneTransition.cs" />
      <Compile Include="Assets\thanksForPlaying.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
