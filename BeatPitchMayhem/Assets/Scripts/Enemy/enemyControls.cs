@@ -53,6 +53,7 @@ public class enemyControls : MonoBehaviour {
 	public bool canAttack = false;
 	public float attackPower;
 	AudioSource source;
+	public bool atPlayerFront = false;
 	
 	
 	// Use this for initialization
@@ -62,7 +63,7 @@ public class enemyControls : MonoBehaviour {
 		thePlayer = GameObject.Find ("First Person Controller").GetComponent<characterMovement>();
 		beatObserver = GetComponent<BeatObserver>();
 		source = GetComponent<AudioSource>();
-		anims = GetComponent<Animator>();
+		anims = GetComponentInChildren<Animator>();
 		if (this.tag == "Brute"){
 			attackPower = 25f;
 		}
@@ -72,7 +73,7 @@ public class enemyControls : MonoBehaviour {
 		}
 		
 		if (this.tag == "Bat") {
-			attackPower = 5f;
+			attackPower = 0f;
 		}
 	}
 	
@@ -108,6 +109,7 @@ public class enemyControls : MonoBehaviour {
 			} else
 				canAttack = false;
 		}
+
 	}
 
 	void enemyPatrol(){
@@ -138,33 +140,30 @@ public class enemyControls : MonoBehaviour {
 	void attack(){
 
 		target = moveTo.transform.position;
-		if (this.tag == "Brute"){
-			target = new Vector3 (target.x, transform.position.y, target.z);
+		if(!atPlayerFront){
+			if (this.tag == "Brute"){
+				target = new Vector3 (target.x, transform.position.y, target.z);
+			}
+
+			if (this.tag == "Beast"){
+				target = new Vector3 (target.x, transform.position.y, target.z);
+			}
+
+			if (this.tag == "Bat") {
+				if(transform.position.y < target.y)
+					transform.position = new Vector3(transform.position.x, target.y, transform.position.z);
+			}
+			if(slowed)
+				transform.position = Vector3.MoveTowards (transform.position, target, (chaseSpeed * .005f));
+			else
+				transform.position = Vector3.MoveTowards (transform.position, target, (chaseSpeed * .01f));
 		}
 
-		if (this.tag == "Beast"){
-			target = new Vector3 (target.x, transform.position.y, target.z);
-		}
 
-		if (this.tag == "Bat") {
-			if(transform.position.y < target.y)
-				transform.position = new Vector3(transform.position.x, target.y, transform.position.z);
-		}
-		if(slowed)
-			transform.position = Vector3.MoveTowards (transform.position, target, (chaseSpeed * .005f));
-		else
-			transform.position = Vector3.MoveTowards (transform.position, target, (chaseSpeed * .01f));
-
-		if(target == transform.position){
-		
-			transform.LookAt(moveTo.transform.position);
-
-		}
-		else{
 			Vector3 relativePos = target - transform.position;
-			//transform.LookAt(moveTo.transform.position);
+			relativePos.Normalize();
 			transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(relativePos), Time.deltaTime);
-		}
+
 	}
 
 	public IEnumerator waitAtSpot(float seconds){
@@ -204,12 +203,22 @@ public class enemyControls : MonoBehaviour {
 
 	public void OnTriggerStay(Collider col){
 
-		if (col.tag == "Player" && canAttack) {
-			col.GetComponent<playerInfo>().currHealth -= attackPower;
+		if (col.tag == "PlayerFront" && canAttack) {
+			thePlayer.gameObject.GetComponent<playerInfo>().currHealth -= attackPower;
 			canAttack = false;
 			source.Play();
 			anims.SetTrigger("Attacking");
 		}
+		if (col.tag == "PlayerFront") {
+			atPlayerFront = true;
+		}
 
+	}
+
+	public void OnTriggerExit(Collider col){
+	
+		if (col.tag == "PlayerFront") {
+			atPlayerFront = false;
+		}
 	}
 }
