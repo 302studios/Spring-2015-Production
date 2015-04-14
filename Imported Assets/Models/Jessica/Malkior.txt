@@ -1,0 +1,5 @@
+Idle: 1-40
+Charge: 41-64
+Blast: 64-82
+Return to Idle: 82-90
+Hands Down: 90-100
