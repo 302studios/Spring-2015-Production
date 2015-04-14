@@ -1,9 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy\enemyControls.cs">
     <Files>
-      <File FileName="Assets\Scripts\Enemy\enemyControls.cs" Line="201" Column="18" />
-      <File FileName="Assets\Scripts\Enemy\enemyTrigger.cs" Line="32" Column="2" />
+      <File FileName="Assets\Scripts\Enemy\enemyControls.cs" Line="33" Column="5" />
+      <File FileName="Assets\Scripts\Enemy\enemyTrigger.cs" Line="25" Column="4" />
+      <File FileName="Assets\drawFacing.cs" Line="19" Column="1" />
+      <File FileName="Assets\Scripts\Player\characterMovement.cs" Line="142" Column="42" />
+      <File FileName="Assets\Scripts\Player\mouseLookBPM.cs" Line="63" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
