@@ -10,6 +10,7 @@ public class speakerPanel : MonoBehaviour {
 	bool done;
 	public ParticleSystem psLeft;
 	public ParticleSystem psRight;
+	public worldInfo theWorld;
 
 	// Use this for initialization
 	void Start () {
@@ -17,8 +18,10 @@ public class speakerPanel : MonoBehaviour {
 		anim = GetComponent<Animator> ();
 		isOpen = false;
 		done = false;
+		theWorld = GameObject.Find ("World").GetComponent<worldInfo>();
 		thePlayer = GameObject.Find ("First Person Controller").GetComponent<playerInfo>();
-
+		psLeft.startColor = theWorld.theColor;
+		psRight.startColor = theWorld.theColor;
 	}
 	
 	// Update is called once per frame

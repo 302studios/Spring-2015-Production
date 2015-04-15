@@ -17,6 +17,7 @@ public class worldInfo : MonoBehaviour {
 	public LevelNames levelName;
 	string levelNameString;
 	public int numberOfSpeakersNeeded;
+	public Color theColor;
 	
 	//PlayerRespawn respawnScript;
 	
@@ -28,12 +29,15 @@ public class worldInfo : MonoBehaviour {
 
 			case LevelNames.EDM:
 				levelNameString = "L1-EDM";
+				theColor = Color.green;
 				break;
 			case LevelNames.Rock:
 				levelNameString = "L2a-Rock";	
+				theColor = Color.red;
 				break;
 			case LevelNames.HipHop:
 				levelNameString = "L2b-Hip-Hop";	
+				theColor = Color.cyan;
 				break;
 			case LevelNames.Basement:
 				levelNameString = "L3-Basement";	

@@ -5,13 +5,16 @@ public class movingTexture : MonoBehaviour {
 
 	Material theMat;
 	public float moveRate;
+	public worldInfo theWorld;
 	float offX;
 	float offY;
 
 	// Use this for initialization
 	void Start () {
 	
+		theWorld = GameObject.Find ("World").GetComponent<worldInfo>();
 		theMat = this.gameObject.renderer.material;
+		theMat.SetColor("_TintColor", theWorld.theColor);
 		offX = 0f;
 		offY = 0f;
 	}
