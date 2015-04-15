@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ForceFieldCheck.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
@@ -96,6 +97,7 @@
      <Compile Include="Assets\sceneTransition.cs" />
      <Compile Include="Assets\setLightColor.cs" />
      <Compile Include="Assets\setMaterialColor.cs" />
+     <Compile Include="Assets\speakerPanel.cs" />
      <Compile Include="Assets\thanksForPlaying.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
