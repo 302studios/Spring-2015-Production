@@ -1,12 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy\enemyControls.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\World Controls\preloader.cs">
     <Files>
       <File FileName="Assets\djBoothMaterialCol.cs" Line="16" Column="25" />
-      <File FileName="Assets\Scripts\Enemy\enemyControls.cs" Line="1" Column="1" />
-      <File FileName="Assets\movingTexture.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy\enemyControls.cs" Line="54" Column="36" />
+      <File FileName="Assets\movingTexture.cs" Line="48" Column="1" />
       <File FileName="Assets\Scripts\Enemy\enemyTrigger.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\World Controls\worldInfo.cs" Line="138" Column="3" />
+      <File FileName="Assets\Scripts\World Controls\worldInfo.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Enemy\bossControls.cs" Line="1" Column="1" />
       <File FileName="Assets\djBooth.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\sonicBoom.cs" Line="1" Column="1" />
@@ -14,6 +14,11 @@
       <File FileName="Assets\Scripts\Player\playerInfo.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\sonicCompressor.cs" Line="1" Column="1" />
       <File FileName="Assets\ForceFieldCheck.cs" Line="1" Column="1" />
+      <File FileName="Assets\worldAudio.cs" Line="7" Column="21" />
+      <File FileName="Assets\Scripts\Player\dropLight.cs" Line="38" Column="1" />
+      <File FileName="Assets\Scripts\Player\lightController.cs" Line="142" Column="1" />
+      <File FileName="Assets\sceneTransition.cs" Line="31" Column="4" />
+      <File FileName="Assets\Scripts\World Controls\preloader.cs" Line="17" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -104,19 +104,19 @@ public class enemyControls : MonoBehaviour {
 				canAttack = false;
 		}*/
 		if (this.tag == "Brute") {
-			if (onBeat && ((beatObserver.beatMask & BeatType.OnBeat) == BeatType.OnBeat)) {
+			if (downBeat && ((beatObserver.beatMask & BeatType.DownBeat) == BeatType.DownBeat)) {
 				canAttack = true;
 			} else
 				canAttack = false;
 		}
 		if (this.tag == "Beast") {
-			if (upBeat && ((beatObserver.beatMask & BeatType.UpBeat) == BeatType.UpBeat)) {
+			if (downBeat && ((beatObserver.beatMask & BeatType.DownBeat) == BeatType.DownBeat)) {
 				canAttack = true;
 			} else
 				canAttack = false;
 		}
 		if (this.tag == "Bat") {
-			if (onBeat && ((beatObserver.beatMask & BeatType.OnBeat) == BeatType.OnBeat)) {
+			if (downBeat && ((beatObserver.beatMask & BeatType.DownBeat) == BeatType.DownBeat)) {
 				canAttack = true;
 			} else
 				canAttack = false;
@@ -242,7 +242,6 @@ public class enemyControls : MonoBehaviour {
 			anims.SetTrigger("Attacking");
 			StartCoroutine(attackTimer());
 			source.Play();
-
 
 		}
 		if (col.tag == "PlayerFront") {

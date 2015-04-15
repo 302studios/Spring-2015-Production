@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 6e6d34b3d5dff8d46bc72d0609e11351
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCube1
+    100004: pCylinder1
+    100006: pCylinder2
+    100008: pCylinder3
+    100010: polySurface3
+    100012: transform1
+    100014: transform2
+    100016: transform3
+    100018: transform4
+    100020: UV_Malchior:pCube2
+    100022: UV_Malchior:pCube3
+    100024: UV_Malchior:pCube5
+    100026: UV_Malchior:pCube6
+    100028: UV_Malchior:pCube7
+    100030: UV_Malchior:pCube8
+    100032: UV_Malchior:polySurface1
+    100034: UV_Malchior:polySurface10
+    100036: UV_Malchior:polySurface2
+    100038: UV_Malchior:polySurface3
+    100040: UV_Malchior:polySurface4
+    100042: UV_Malchior:polySurface5
+    100044: UV_Malchior:polySurface6
+    100046: UV_Malchior:polySurface7
+    100048: UV_Malchior:polySurface8
+    100050: UV_Malchior:polySurface9
+    100052: UV_Malchior:transform1
+    100054: UV_Malchior:transform10
+    100056: UV_Malchior:transform11
+    100058: UV_Malchior:transform12
+    100060: UV_Malchior:transform13
+    100062: UV_Malchior:transform14
+    100064: UV_Malchior:transform15
+    100066: UV_Malchior:transform16
+    100068: UV_Malchior:transform2
+    100070: UV_Malchior:transform3
+    100072: UV_Malchior:transform4
+    100074: UV_Malchior:transform5
+    100076: UV_Malchior:transform6
+    100078: UV_Malchior:transform7
+    100080: UV_Malchior:transform8
+    100082: UV_Malchior:transform9
+    400000: //RootNode
+    400002: pCube1
+    400004: pCylinder1
+    400006: pCylinder2
+    400008: pCylinder3
+    400010: polySurface3
+    400012: transform1
+    400014: transform2
+    400016: transform3
+    400018: transform4
+    400020: UV_Malchior:pCube2
+    400022: UV_Malchior:pCube3
+    400024: UV_Malchior:pCube5
+    400026: UV_Malchior:pCube6
+    400028: UV_Malchior:pCube7
+    400030: UV_Malchior:pCube8
+    400032: UV_Malchior:polySurface1
+    400034: UV_Malchior:polySurface10
+    400036: UV_Malchior:polySurface2
+    400038: UV_Malchior:polySurface3
+    400040: UV_Malchior:polySurface4
+    400042: UV_Malchior:polySurface5
+    400044: UV_Malchior:polySurface6
+    400046: UV_Malchior:polySurface7
+    400048: UV_Malchior:polySurface8
+    400050: UV_Malchior:polySurface9
+    400052: UV_Malchior:transform1
+    400054: UV_Malchior:transform10
+    400056: UV_Malchior:transform11
+    400058: UV_Malchior:transform12
+    400060: UV_Malchior:transform13
+    400062: UV_Malchior:transform14
+    400064: UV_Malchior:transform15
+    400066: UV_Malchior:transform16
+    400068: UV_Malchior:transform2
+    400070: UV_Malchior:transform3
+    400072: UV_Malchior:transform4
+    400074: UV_Malchior:transform5
+    400076: UV_Malchior:transform6
+    400078: UV_Malchior:transform7
+    400080: UV_Malchior:transform8
+    400082: UV_Malchior:transform9
+    2300000: polySurface3
+    3300000: polySurface3
+    4300000: polySurface3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
