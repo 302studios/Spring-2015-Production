@@ -129,7 +129,7 @@ public class lightController : MonoBehaviour {
 	IEnumerator coolDown(){
 
 
-		yield return new WaitForSeconds (2f);
+		yield return new WaitForSeconds (3f);
 		active = false;
 		cooling = true;
 		yield return new WaitForSeconds(coolTime);

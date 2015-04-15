@@ -14,14 +14,20 @@ public class sceneTransition : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		if(Input.GetKey(KeyCode.Space) && isLoadingScene)
-			Application.LoadLevel(sceneName);
+		if (Input.GetKey (KeyCode.Space) && isLoadingScene) {
+			PlayerPrefs.SetString("Last Scene", sceneName);
+			Application.LoadLevel (sceneName);
+			//PlayerPrefs.SetString("Last Scene", sceneName);
+
+		}
 
 	}
 
 	void OnTriggerEnter(Collider col){
 
-		if (col.tag == "Player")
+		if (col.tag == "Player") {
+			PlayerPrefs.SetString ("Last Scene", sceneName);
 			Application.LoadLevel (sceneName);
+		}
 	}
 }

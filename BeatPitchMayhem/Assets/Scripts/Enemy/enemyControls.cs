@@ -78,7 +78,7 @@ public class enemyControls : MonoBehaviour {
 		}
 		
 		if (this.tag == "Bat") {
-			attackPower = 0f;
+			attackPower = 3f;
 		}
 		trackPlayer = GameObject.FindGameObjectWithTag ("PlayerFront");
 	}
