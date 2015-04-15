@@ -14,7 +14,8 @@ public class enemyControls : MonoBehaviour {
 	public float patrolSpeed = 7f;
 	public float chaseSpeed = 13f;
 	float speedSmoothing = 10f;
-	private float moveSpeed = 0f;
+	public float moveSpeed = 0f;
+	public float animSpeed = .2f;
 	private bool movingBack = false;
 	private bool isMoving = false;
 	bool isChasing = false;
@@ -54,6 +55,7 @@ public class enemyControls : MonoBehaviour {
 	public float attackPower;
 	AudioSource source;
 	public bool atPlayerFront = false;
+	public Vector3 relativePos;
 	
 	
 	// Use this for initialization
@@ -91,8 +93,14 @@ public class enemyControls : MonoBehaviour {
 		Vector3 forward = transform.TransformDirection(Vector3.forward) * 10;
 		Debug.DrawRay(transform.position, forward, Color.green);
 
-		if (this.tag == "Brute") {
+		/*if (this.tag == "Brute") {
 			if (downBeat && ((beatObserver.beatMask & BeatType.DownBeat) == BeatType.DownBeat)) {
+				canAttack = true;
+			} else
+				canAttack = false;
+		}*/
+		if (this.tag == "Brute") {
+			if (onBeat && ((beatObserver.beatMask & BeatType.OnBeat) == BeatType.OnBeat)) {
 				canAttack = true;
 			} else
 				canAttack = false;
@@ -114,7 +122,14 @@ public class enemyControls : MonoBehaviour {
 
 	void enemyPatrol(){
 
-		moveTo = waypoints[wpNum];		
+		moveTo = waypoints[wpNum];
+
+		if (this.tag == "Brute") {
+
+			anims.SetBool("Walking", true);
+			anims.speed = animSpeed * patrolSpeed;
+
+		}
 
 		if(!waiting)
 			if(slowed)
@@ -131,7 +146,7 @@ public class enemyControls : MonoBehaviour {
 				wpNum = 0;
 		}
 
-		Vector3 relativePos = moveTo.transform.position - transform.position;
+		relativePos = moveTo.transform.position - transform.position;
 		//transform.LookAt(moveTo.transform.position);
 		transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(relativePos), Time.deltaTime);
 
@@ -140,19 +155,24 @@ public class enemyControls : MonoBehaviour {
 	void attack(){
 
 		target = moveTo.transform.position;
+
+		anims.speed = animSpeed * chaseSpeed;
+
+		if (this.tag == "Brute"){
+			target = new Vector3 (target.x, transform.position.y, target.z);
+		}
+		
+		if (this.tag == "Beast"){
+			target = new Vector3 (target.x, transform.position.y, target.z);
+		}
+		
+		if (this.tag == "Bat") {
+			if(transform.position.y < target.y)
+				transform.position = new Vector3(transform.position.x, target.y, transform.position.z);
+		}
+
 		if(!atPlayerFront){
-			if (this.tag == "Brute"){
-				target = new Vector3 (target.x, transform.position.y, target.z);
-			}
 
-			if (this.tag == "Beast"){
-				target = new Vector3 (target.x, transform.position.y, target.z);
-			}
-
-			if (this.tag == "Bat") {
-				if(transform.position.y < target.y)
-					transform.position = new Vector3(transform.position.x, target.y, transform.position.z);
-			}
 			if(slowed)
 				transform.position = Vector3.MoveTowards (transform.position, target, (chaseSpeed * .005f));
 			else
@@ -160,9 +180,9 @@ public class enemyControls : MonoBehaviour {
 		}
 
 
-			Vector3 relativePos = target - transform.position;
-			relativePos.Normalize();
-			transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(relativePos), Time.deltaTime);
+		relativePos = target - transform.position;
+		relativePos.Normalize();
+		transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(relativePos), Time.deltaTime);
 
 	}
 
@@ -201,13 +221,25 @@ public class enemyControls : MonoBehaviour {
 		
 	}
 
+	IEnumerator attackTimer(){
+		
+		
+		yield return new WaitForSeconds (.5f);
+		thePlayer.gameObject.GetComponent<playerInfo>().currHealth -= attackPower;
+		canAttack = false;
+		//source.Play();
+		
+	}
+
 	public void OnTriggerStay(Collider col){
 
 		if (col.tag == "PlayerFront" && canAttack) {
-			thePlayer.gameObject.GetComponent<playerInfo>().currHealth -= attackPower;
 			canAttack = false;
-			source.Play();
 			anims.SetTrigger("Attacking");
+			StartCoroutine(attackTimer());
+			source.Play();
+
+
 		}
 		if (col.tag == "PlayerFront") {
 			atPlayerFront = true;
