@@ -2,14 +2,51 @@
 using System.Collections;
 
 public class worldInfo : MonoBehaviour {
-	
+
+	public enum LevelNames{
+
+		EDM, 
+		Rock,
+		HipHop,
+		Basement,
+		Lounge,
+		Boss
+	};
+
 	public GameObject player;
+	public LevelNames levelName;
+	string levelNameString;
+	public int numberOfSpeakersNeeded;
 	
 	//PlayerRespawn respawnScript;
 	
 	// Use this for initialization
 	void Start () {
 		Screen.lockCursor = true; 
+
+		switch (levelName) {
+
+			case LevelNames.EDM:
+				levelNameString = "L1-EDM";
+				break;
+			case LevelNames.Rock:
+				levelNameString = "L2a-Rock";	
+				break;
+			case LevelNames.HipHop:
+				levelNameString = "L2b-Hip-Hop";	
+				break;
+			case LevelNames.Basement:
+				levelNameString = "L3-Basement";	
+				break;
+			case LevelNames.Lounge:
+				levelNameString = "L4-Lounge";	
+				break;
+			case LevelNames.Boss:
+				levelNameString = "L5-Boss";	
+				break;
+			default:
+				break;
+		}
 		
 		//respawnScript = player.GetComponent<PlayerRespawn> ();
 		
@@ -27,7 +64,7 @@ public class worldInfo : MonoBehaviour {
 		}
 
 		if (Input.GetKey (KeyCode.R)) {
-			Application.LoadLevel("Lounge Test");
+			Application.LoadLevel(levelNameString);
 		}
 		
 		if((Input.GetMouseButton(0) || Input.GetMouseButton(1))&& Screen.lockCursor == false){

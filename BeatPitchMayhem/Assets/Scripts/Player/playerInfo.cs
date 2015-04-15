@@ -7,7 +7,7 @@ public class playerInfo : MonoBehaviour {
 	public Image healthFade;
 	public float currHealth = 0;
 	float maxHealth = 100;
-	public int keysCollected = 0;
+	public int speakersComplete;
 	bool unlocked;
 
 	Animator doorAnim;
@@ -39,25 +39,6 @@ public class playerInfo : MonoBehaviour {
 
 
 
-		if (keysCollected == 2 && !unlocked) {
-			// Play sound and unlock door.
-			name.text = "Door Unlocked";
-			num.text = "";
-			doorAnim.SetTrigger("Unlocked");
-			audio.Play();
-			unlocked = true;
-		} else if(!unlocked){
-			num.text = ("| " + keysCollected);
-		}
-
 	}
-
-	void OnTriggerEnter(Collider col){
-
-		if (col.tag == "Key") {
-			keysCollected++;
-			Destroy(col.gameObject);
-		}
-
-	}
+	
 }

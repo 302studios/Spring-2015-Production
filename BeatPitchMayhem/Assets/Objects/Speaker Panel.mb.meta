@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: 8ebcd1ff09e7cfd4498a17a6d9622d55
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Box
+    100002: Char_C_1
+    100004: Char_D_1
+    100006: Char_H_1
+    100008: Char_N_1
+    100010: Char_O_1
+    100012: Char_O_2
+    100014: Char_O_3
+    100016: Char_T_1
+    100018: Char_T_2
+    100020: Char_U_1
+    100022: hingeLeft
+    100024: hingeLeft1
+    100026: interior_component
+    100028: pCube2
+    100030: pCylinder1
+    100032: pCylinder2
+    100034: pCylinder3
+    100036: polySurface1
+    100038: polySurface2
+    100040: //RootNode
+    100042: Text_DOxNOT_1
+    100044: Text_TOUCH_1
+    100046: transform1
+    100048: transform10
+    100050: transform11
+    100052: transform12
+    100054: transform13
+    100056: transform14
+    100058: transform2
+    100060: transform3
+    100062: transform4
+    100064: transform5
+    100066: transform6
+    100068: transform7
+    100070: transform8
+    100072: transform9
+    100074: Trim_Char_C_1_1
+    100076: Trim_Char_D_1_1
+    100078: Trim_Char_H_1_1
+    100080: Trim_Char_N_1_1
+    100082: Trim_Char_O_1_1
+    100084: Trim_Char_O_2_1
+    100086: Trim_Char_O_3_1
+    100088: Trim_Char_T_1_1
+    100090: Trim_Char_T_2_1
+    100092: Trim_Char_U_1_1
+    100094: Trim_Text_DOxNOT_1_1
+    100096: Trim_Text_TOUCH_1_1
+    100098: Panel
+    400000: Box
+    400002: Char_C_1
+    400004: Char_D_1
+    400006: Char_H_1
+    400008: Char_N_1
+    400010: Char_O_1
+    400012: Char_O_2
+    400014: Char_O_3
+    400016: Char_T_1
+    400018: Char_T_2
+    400020: Char_U_1
+    400022: hingeLeft
+    400024: hingeLeft1
+    400026: interior_component
+    400028: pCube2
+    400030: pCylinder1
+    400032: pCylinder2
+    400034: pCylinder3
+    400036: polySurface1
+    400038: polySurface2
+    400040: //RootNode
+    400042: Text_DOxNOT_1
+    400044: Text_TOUCH_1
+    400046: transform1
+    400048: transform10
+    400050: transform11
+    400052: transform12
+    400054: transform13
+    400056: transform14
+    400058: transform2
+    400060: transform3
+    400062: transform4
+    400064: transform5
+    400066: transform6
+    400068: transform7
+    400070: transform8
+    400072: transform9
+    400074: Trim_Char_C_1_1
+    400076: Trim_Char_D_1_1
+    400078: Trim_Char_H_1_1
+    400080: Trim_Char_N_1_1
+    400082: Trim_Char_O_1_1
+    400084: Trim_Char_O_2_1
+    400086: Trim_Char_O_3_1
+    400088: Trim_Char_T_1_1
+    400090: Trim_Char_T_2_1
+    400092: Trim_Char_U_1_1
+    400094: Trim_Text_DOxNOT_1_1
+    400096: Trim_Text_TOUCH_1_1
+    400098: Panel
+    2300000: Box
+    2300002: hingeLeft
+    2300004: hingeLeft1
+    2300006: interior_component
+    2300008: pCube2
+    2300010: polySurface2
+    3300000: Box
+    3300002: hingeLeft
+    3300004: hingeLeft1
+    3300006: interior_component
+    3300008: pCube2
+    3300010: polySurface2
+    4300000: Box
+    4300002: pCube2
+    4300004: polySurface2
+    4300006: interior_component
+    4300008: hingeLeft
+    4300010: hingeLeft1
+    7400000: Closed
+    7400002: Opening
+    7400004: Open
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Closed
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box
+        weight: 1
+      - path: hingeLeft
+        weight: 1
+      - path: hingeLeft1
+        weight: 1
+      - path: interior_component
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/polySurface2
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform1
+        weight: 1
+      - path: pCylinder2
+        weight: 1
+      - path: pCylinder2/transform2
+        weight: 1
+      - path: pCylinder3
+        weight: 1
+      - path: pCylinder3/transform3
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform9
+        weight: 1
+      - path: Text_DOxNOT_1
+        weight: 1
+      - path: Text_DOxNOT_1/Char_D_1
+        weight: 1
+      - path: Text_DOxNOT_1/Char_N_1
+        weight: 1
+      - path: Text_DOxNOT_1/Char_O_1
+        weight: 1
+      - path: Text_DOxNOT_1/Char_O_2
+        weight: 1
+      - path: Text_DOxNOT_1/Char_T_1
+        weight: 1
+      - path: Text_TOUCH_1
+        weight: 1
+      - path: Text_TOUCH_1/Char_C_1
+        weight: 1
+      - path: Text_TOUCH_1/Char_H_1
+        weight: 1
+      - path: Text_TOUCH_1/Char_O_3
+        weight: 1
+      - path: Text_TOUCH_1/Char_T_2
+        weight: 1
+      - path: Text_TOUCH_1/Char_U_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_D_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_D_1_1/transform14
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_N_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_N_1_1/transform12
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_O_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_O_1_1/transform13
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_O_2_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_O_2_1/transform11
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_T_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_T_1_1/transform10
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_C_1_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_C_1_1/transform5
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_H_1_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_H_1_1/transform4
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_O_3_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_O_3_1/transform6
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_T_2_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_T_2_1/transform7
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_U_1_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_U_1_1/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Opening
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 34
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box
+        weight: 1
+      - path: hingeLeft
+        weight: 1
+      - path: hingeLeft1
+        weight: 1
+      - path: interior_component
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/polySurface2
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform1
+        weight: 1
+      - path: pCylinder2
+        weight: 1
+      - path: pCylinder2/transform2
+        weight: 1
+      - path: pCylinder3
+        weight: 1
+      - path: pCylinder3/transform3
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform9
+        weight: 1
+      - path: Text_DOxNOT_1
+        weight: 1
+      - path: Text_DOxNOT_1/Char_D_1
+        weight: 1
+      - path: Text_DOxNOT_1/Char_N_1
+        weight: 1
+      - path: Text_DOxNOT_1/Char_O_1
+        weight: 1
+      - path: Text_DOxNOT_1/Char_O_2
+        weight: 1
+      - path: Text_DOxNOT_1/Char_T_1
+        weight: 1
+      - path: Text_TOUCH_1
+        weight: 1
+      - path: Text_TOUCH_1/Char_C_1
+        weight: 1
+      - path: Text_TOUCH_1/Char_H_1
+        weight: 1
+      - path: Text_TOUCH_1/Char_O_3
+        weight: 1
+      - path: Text_TOUCH_1/Char_T_2
+        weight: 1
+      - path: Text_TOUCH_1/Char_U_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_D_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_D_1_1/transform14
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_N_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_N_1_1/transform12
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_O_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_O_1_1/transform13
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_O_2_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_O_2_1/transform11
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_T_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_T_1_1/transform10
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_C_1_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_C_1_1/transform5
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_H_1_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_H_1_1/transform4
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_O_3_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_O_3_1/transform6
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_T_2_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_T_2_1/transform7
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_U_1_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_U_1_1/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Open
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 34
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box
+        weight: 1
+      - path: hingeLeft
+        weight: 1
+      - path: hingeLeft1
+        weight: 1
+      - path: interior_component
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/polySurface2
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform1
+        weight: 1
+      - path: pCylinder2
+        weight: 1
+      - path: pCylinder2/transform2
+        weight: 1
+      - path: pCylinder3
+        weight: 1
+      - path: pCylinder3/transform3
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform9
+        weight: 1
+      - path: Text_DOxNOT_1
+        weight: 1
+      - path: Text_DOxNOT_1/Char_D_1
+        weight: 1
+      - path: Text_DOxNOT_1/Char_N_1
+        weight: 1
+      - path: Text_DOxNOT_1/Char_O_1
+        weight: 1
+      - path: Text_DOxNOT_1/Char_O_2
+        weight: 1
+      - path: Text_DOxNOT_1/Char_T_1
+        weight: 1
+      - path: Text_TOUCH_1
+        weight: 1
+      - path: Text_TOUCH_1/Char_C_1
+        weight: 1
+      - path: Text_TOUCH_1/Char_H_1
+        weight: 1
+      - path: Text_TOUCH_1/Char_O_3
+        weight: 1
+      - path: Text_TOUCH_1/Char_T_2
+        weight: 1
+      - path: Text_TOUCH_1/Char_U_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_D_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_D_1_1/transform14
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_N_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_N_1_1/transform12
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_O_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_O_1_1/transform13
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_O_2_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_O_2_1/transform11
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_T_1_1
+        weight: 1
+      - path: Trim_Text_DOxNOT_1_1/Trim_Char_T_1_1/transform10
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_C_1_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_C_1_1/transform5
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_H_1_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_H_1_1/transform4
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_O_3_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_O_3_1/transform6
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_T_2_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_T_2_1/transform7
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_U_1_1
+        weight: 1
+      - path: Trim_Text_TOUCH_1_1/Trim_Char_U_1_1/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
