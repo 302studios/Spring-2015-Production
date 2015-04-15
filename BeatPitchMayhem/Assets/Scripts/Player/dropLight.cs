@@ -8,16 +8,22 @@ public class dropLight : MonoBehaviour {
 	public GameObject target;
 	public Vector3 playerReset;
 	public GameObject player;
+	worldInfo theWorld;
 
 	// Use this for initialization
 	void Start () {
 	
-		target = GameObject.Find ("Player-Front");
-		player = GameObject.FindGameObjectWithTag ("Player");
-		StartCoroutine (targetReposition ());
+		theWorld = GameObject.Find ("World").GetComponent<worldInfo>();
+		if (theWorld.levelName == worldInfo.LevelNames.Boss) {
+			Destroy (this.gameObject, destroyTime);
+		} else {
+			StartCoroutine (targetReposition ());
+			Debug.Log("Target repo?");
+			target.GetComponent<SphereCollider> ().radius = 20f;
+			target = GameObject.Find ("Player-Front");
+			player = GameObject.FindGameObjectWithTag ("Player");
+		}
 		Debug.Log ("Reset: " + playerReset);
-		target.GetComponent<SphereCollider> ().radius = 20f;
-
 	}
 	
 	// Update is called once per frame
@@ -34,6 +40,13 @@ public class dropLight : MonoBehaviour {
 		target.GetComponent<SphereCollider> ().radius = 0.5f;
 		Destroy (this.gameObject);
 
+	}
+
+	void OnTriggerStay(Collider col){
+
+		if (col.name == "Malkior") {
+			col.gameObject.GetComponent<bossControls>().lightHit();
+		}
 	}
 
 

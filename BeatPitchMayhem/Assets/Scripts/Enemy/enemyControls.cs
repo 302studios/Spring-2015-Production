@@ -16,6 +16,7 @@ public class enemyControls : MonoBehaviour {
 	float speedSmoothing = 10f;
 	public float moveSpeed = 0f;
 	public float animSpeed = .2f;
+	public float rotateSpeed = 3f;
 	private bool movingBack = false;
 	private bool isMoving = false;
 	bool isChasing = false;
@@ -56,6 +57,8 @@ public class enemyControls : MonoBehaviour {
 	AudioSource source;
 	public bool atPlayerFront = false;
 	public Vector3 relativePos;
+	GameObject trackPlayer;
+
 	
 	
 	// Use this for initialization
@@ -77,6 +80,7 @@ public class enemyControls : MonoBehaviour {
 		if (this.tag == "Bat") {
 			attackPower = 0f;
 		}
+		trackPlayer = GameObject.FindGameObjectWithTag ("PlayerFront");
 	}
 	
 	// Update is called once per frame
@@ -148,8 +152,8 @@ public class enemyControls : MonoBehaviour {
 
 		relativePos = moveTo.transform.position - transform.position;
 		//transform.LookAt(moveTo.transform.position);
-		transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(relativePos), Time.deltaTime);
-
+		transform.rotation = Quaternion.Lerp (transform.rotation, Quaternion.LookRotation (relativePos), Time.deltaTime);
+		
 	}
 
 	void attack(){

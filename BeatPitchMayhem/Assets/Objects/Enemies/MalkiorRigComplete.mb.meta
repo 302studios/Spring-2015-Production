@@ -1,0 +1,2854 @@
+fileFormatVersion: 2
+guid: 992beb9cd7f5d364c82eb4f872b0b057
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCube2
+    100004: pCube3
+    100006: pCube5
+    100008: pCube6
+    100010: pCube7
+    100012: pCube8
+    100014: polySurface1
+    100016: polySurface10
+    100018: polySurface2
+    100020: polySurface3
+    100022: polySurface4
+    100024: polySurface5
+    100026: polySurface6
+    100028: polySurface7
+    100030: polySurface8
+    100032: polySurface9
+    100034: transform1
+    100036: transform10
+    100038: transform11
+    100040: transform12
+    100042: transform13
+    100044: transform14
+    100046: transform15
+    100048: transform16
+    100050: transform2
+    100052: transform3
+    100054: transform4
+    100056: transform5
+    100058: transform6
+    100060: transform7
+    100062: transform8
+    100064: transform9
+    100066: UV_Malchior:imagePlane1
+    100068: UV_Malchior:imagePlane2
+    100070: UV_Malchior:pCube2
+    100072: UV_Malchior:pCube3
+    100074: UV_Malchior:pCube5
+    100076: UV_Malchior:pCube6
+    100078: UV_Malchior:pCube7
+    100080: UV_Malchior:pCube8
+    100082: UV_Malchior:polySurface1
+    100084: UV_Malchior:polySurface10
+    100086: UV_Malchior:polySurface11
+    100088: UV_Malchior:polySurface2
+    100090: UV_Malchior:polySurface3
+    100092: UV_Malchior:polySurface4
+    100094: UV_Malchior:polySurface5
+    100096: UV_Malchior:polySurface6
+    100098: UV_Malchior:polySurface7
+    100100: UV_Malchior:polySurface8
+    100102: UV_Malchior:polySurface9
+    100104: UV_Malchior:transform1
+    100106: UV_Malchior:transform10
+    100108: UV_Malchior:transform11
+    100110: UV_Malchior:transform12
+    100112: UV_Malchior:transform13
+    100114: UV_Malchior:transform14
+    100116: UV_Malchior:transform15
+    100118: UV_Malchior:transform16
+    100120: UV_Malchior:transform2
+    100122: UV_Malchior:transform3
+    100124: UV_Malchior:transform4
+    100126: UV_Malchior:transform5
+    100128: UV_Malchior:transform6
+    100130: UV_Malchior:transform7
+    100132: UV_Malchior:transform8
+    100134: UV_Malchior:transform9
+    100136: WooferRig:be_1_toe01
+    100138: WooferRig:be_1_toe01 1
+    100140: WooferRig:be_head01
+    100142: WooferRig:be_r_ind_d01
+    100144: WooferRig:be_r_ind_d01 1
+    100146: WooferRig:be_r_pinky_d01
+    100148: WooferRig:be_r_pinky_d01 1
+    100150: WooferRig:be_r_shld01
+    100152: WooferRig:be_r_shld01 1
+    100154: WooferRig:be_r_thumb_d01
+    100156: WooferRig:be_r_thumb_d01 1
+    100158: WooferRig:be_spE_01
+    100160: WooferRig:bn_1_ball01
+    100162: WooferRig:bn_1_ball01 1
+    100164: WooferRig:bn_1_foot01
+    100166: WooferRig:bn_1_foot01 1
+    100168: WooferRig:bn_1_kneea01
+    100170: WooferRig:bn_1_kneea02
+    100172: WooferRig:bn_1_kneeb01
+    100174: WooferRig:bn_1_kneeb01 1
+    100176: WooferRig:bn_1_thigh01
+    100178: WooferRig:bn_1_thigh02
+    100180: WooferRig:bn_head01
+    100182: WooferRig:bn_l_wrist01
+    100184: WooferRig:bn_neck01
+    100186: WooferRig:bn_r_arm01
+    100188: WooferRig:bn_r_arm01 1
+    100190: WooferRig:bn_r_elbow_a01
+    100192: WooferRig:bn_r_elbow_a01 1
+    100194: WooferRig:bn_r_elbow_b01
+    100196: WooferRig:bn_r_elbow_b01 1
+    100198: WooferRig:bn_r_ind_a01
+    100200: WooferRig:bn_r_ind_a01 1
+    100202: WooferRig:bn_r_ind_b01
+    100204: WooferRig:bn_r_ind_b01 1
+    100206: WooferRig:bn_r_ind_c01
+    100208: WooferRig:bn_r_ind_c01 1
+    100210: WooferRig:bn_r_pinky_a01
+    100212: WooferRig:bn_r_pinky_a01 1
+    100214: WooferRig:bn_r_pinky_b01
+    100216: WooferRig:bn_r_pinky_b01 1
+    100218: WooferRig:bn_r_pinky_c01
+    100220: WooferRig:bn_r_pinky_c01 1
+    100222: WooferRig:bn_r_shld01
+    100224: WooferRig:bn_r_shld02
+    100226: WooferRig:bn_r_thumb_a01
+    100228: WooferRig:bn_r_thumb_a01 1
+    100230: WooferRig:bn_r_thumb_b01
+    100232: WooferRig:bn_r_thumb_b01 1
+    100234: WooferRig:bn_r_thumb_c01
+    100236: WooferRig:bn_r_thumb_c01 1
+    100238: WooferRig:bn_r_wrist01
+    100240: WooferRig:bn_spA_01
+    100242: WooferRig:bn_spB_01
+    100244: WooferRig:bn_spC_01
+    100246: WooferRig:bn_spD_01
+    100248: WooferRig:cc_chest01
+    100250: WooferRig:cc_COG01
+    100252: WooferRig:cc_hip01
+    100254: WooferRig:cc_l_foot01
+    100256: WooferRig:cc_r_foot01
+    100258: WooferRig:controlObjects01
+    100260: WooferRig:extraNodes01
+    100262: WooferRig:globalMove01
+    100264: WooferRig:grp_locAim_bn_SPA01
+    100266: WooferRig:grp_locAim_bn_SPB01
+    100268: WooferRig:grp_locAim_bn_SPC01
+    100270: WooferRig:grp_locAim_bn_SPD01
+    100272: WooferRig:iks01
+    100274: WooferRig:jntDrv_chest01
+    100276: WooferRig:jntDrv_hip01
+    100278: WooferRig:jntDrv_spA_01
+    100280: WooferRig:jntDrv_spB_01
+    100282: WooferRig:jntDrv_spC_01
+    100284: WooferRig:jntDrv_spD_01
+    100286: WooferRig:jntDrv_spE_01
+    100288: WooferRig:joints01
+    100290: WooferRig:locAim_bn_SPA01
+    100292: WooferRig:locAim_bn_SPB01
+    100294: WooferRig:locAim_bn_SPC01
+    100296: WooferRig:locAim_bn_SPD01
+    100298: WooferRig:locOrl_cc_l_foot01
+    100300: WooferRig:locOrl_cc_r_foot02
+    100302: WooferRig:pCylinder2
+    100304: WooferRig:pCylinder3
+    100306: WooferRig:rl_l_ball01
+    100308: WooferRig:rl_l_foot01
+    100310: WooferRig:rl_l_heel01
+    100312: WooferRig:rl_l_toe01
+    100314: WooferRig:rl_r_ball01
+    100316: WooferRig:rl_r_foot01
+    100318: WooferRig:rl_r_heel01
+    100320: WooferRig:rl_r_toe01
+    100322: WooferRig:rp_l_leg01
+    100324: WooferRig:rp_r_leg01
+    100326: WooferRig:transform12
+    100328: WooferRig:transform13
+    100330: WooferRig:transform14
+    100332: WooferRig:Woofer
+    100334: WooferRig:xtra_toHide01
+    100336: WooferRig:xtra_toShow01
+    400000: //RootNode
+    400002: pCube2
+    400004: pCube3
+    400006: pCube5
+    400008: pCube6
+    400010: pCube7
+    400012: pCube8
+    400014: polySurface1
+    400016: polySurface10
+    400018: polySurface2
+    400020: polySurface3
+    400022: polySurface4
+    400024: polySurface5
+    400026: polySurface6
+    400028: polySurface7
+    400030: polySurface8
+    400032: polySurface9
+    400034: transform1
+    400036: transform10
+    400038: transform11
+    400040: transform12
+    400042: transform13
+    400044: transform14
+    400046: transform15
+    400048: transform16
+    400050: transform2
+    400052: transform3
+    400054: transform4
+    400056: transform5
+    400058: transform6
+    400060: transform7
+    400062: transform8
+    400064: transform9
+    400066: UV_Malchior:imagePlane1
+    400068: UV_Malchior:imagePlane2
+    400070: UV_Malchior:pCube2
+    400072: UV_Malchior:pCube3
+    400074: UV_Malchior:pCube5
+    400076: UV_Malchior:pCube6
+    400078: UV_Malchior:pCube7
+    400080: UV_Malchior:pCube8
+    400082: UV_Malchior:polySurface1
+    400084: UV_Malchior:polySurface10
+    400086: UV_Malchior:polySurface11
+    400088: UV_Malchior:polySurface2
+    400090: UV_Malchior:polySurface3
+    400092: UV_Malchior:polySurface4
+    400094: UV_Malchior:polySurface5
+    400096: UV_Malchior:polySurface6
+    400098: UV_Malchior:polySurface7
+    400100: UV_Malchior:polySurface8
+    400102: UV_Malchior:polySurface9
+    400104: UV_Malchior:transform1
+    400106: UV_Malchior:transform10
+    400108: UV_Malchior:transform11
+    400110: UV_Malchior:transform12
+    400112: UV_Malchior:transform13
+    400114: UV_Malchior:transform14
+    400116: UV_Malchior:transform15
+    400118: UV_Malchior:transform16
+    400120: UV_Malchior:transform2
+    400122: UV_Malchior:transform3
+    400124: UV_Malchior:transform4
+    400126: UV_Malchior:transform5
+    400128: UV_Malchior:transform6
+    400130: UV_Malchior:transform7
+    400132: UV_Malchior:transform8
+    400134: UV_Malchior:transform9
+    400136: WooferRig:be_1_toe01
+    400138: WooferRig:be_1_toe01 1
+    400140: WooferRig:be_head01
+    400142: WooferRig:be_r_ind_d01
+    400144: WooferRig:be_r_ind_d01 1
+    400146: WooferRig:be_r_pinky_d01
+    400148: WooferRig:be_r_pinky_d01 1
+    400150: WooferRig:be_r_shld01
+    400152: WooferRig:be_r_shld01 1
+    400154: WooferRig:be_r_thumb_d01
+    400156: WooferRig:be_r_thumb_d01 1
+    400158: WooferRig:be_spE_01
+    400160: WooferRig:bn_1_ball01
+    400162: WooferRig:bn_1_ball01 1
+    400164: WooferRig:bn_1_foot01
+    400166: WooferRig:bn_1_foot01 1
+    400168: WooferRig:bn_1_kneea01
+    400170: WooferRig:bn_1_kneea02
+    400172: WooferRig:bn_1_kneeb01
+    400174: WooferRig:bn_1_kneeb01 1
+    400176: WooferRig:bn_1_thigh01
+    400178: WooferRig:bn_1_thigh02
+    400180: WooferRig:bn_head01
+    400182: WooferRig:bn_l_wrist01
+    400184: WooferRig:bn_neck01
+    400186: WooferRig:bn_r_arm01
+    400188: WooferRig:bn_r_arm01 1
+    400190: WooferRig:bn_r_elbow_a01
+    400192: WooferRig:bn_r_elbow_a01 1
+    400194: WooferRig:bn_r_elbow_b01
+    400196: WooferRig:bn_r_elbow_b01 1
+    400198: WooferRig:bn_r_ind_a01
+    400200: WooferRig:bn_r_ind_a01 1
+    400202: WooferRig:bn_r_ind_b01
+    400204: WooferRig:bn_r_ind_b01 1
+    400206: WooferRig:bn_r_ind_c01
+    400208: WooferRig:bn_r_ind_c01 1
+    400210: WooferRig:bn_r_pinky_a01
+    400212: WooferRig:bn_r_pinky_a01 1
+    400214: WooferRig:bn_r_pinky_b01
+    400216: WooferRig:bn_r_pinky_b01 1
+    400218: WooferRig:bn_r_pinky_c01
+    400220: WooferRig:bn_r_pinky_c01 1
+    400222: WooferRig:bn_r_shld01
+    400224: WooferRig:bn_r_shld02
+    400226: WooferRig:bn_r_thumb_a01
+    400228: WooferRig:bn_r_thumb_a01 1
+    400230: WooferRig:bn_r_thumb_b01
+    400232: WooferRig:bn_r_thumb_b01 1
+    400234: WooferRig:bn_r_thumb_c01
+    400236: WooferRig:bn_r_thumb_c01 1
+    400238: WooferRig:bn_r_wrist01
+    400240: WooferRig:bn_spA_01
+    400242: WooferRig:bn_spB_01
+    400244: WooferRig:bn_spC_01
+    400246: WooferRig:bn_spD_01
+    400248: WooferRig:cc_chest01
+    400250: WooferRig:cc_COG01
+    400252: WooferRig:cc_hip01
+    400254: WooferRig:cc_l_foot01
+    400256: WooferRig:cc_r_foot01
+    400258: WooferRig:controlObjects01
+    400260: WooferRig:extraNodes01
+    400262: WooferRig:globalMove01
+    400264: WooferRig:grp_locAim_bn_SPA01
+    400266: WooferRig:grp_locAim_bn_SPB01
+    400268: WooferRig:grp_locAim_bn_SPC01
+    400270: WooferRig:grp_locAim_bn_SPD01
+    400272: WooferRig:iks01
+    400274: WooferRig:jntDrv_chest01
+    400276: WooferRig:jntDrv_hip01
+    400278: WooferRig:jntDrv_spA_01
+    400280: WooferRig:jntDrv_spB_01
+    400282: WooferRig:jntDrv_spC_01
+    400284: WooferRig:jntDrv_spD_01
+    400286: WooferRig:jntDrv_spE_01
+    400288: WooferRig:joints01
+    400290: WooferRig:locAim_bn_SPA01
+    400292: WooferRig:locAim_bn_SPB01
+    400294: WooferRig:locAim_bn_SPC01
+    400296: WooferRig:locAim_bn_SPD01
+    400298: WooferRig:locOrl_cc_l_foot01
+    400300: WooferRig:locOrl_cc_r_foot02
+    400302: WooferRig:pCylinder2
+    400304: WooferRig:pCylinder3
+    400306: WooferRig:rl_l_ball01
+    400308: WooferRig:rl_l_foot01
+    400310: WooferRig:rl_l_heel01
+    400312: WooferRig:rl_l_toe01
+    400314: WooferRig:rl_r_ball01
+    400316: WooferRig:rl_r_foot01
+    400318: WooferRig:rl_r_heel01
+    400320: WooferRig:rl_r_toe01
+    400322: WooferRig:rp_l_leg01
+    400324: WooferRig:rp_r_leg01
+    400326: WooferRig:transform12
+    400328: WooferRig:transform13
+    400330: WooferRig:transform14
+    400332: WooferRig:Woofer
+    400334: WooferRig:xtra_toHide01
+    400336: WooferRig:xtra_toShow01
+    4300000: UV_Malchior:polySurface11
+    7400000: Idle
+    7400002: Charge Init
+    7400004: Charge Cont
+    7400006: Blast
+    7400008: Hands Down
+    7400010: Idle 2
+    9500000: //RootNode
+    13700000: UV_Malchior:polySurface11
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform2
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform3
+        weight: 1
+      - path: pCube6
+        weight: 1
+      - path: pCube6/transform5
+        weight: 1
+      - path: pCube7
+        weight: 1
+      - path: pCube7/transform8
+        weight: 1
+      - path: pCube8
+        weight: 1
+      - path: pCube8/transform7
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform4
+        weight: 1
+      - path: polySurface2
+        weight: 1
+      - path: polySurface2/transform6
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: polySurface3/transform10
+        weight: 1
+      - path: polySurface4
+        weight: 1
+      - path: polySurface4/transform9
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      - path: polySurface5/polySurface6
+        weight: 1
+      - path: polySurface5/polySurface6/transform12
+        weight: 1
+      - path: polySurface5/polySurface7
+        weight: 1
+      - path: polySurface5/polySurface7/transform13
+        weight: 1
+      - path: polySurface5/transform11
+        weight: 1
+      - path: polySurface8
+        weight: 1
+      - path: polySurface8/polySurface9
+        weight: 1
+      - path: polySurface8/polySurface9/transform15
+        weight: 1
+      - path: polySurface8/polySurface10
+        weight: 1
+      - path: polySurface8/polySurface10/transform16
+        weight: 1
+      - path: polySurface8/transform14
+        weight: 1
+      - path: UV_Malchior:imagePlane1
+        weight: 1
+      - path: UV_Malchior:imagePlane2
+        weight: 1
+      - path: UV_Malchior:pCube2
+        weight: 1
+      - path: UV_Malchior:pCube2/UV_Malchior:transform1
+        weight: 1
+      - path: UV_Malchior:pCube3
+        weight: 1
+      - path: UV_Malchior:pCube3/UV_Malchior:transform2
+        weight: 1
+      - path: UV_Malchior:pCube5
+        weight: 1
+      - path: UV_Malchior:pCube5/UV_Malchior:transform3
+        weight: 1
+      - path: UV_Malchior:pCube6
+        weight: 1
+      - path: UV_Malchior:pCube6/UV_Malchior:transform5
+        weight: 1
+      - path: UV_Malchior:pCube7
+        weight: 1
+      - path: UV_Malchior:pCube7/UV_Malchior:transform8
+        weight: 1
+      - path: UV_Malchior:pCube8
+        weight: 1
+      - path: UV_Malchior:pCube8/UV_Malchior:transform7
+        weight: 1
+      - path: UV_Malchior:polySurface1
+        weight: 1
+      - path: UV_Malchior:polySurface1/UV_Malchior:transform4
+        weight: 1
+      - path: UV_Malchior:polySurface2
+        weight: 1
+      - path: UV_Malchior:polySurface2/UV_Malchior:transform6
+        weight: 1
+      - path: UV_Malchior:polySurface3
+        weight: 1
+      - path: UV_Malchior:polySurface3/UV_Malchior:transform10
+        weight: 1
+      - path: UV_Malchior:polySurface4
+        weight: 1
+      - path: UV_Malchior:polySurface4/UV_Malchior:transform9
+        weight: 1
+      - path: UV_Malchior:polySurface5
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface6
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface6/UV_Malchior:transform12
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface7
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface7/UV_Malchior:transform13
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:transform11
+        weight: 1
+      - path: UV_Malchior:polySurface8
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface9
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface9/UV_Malchior:transform15
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface10
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface10/UV_Malchior:transform16
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:transform14
+        weight: 1
+      - path: UV_Malchior:polySurface11
+        weight: 1
+      - path: WooferRig:bn_1_thigh01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01/WooferRig:bn_1_ball01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01/WooferRig:bn_1_ball01/WooferRig:be_1_toe01
+        weight: 1
+      - path: WooferRig:bn_1_thigh02
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1/WooferRig:bn_1_ball01 1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1/WooferRig:bn_1_ball01 1/WooferRig:be_1_toe01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01/WooferRig:bn_head01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01/WooferRig:bn_head01/WooferRig:be_head01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01/WooferRig:bn_r_ind_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01/WooferRig:bn_r_ind_c01/WooferRig:be_r_ind_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01/WooferRig:bn_r_pinky_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01/WooferRig:bn_r_pinky_c01/WooferRig:be_r_pinky_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01/WooferRig:bn_r_thumb_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01/WooferRig:bn_r_thumb_c01/WooferRig:be_r_thumb_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1/WooferRig:bn_r_ind_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1/WooferRig:bn_r_ind_c01 1/WooferRig:be_r_ind_d01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1/WooferRig:bn_r_pinky_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1/WooferRig:bn_r_pinky_c01 1/WooferRig:be_r_pinky_d01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1/WooferRig:bn_r_thumb_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1/WooferRig:bn_r_thumb_c01 1/WooferRig:be_r_thumb_d01 1
+        weight: 1
+      - path: WooferRig:cc_COG01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_chest01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_chest01/WooferRig:jntDrv_chest01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_hip01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_hip01/WooferRig:jntDrv_hip01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:grp_locAim_bn_SPA01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:grp_locAim_bn_SPB01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:grp_locAim_bn_SPB01/WooferRig:locAim_bn_SPB01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:grp_locAim_bn_SPC01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:grp_locAim_bn_SPC01/WooferRig:locAim_bn_SPC01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:grp_locAim_bn_SPD01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:grp_locAim_bn_SPD01/WooferRig:locAim_bn_SPD01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:jntDrv_spE_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:locAim_bn_SPA01
+        weight: 1
+      - path: WooferRig:pCylinder2
+        weight: 1
+      - path: WooferRig:pCylinder2/WooferRig:transform13
+        weight: 1
+      - path: WooferRig:pCylinder3
+        weight: 1
+      - path: WooferRig:pCylinder3/WooferRig:transform12
+        weight: 1
+      - path: WooferRig:Woofer
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01/WooferRig:xtra_toHide01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01/WooferRig:xtra_toShow01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01/WooferRig:rl_l_ball01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01/WooferRig:rl_l_ball01/WooferRig:rl_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01/WooferRig:rl_r_ball01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01/WooferRig:rl_r_ball01/WooferRig:rl_r_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01/WooferRig:rp_l_leg01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01/WooferRig:rp_r_leg01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:joints01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Charge Init
+      takeName: Take 001
+      firstFrame: 41
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform2
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform3
+        weight: 1
+      - path: pCube6
+        weight: 1
+      - path: pCube6/transform5
+        weight: 1
+      - path: pCube7
+        weight: 1
+      - path: pCube7/transform8
+        weight: 1
+      - path: pCube8
+        weight: 1
+      - path: pCube8/transform7
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform4
+        weight: 1
+      - path: polySurface2
+        weight: 1
+      - path: polySurface2/transform6
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: polySurface3/transform10
+        weight: 1
+      - path: polySurface4
+        weight: 1
+      - path: polySurface4/transform9
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      - path: polySurface5/polySurface6
+        weight: 1
+      - path: polySurface5/polySurface6/transform12
+        weight: 1
+      - path: polySurface5/polySurface7
+        weight: 1
+      - path: polySurface5/polySurface7/transform13
+        weight: 1
+      - path: polySurface5/transform11
+        weight: 1
+      - path: polySurface8
+        weight: 1
+      - path: polySurface8/polySurface9
+        weight: 1
+      - path: polySurface8/polySurface9/transform15
+        weight: 1
+      - path: polySurface8/polySurface10
+        weight: 1
+      - path: polySurface8/polySurface10/transform16
+        weight: 1
+      - path: polySurface8/transform14
+        weight: 1
+      - path: UV_Malchior:imagePlane1
+        weight: 1
+      - path: UV_Malchior:imagePlane2
+        weight: 1
+      - path: UV_Malchior:pCube2
+        weight: 1
+      - path: UV_Malchior:pCube2/UV_Malchior:transform1
+        weight: 1
+      - path: UV_Malchior:pCube3
+        weight: 1
+      - path: UV_Malchior:pCube3/UV_Malchior:transform2
+        weight: 1
+      - path: UV_Malchior:pCube5
+        weight: 1
+      - path: UV_Malchior:pCube5/UV_Malchior:transform3
+        weight: 1
+      - path: UV_Malchior:pCube6
+        weight: 1
+      - path: UV_Malchior:pCube6/UV_Malchior:transform5
+        weight: 1
+      - path: UV_Malchior:pCube7
+        weight: 1
+      - path: UV_Malchior:pCube7/UV_Malchior:transform8
+        weight: 1
+      - path: UV_Malchior:pCube8
+        weight: 1
+      - path: UV_Malchior:pCube8/UV_Malchior:transform7
+        weight: 1
+      - path: UV_Malchior:polySurface1
+        weight: 1
+      - path: UV_Malchior:polySurface1/UV_Malchior:transform4
+        weight: 1
+      - path: UV_Malchior:polySurface2
+        weight: 1
+      - path: UV_Malchior:polySurface2/UV_Malchior:transform6
+        weight: 1
+      - path: UV_Malchior:polySurface3
+        weight: 1
+      - path: UV_Malchior:polySurface3/UV_Malchior:transform10
+        weight: 1
+      - path: UV_Malchior:polySurface4
+        weight: 1
+      - path: UV_Malchior:polySurface4/UV_Malchior:transform9
+        weight: 1
+      - path: UV_Malchior:polySurface5
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface6
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface6/UV_Malchior:transform12
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface7
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface7/UV_Malchior:transform13
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:transform11
+        weight: 1
+      - path: UV_Malchior:polySurface8
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface9
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface9/UV_Malchior:transform15
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface10
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface10/UV_Malchior:transform16
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:transform14
+        weight: 1
+      - path: UV_Malchior:polySurface11
+        weight: 1
+      - path: WooferRig:bn_1_thigh01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01/WooferRig:bn_1_ball01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01/WooferRig:bn_1_ball01/WooferRig:be_1_toe01
+        weight: 1
+      - path: WooferRig:bn_1_thigh02
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1/WooferRig:bn_1_ball01 1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1/WooferRig:bn_1_ball01 1/WooferRig:be_1_toe01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01/WooferRig:bn_head01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01/WooferRig:bn_head01/WooferRig:be_head01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01/WooferRig:bn_r_ind_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01/WooferRig:bn_r_ind_c01/WooferRig:be_r_ind_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01/WooferRig:bn_r_pinky_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01/WooferRig:bn_r_pinky_c01/WooferRig:be_r_pinky_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01/WooferRig:bn_r_thumb_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01/WooferRig:bn_r_thumb_c01/WooferRig:be_r_thumb_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1/WooferRig:bn_r_ind_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1/WooferRig:bn_r_ind_c01 1/WooferRig:be_r_ind_d01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1/WooferRig:bn_r_pinky_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1/WooferRig:bn_r_pinky_c01 1/WooferRig:be_r_pinky_d01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1/WooferRig:bn_r_thumb_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1/WooferRig:bn_r_thumb_c01 1/WooferRig:be_r_thumb_d01 1
+        weight: 1
+      - path: WooferRig:cc_COG01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_chest01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_chest01/WooferRig:jntDrv_chest01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_hip01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_hip01/WooferRig:jntDrv_hip01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:grp_locAim_bn_SPA01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:grp_locAim_bn_SPB01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:grp_locAim_bn_SPB01/WooferRig:locAim_bn_SPB01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:grp_locAim_bn_SPC01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:grp_locAim_bn_SPC01/WooferRig:locAim_bn_SPC01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:grp_locAim_bn_SPD01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:grp_locAim_bn_SPD01/WooferRig:locAim_bn_SPD01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:jntDrv_spE_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:locAim_bn_SPA01
+        weight: 1
+      - path: WooferRig:pCylinder2
+        weight: 1
+      - path: WooferRig:pCylinder2/WooferRig:transform13
+        weight: 1
+      - path: WooferRig:pCylinder3
+        weight: 1
+      - path: WooferRig:pCylinder3/WooferRig:transform12
+        weight: 1
+      - path: WooferRig:Woofer
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01/WooferRig:xtra_toHide01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01/WooferRig:xtra_toShow01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01/WooferRig:rl_l_ball01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01/WooferRig:rl_l_ball01/WooferRig:rl_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01/WooferRig:rl_r_ball01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01/WooferRig:rl_r_ball01/WooferRig:rl_r_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01/WooferRig:rp_l_leg01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01/WooferRig:rp_r_leg01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:joints01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Charge Cont
+      takeName: Take 001
+      firstFrame: 51
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform2
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform3
+        weight: 1
+      - path: pCube6
+        weight: 1
+      - path: pCube6/transform5
+        weight: 1
+      - path: pCube7
+        weight: 1
+      - path: pCube7/transform8
+        weight: 1
+      - path: pCube8
+        weight: 1
+      - path: pCube8/transform7
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform4
+        weight: 1
+      - path: polySurface2
+        weight: 1
+      - path: polySurface2/transform6
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: polySurface3/transform10
+        weight: 1
+      - path: polySurface4
+        weight: 1
+      - path: polySurface4/transform9
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      - path: polySurface5/polySurface6
+        weight: 1
+      - path: polySurface5/polySurface6/transform12
+        weight: 1
+      - path: polySurface5/polySurface7
+        weight: 1
+      - path: polySurface5/polySurface7/transform13
+        weight: 1
+      - path: polySurface5/transform11
+        weight: 1
+      - path: polySurface8
+        weight: 1
+      - path: polySurface8/polySurface9
+        weight: 1
+      - path: polySurface8/polySurface9/transform15
+        weight: 1
+      - path: polySurface8/polySurface10
+        weight: 1
+      - path: polySurface8/polySurface10/transform16
+        weight: 1
+      - path: polySurface8/transform14
+        weight: 1
+      - path: UV_Malchior:imagePlane1
+        weight: 1
+      - path: UV_Malchior:imagePlane2
+        weight: 1
+      - path: UV_Malchior:pCube2
+        weight: 1
+      - path: UV_Malchior:pCube2/UV_Malchior:transform1
+        weight: 1
+      - path: UV_Malchior:pCube3
+        weight: 1
+      - path: UV_Malchior:pCube3/UV_Malchior:transform2
+        weight: 1
+      - path: UV_Malchior:pCube5
+        weight: 1
+      - path: UV_Malchior:pCube5/UV_Malchior:transform3
+        weight: 1
+      - path: UV_Malchior:pCube6
+        weight: 1
+      - path: UV_Malchior:pCube6/UV_Malchior:transform5
+        weight: 1
+      - path: UV_Malchior:pCube7
+        weight: 1
+      - path: UV_Malchior:pCube7/UV_Malchior:transform8
+        weight: 1
+      - path: UV_Malchior:pCube8
+        weight: 1
+      - path: UV_Malchior:pCube8/UV_Malchior:transform7
+        weight: 1
+      - path: UV_Malchior:polySurface1
+        weight: 1
+      - path: UV_Malchior:polySurface1/UV_Malchior:transform4
+        weight: 1
+      - path: UV_Malchior:polySurface2
+        weight: 1
+      - path: UV_Malchior:polySurface2/UV_Malchior:transform6
+        weight: 1
+      - path: UV_Malchior:polySurface3
+        weight: 1
+      - path: UV_Malchior:polySurface3/UV_Malchior:transform10
+        weight: 1
+      - path: UV_Malchior:polySurface4
+        weight: 1
+      - path: UV_Malchior:polySurface4/UV_Malchior:transform9
+        weight: 1
+      - path: UV_Malchior:polySurface5
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface6
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface6/UV_Malchior:transform12
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface7
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface7/UV_Malchior:transform13
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:transform11
+        weight: 1
+      - path: UV_Malchior:polySurface8
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface9
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface9/UV_Malchior:transform15
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface10
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface10/UV_Malchior:transform16
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:transform14
+        weight: 1
+      - path: UV_Malchior:polySurface11
+        weight: 1
+      - path: WooferRig:bn_1_thigh01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01/WooferRig:bn_1_ball01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01/WooferRig:bn_1_ball01/WooferRig:be_1_toe01
+        weight: 1
+      - path: WooferRig:bn_1_thigh02
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1/WooferRig:bn_1_ball01 1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1/WooferRig:bn_1_ball01 1/WooferRig:be_1_toe01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01/WooferRig:bn_head01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01/WooferRig:bn_head01/WooferRig:be_head01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01/WooferRig:bn_r_ind_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01/WooferRig:bn_r_ind_c01/WooferRig:be_r_ind_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01/WooferRig:bn_r_pinky_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01/WooferRig:bn_r_pinky_c01/WooferRig:be_r_pinky_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01/WooferRig:bn_r_thumb_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01/WooferRig:bn_r_thumb_c01/WooferRig:be_r_thumb_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1/WooferRig:bn_r_ind_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1/WooferRig:bn_r_ind_c01 1/WooferRig:be_r_ind_d01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1/WooferRig:bn_r_pinky_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1/WooferRig:bn_r_pinky_c01 1/WooferRig:be_r_pinky_d01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1/WooferRig:bn_r_thumb_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1/WooferRig:bn_r_thumb_c01 1/WooferRig:be_r_thumb_d01 1
+        weight: 1
+      - path: WooferRig:cc_COG01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_chest01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_chest01/WooferRig:jntDrv_chest01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_hip01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_hip01/WooferRig:jntDrv_hip01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:grp_locAim_bn_SPA01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:grp_locAim_bn_SPB01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:grp_locAim_bn_SPB01/WooferRig:locAim_bn_SPB01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:grp_locAim_bn_SPC01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:grp_locAim_bn_SPC01/WooferRig:locAim_bn_SPC01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:grp_locAim_bn_SPD01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:grp_locAim_bn_SPD01/WooferRig:locAim_bn_SPD01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:jntDrv_spE_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:locAim_bn_SPA01
+        weight: 1
+      - path: WooferRig:pCylinder2
+        weight: 1
+      - path: WooferRig:pCylinder2/WooferRig:transform13
+        weight: 1
+      - path: WooferRig:pCylinder3
+        weight: 1
+      - path: WooferRig:pCylinder3/WooferRig:transform12
+        weight: 1
+      - path: WooferRig:Woofer
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01/WooferRig:xtra_toHide01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01/WooferRig:xtra_toShow01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01/WooferRig:rl_l_ball01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01/WooferRig:rl_l_ball01/WooferRig:rl_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01/WooferRig:rl_r_ball01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01/WooferRig:rl_r_ball01/WooferRig:rl_r_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01/WooferRig:rp_l_leg01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01/WooferRig:rp_r_leg01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:joints01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Blast
+      takeName: Take 001
+      firstFrame: 64
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform2
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform3
+        weight: 1
+      - path: pCube6
+        weight: 1
+      - path: pCube6/transform5
+        weight: 1
+      - path: pCube7
+        weight: 1
+      - path: pCube7/transform8
+        weight: 1
+      - path: pCube8
+        weight: 1
+      - path: pCube8/transform7
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform4
+        weight: 1
+      - path: polySurface2
+        weight: 1
+      - path: polySurface2/transform6
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: polySurface3/transform10
+        weight: 1
+      - path: polySurface4
+        weight: 1
+      - path: polySurface4/transform9
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      - path: polySurface5/polySurface6
+        weight: 1
+      - path: polySurface5/polySurface6/transform12
+        weight: 1
+      - path: polySurface5/polySurface7
+        weight: 1
+      - path: polySurface5/polySurface7/transform13
+        weight: 1
+      - path: polySurface5/transform11
+        weight: 1
+      - path: polySurface8
+        weight: 1
+      - path: polySurface8/polySurface9
+        weight: 1
+      - path: polySurface8/polySurface9/transform15
+        weight: 1
+      - path: polySurface8/polySurface10
+        weight: 1
+      - path: polySurface8/polySurface10/transform16
+        weight: 1
+      - path: polySurface8/transform14
+        weight: 1
+      - path: UV_Malchior:imagePlane1
+        weight: 1
+      - path: UV_Malchior:imagePlane2
+        weight: 1
+      - path: UV_Malchior:pCube2
+        weight: 1
+      - path: UV_Malchior:pCube2/UV_Malchior:transform1
+        weight: 1
+      - path: UV_Malchior:pCube3
+        weight: 1
+      - path: UV_Malchior:pCube3/UV_Malchior:transform2
+        weight: 1
+      - path: UV_Malchior:pCube5
+        weight: 1
+      - path: UV_Malchior:pCube5/UV_Malchior:transform3
+        weight: 1
+      - path: UV_Malchior:pCube6
+        weight: 1
+      - path: UV_Malchior:pCube6/UV_Malchior:transform5
+        weight: 1
+      - path: UV_Malchior:pCube7
+        weight: 1
+      - path: UV_Malchior:pCube7/UV_Malchior:transform8
+        weight: 1
+      - path: UV_Malchior:pCube8
+        weight: 1
+      - path: UV_Malchior:pCube8/UV_Malchior:transform7
+        weight: 1
+      - path: UV_Malchior:polySurface1
+        weight: 1
+      - path: UV_Malchior:polySurface1/UV_Malchior:transform4
+        weight: 1
+      - path: UV_Malchior:polySurface2
+        weight: 1
+      - path: UV_Malchior:polySurface2/UV_Malchior:transform6
+        weight: 1
+      - path: UV_Malchior:polySurface3
+        weight: 1
+      - path: UV_Malchior:polySurface3/UV_Malchior:transform10
+        weight: 1
+      - path: UV_Malchior:polySurface4
+        weight: 1
+      - path: UV_Malchior:polySurface4/UV_Malchior:transform9
+        weight: 1
+      - path: UV_Malchior:polySurface5
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface6
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface6/UV_Malchior:transform12
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface7
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface7/UV_Malchior:transform13
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:transform11
+        weight: 1
+      - path: UV_Malchior:polySurface8
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface9
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface9/UV_Malchior:transform15
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface10
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface10/UV_Malchior:transform16
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:transform14
+        weight: 1
+      - path: UV_Malchior:polySurface11
+        weight: 1
+      - path: WooferRig:bn_1_thigh01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01/WooferRig:bn_1_ball01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01/WooferRig:bn_1_ball01/WooferRig:be_1_toe01
+        weight: 1
+      - path: WooferRig:bn_1_thigh02
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1/WooferRig:bn_1_ball01 1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1/WooferRig:bn_1_ball01 1/WooferRig:be_1_toe01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01/WooferRig:bn_head01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01/WooferRig:bn_head01/WooferRig:be_head01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01/WooferRig:bn_r_ind_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01/WooferRig:bn_r_ind_c01/WooferRig:be_r_ind_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01/WooferRig:bn_r_pinky_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01/WooferRig:bn_r_pinky_c01/WooferRig:be_r_pinky_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01/WooferRig:bn_r_thumb_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01/WooferRig:bn_r_thumb_c01/WooferRig:be_r_thumb_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1/WooferRig:bn_r_ind_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1/WooferRig:bn_r_ind_c01 1/WooferRig:be_r_ind_d01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1/WooferRig:bn_r_pinky_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1/WooferRig:bn_r_pinky_c01 1/WooferRig:be_r_pinky_d01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1/WooferRig:bn_r_thumb_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1/WooferRig:bn_r_thumb_c01 1/WooferRig:be_r_thumb_d01 1
+        weight: 1
+      - path: WooferRig:cc_COG01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_chest01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_chest01/WooferRig:jntDrv_chest01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_hip01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_hip01/WooferRig:jntDrv_hip01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:grp_locAim_bn_SPA01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:grp_locAim_bn_SPB01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:grp_locAim_bn_SPB01/WooferRig:locAim_bn_SPB01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:grp_locAim_bn_SPC01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:grp_locAim_bn_SPC01/WooferRig:locAim_bn_SPC01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:grp_locAim_bn_SPD01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:grp_locAim_bn_SPD01/WooferRig:locAim_bn_SPD01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:jntDrv_spE_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:locAim_bn_SPA01
+        weight: 1
+      - path: WooferRig:pCylinder2
+        weight: 1
+      - path: WooferRig:pCylinder2/WooferRig:transform13
+        weight: 1
+      - path: WooferRig:pCylinder3
+        weight: 1
+      - path: WooferRig:pCylinder3/WooferRig:transform12
+        weight: 1
+      - path: WooferRig:Woofer
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01/WooferRig:xtra_toHide01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01/WooferRig:xtra_toShow01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01/WooferRig:rl_l_ball01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01/WooferRig:rl_l_ball01/WooferRig:rl_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01/WooferRig:rl_r_ball01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01/WooferRig:rl_r_ball01/WooferRig:rl_r_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01/WooferRig:rp_l_leg01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01/WooferRig:rp_r_leg01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:joints01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hands Down
+      takeName: Take 001
+      firstFrame: 99
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform2
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform3
+        weight: 1
+      - path: pCube6
+        weight: 1
+      - path: pCube6/transform5
+        weight: 1
+      - path: pCube7
+        weight: 1
+      - path: pCube7/transform8
+        weight: 1
+      - path: pCube8
+        weight: 1
+      - path: pCube8/transform7
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform4
+        weight: 1
+      - path: polySurface2
+        weight: 1
+      - path: polySurface2/transform6
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: polySurface3/transform10
+        weight: 1
+      - path: polySurface4
+        weight: 1
+      - path: polySurface4/transform9
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      - path: polySurface5/polySurface6
+        weight: 1
+      - path: polySurface5/polySurface6/transform12
+        weight: 1
+      - path: polySurface5/polySurface7
+        weight: 1
+      - path: polySurface5/polySurface7/transform13
+        weight: 1
+      - path: polySurface5/transform11
+        weight: 1
+      - path: polySurface8
+        weight: 1
+      - path: polySurface8/polySurface9
+        weight: 1
+      - path: polySurface8/polySurface9/transform15
+        weight: 1
+      - path: polySurface8/polySurface10
+        weight: 1
+      - path: polySurface8/polySurface10/transform16
+        weight: 1
+      - path: polySurface8/transform14
+        weight: 1
+      - path: UV_Malchior:imagePlane1
+        weight: 1
+      - path: UV_Malchior:imagePlane2
+        weight: 1
+      - path: UV_Malchior:pCube2
+        weight: 1
+      - path: UV_Malchior:pCube2/UV_Malchior:transform1
+        weight: 1
+      - path: UV_Malchior:pCube3
+        weight: 1
+      - path: UV_Malchior:pCube3/UV_Malchior:transform2
+        weight: 1
+      - path: UV_Malchior:pCube5
+        weight: 1
+      - path: UV_Malchior:pCube5/UV_Malchior:transform3
+        weight: 1
+      - path: UV_Malchior:pCube6
+        weight: 1
+      - path: UV_Malchior:pCube6/UV_Malchior:transform5
+        weight: 1
+      - path: UV_Malchior:pCube7
+        weight: 1
+      - path: UV_Malchior:pCube7/UV_Malchior:transform8
+        weight: 1
+      - path: UV_Malchior:pCube8
+        weight: 1
+      - path: UV_Malchior:pCube8/UV_Malchior:transform7
+        weight: 1
+      - path: UV_Malchior:polySurface1
+        weight: 1
+      - path: UV_Malchior:polySurface1/UV_Malchior:transform4
+        weight: 1
+      - path: UV_Malchior:polySurface2
+        weight: 1
+      - path: UV_Malchior:polySurface2/UV_Malchior:transform6
+        weight: 1
+      - path: UV_Malchior:polySurface3
+        weight: 1
+      - path: UV_Malchior:polySurface3/UV_Malchior:transform10
+        weight: 1
+      - path: UV_Malchior:polySurface4
+        weight: 1
+      - path: UV_Malchior:polySurface4/UV_Malchior:transform9
+        weight: 1
+      - path: UV_Malchior:polySurface5
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface6
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface6/UV_Malchior:transform12
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface7
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface7/UV_Malchior:transform13
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:transform11
+        weight: 1
+      - path: UV_Malchior:polySurface8
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface9
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface9/UV_Malchior:transform15
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface10
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface10/UV_Malchior:transform16
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:transform14
+        weight: 1
+      - path: UV_Malchior:polySurface11
+        weight: 1
+      - path: WooferRig:bn_1_thigh01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01/WooferRig:bn_1_ball01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01/WooferRig:bn_1_ball01/WooferRig:be_1_toe01
+        weight: 1
+      - path: WooferRig:bn_1_thigh02
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1/WooferRig:bn_1_ball01 1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1/WooferRig:bn_1_ball01 1/WooferRig:be_1_toe01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01/WooferRig:bn_head01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01/WooferRig:bn_head01/WooferRig:be_head01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01/WooferRig:bn_r_ind_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01/WooferRig:bn_r_ind_c01/WooferRig:be_r_ind_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01/WooferRig:bn_r_pinky_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01/WooferRig:bn_r_pinky_c01/WooferRig:be_r_pinky_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01/WooferRig:bn_r_thumb_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01/WooferRig:bn_r_thumb_c01/WooferRig:be_r_thumb_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1/WooferRig:bn_r_ind_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1/WooferRig:bn_r_ind_c01 1/WooferRig:be_r_ind_d01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1/WooferRig:bn_r_pinky_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1/WooferRig:bn_r_pinky_c01 1/WooferRig:be_r_pinky_d01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1/WooferRig:bn_r_thumb_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1/WooferRig:bn_r_thumb_c01 1/WooferRig:be_r_thumb_d01 1
+        weight: 1
+      - path: WooferRig:cc_COG01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_chest01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_chest01/WooferRig:jntDrv_chest01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_hip01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_hip01/WooferRig:jntDrv_hip01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:grp_locAim_bn_SPA01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:grp_locAim_bn_SPB01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:grp_locAim_bn_SPB01/WooferRig:locAim_bn_SPB01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:grp_locAim_bn_SPC01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:grp_locAim_bn_SPC01/WooferRig:locAim_bn_SPC01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:grp_locAim_bn_SPD01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:grp_locAim_bn_SPD01/WooferRig:locAim_bn_SPD01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:jntDrv_spE_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:locAim_bn_SPA01
+        weight: 1
+      - path: WooferRig:pCylinder2
+        weight: 1
+      - path: WooferRig:pCylinder2/WooferRig:transform13
+        weight: 1
+      - path: WooferRig:pCylinder3
+        weight: 1
+      - path: WooferRig:pCylinder3/WooferRig:transform12
+        weight: 1
+      - path: WooferRig:Woofer
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01/WooferRig:xtra_toHide01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01/WooferRig:xtra_toShow01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01/WooferRig:rl_l_ball01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01/WooferRig:rl_l_ball01/WooferRig:rl_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01/WooferRig:rl_r_ball01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01/WooferRig:rl_r_ball01/WooferRig:rl_r_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01/WooferRig:rp_l_leg01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01/WooferRig:rp_r_leg01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:joints01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle 2
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform2
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform3
+        weight: 1
+      - path: pCube6
+        weight: 1
+      - path: pCube6/transform5
+        weight: 1
+      - path: pCube7
+        weight: 1
+      - path: pCube7/transform8
+        weight: 1
+      - path: pCube8
+        weight: 1
+      - path: pCube8/transform7
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform4
+        weight: 1
+      - path: polySurface2
+        weight: 1
+      - path: polySurface2/transform6
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: polySurface3/transform10
+        weight: 1
+      - path: polySurface4
+        weight: 1
+      - path: polySurface4/transform9
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      - path: polySurface5/polySurface6
+        weight: 1
+      - path: polySurface5/polySurface6/transform12
+        weight: 1
+      - path: polySurface5/polySurface7
+        weight: 1
+      - path: polySurface5/polySurface7/transform13
+        weight: 1
+      - path: polySurface5/transform11
+        weight: 1
+      - path: polySurface8
+        weight: 1
+      - path: polySurface8/polySurface9
+        weight: 1
+      - path: polySurface8/polySurface9/transform15
+        weight: 1
+      - path: polySurface8/polySurface10
+        weight: 1
+      - path: polySurface8/polySurface10/transform16
+        weight: 1
+      - path: polySurface8/transform14
+        weight: 1
+      - path: UV_Malchior:imagePlane1
+        weight: 1
+      - path: UV_Malchior:imagePlane2
+        weight: 1
+      - path: UV_Malchior:pCube2
+        weight: 1
+      - path: UV_Malchior:pCube2/UV_Malchior:transform1
+        weight: 1
+      - path: UV_Malchior:pCube3
+        weight: 1
+      - path: UV_Malchior:pCube3/UV_Malchior:transform2
+        weight: 1
+      - path: UV_Malchior:pCube5
+        weight: 1
+      - path: UV_Malchior:pCube5/UV_Malchior:transform3
+        weight: 1
+      - path: UV_Malchior:pCube6
+        weight: 1
+      - path: UV_Malchior:pCube6/UV_Malchior:transform5
+        weight: 1
+      - path: UV_Malchior:pCube7
+        weight: 1
+      - path: UV_Malchior:pCube7/UV_Malchior:transform8
+        weight: 1
+      - path: UV_Malchior:pCube8
+        weight: 1
+      - path: UV_Malchior:pCube8/UV_Malchior:transform7
+        weight: 1
+      - path: UV_Malchior:polySurface1
+        weight: 1
+      - path: UV_Malchior:polySurface1/UV_Malchior:transform4
+        weight: 1
+      - path: UV_Malchior:polySurface2
+        weight: 1
+      - path: UV_Malchior:polySurface2/UV_Malchior:transform6
+        weight: 1
+      - path: UV_Malchior:polySurface3
+        weight: 1
+      - path: UV_Malchior:polySurface3/UV_Malchior:transform10
+        weight: 1
+      - path: UV_Malchior:polySurface4
+        weight: 1
+      - path: UV_Malchior:polySurface4/UV_Malchior:transform9
+        weight: 1
+      - path: UV_Malchior:polySurface5
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface6
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface6/UV_Malchior:transform12
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface7
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:polySurface7/UV_Malchior:transform13
+        weight: 1
+      - path: UV_Malchior:polySurface5/UV_Malchior:transform11
+        weight: 1
+      - path: UV_Malchior:polySurface8
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface9
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface9/UV_Malchior:transform15
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface10
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:polySurface10/UV_Malchior:transform16
+        weight: 1
+      - path: UV_Malchior:polySurface8/UV_Malchior:transform14
+        weight: 1
+      - path: UV_Malchior:polySurface11
+        weight: 1
+      - path: WooferRig:bn_1_thigh01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01/WooferRig:bn_1_ball01
+        weight: 1
+      - path: WooferRig:bn_1_thigh01/WooferRig:bn_1_kneea01/WooferRig:bn_1_kneeb01/WooferRig:bn_1_foot01/WooferRig:bn_1_ball01/WooferRig:be_1_toe01
+        weight: 1
+      - path: WooferRig:bn_1_thigh02
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1/WooferRig:bn_1_ball01 1
+        weight: 1
+      - path: WooferRig:bn_1_thigh02/WooferRig:bn_1_kneea02/WooferRig:bn_1_kneeb01
+          1/WooferRig:bn_1_foot01 1/WooferRig:bn_1_ball01 1/WooferRig:be_1_toe01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01/WooferRig:bn_head01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:be_spE_01/WooferRig:bn_neck01/WooferRig:bn_head01/WooferRig:be_head01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01/WooferRig:bn_r_ind_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_ind_a01/WooferRig:bn_r_ind_b01/WooferRig:bn_r_ind_c01/WooferRig:be_r_ind_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01/WooferRig:bn_r_pinky_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_pinky_a01/WooferRig:bn_r_pinky_b01/WooferRig:bn_r_pinky_c01/WooferRig:be_r_pinky_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01/WooferRig:bn_r_thumb_c01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld01/WooferRig:be_r_shld01/WooferRig:bn_r_arm01/WooferRig:bn_r_elbow_a01/WooferRig:bn_r_elbow_b01/WooferRig:bn_r_wrist01/WooferRig:bn_r_thumb_a01/WooferRig:bn_r_thumb_b01/WooferRig:bn_r_thumb_c01/WooferRig:be_r_thumb_d01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1/WooferRig:bn_r_ind_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_ind_a01 1/WooferRig:bn_r_ind_b01
+          1/WooferRig:bn_r_ind_c01 1/WooferRig:be_r_ind_d01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1/WooferRig:bn_r_pinky_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_pinky_a01 1/WooferRig:bn_r_pinky_b01
+          1/WooferRig:bn_r_pinky_c01 1/WooferRig:be_r_pinky_d01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1/WooferRig:bn_r_thumb_c01 1
+        weight: 1
+      - path: WooferRig:bn_spA_01/WooferRig:bn_spB_01/WooferRig:bn_spC_01/WooferRig:bn_spD_01/WooferRig:bn_r_shld02/WooferRig:be_r_shld01
+          1/WooferRig:bn_r_arm01 1/WooferRig:bn_r_elbow_a01 1/WooferRig:bn_r_elbow_b01
+          1/WooferRig:bn_l_wrist01/WooferRig:bn_r_thumb_a01 1/WooferRig:bn_r_thumb_b01
+          1/WooferRig:bn_r_thumb_c01 1/WooferRig:be_r_thumb_d01 1
+        weight: 1
+      - path: WooferRig:cc_COG01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_chest01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_chest01/WooferRig:jntDrv_chest01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_hip01
+        weight: 1
+      - path: WooferRig:cc_COG01/WooferRig:cc_hip01/WooferRig:jntDrv_hip01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:grp_locAim_bn_SPA01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:grp_locAim_bn_SPB01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:grp_locAim_bn_SPB01/WooferRig:locAim_bn_SPB01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:grp_locAim_bn_SPC01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:grp_locAim_bn_SPC01/WooferRig:locAim_bn_SPC01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:grp_locAim_bn_SPD01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:grp_locAim_bn_SPD01/WooferRig:locAim_bn_SPD01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:jntDrv_spB_01/WooferRig:jntDrv_spC_01/WooferRig:jntDrv_spD_01/WooferRig:jntDrv_spE_01
+        weight: 1
+      - path: WooferRig:jntDrv_spA_01/WooferRig:locAim_bn_SPA01
+        weight: 1
+      - path: WooferRig:pCylinder2
+        weight: 1
+      - path: WooferRig:pCylinder2/WooferRig:transform13
+        weight: 1
+      - path: WooferRig:pCylinder3
+        weight: 1
+      - path: WooferRig:pCylinder3/WooferRig:transform12
+        weight: 1
+      - path: WooferRig:Woofer
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01/WooferRig:xtra_toHide01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:extraNodes01/WooferRig:xtra_toShow01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01/WooferRig:rl_l_ball01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_l_foot01/WooferRig:cc_l_foot01/WooferRig:rl_l_heel01/WooferRig:rl_l_toe01/WooferRig:rl_l_ball01/WooferRig:rl_l_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01/WooferRig:rl_r_ball01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:controlObjects01/WooferRig:locOrl_cc_r_foot02/WooferRig:cc_r_foot01/WooferRig:transform14/WooferRig:rl_r_heel01/WooferRig:rl_r_toe01/WooferRig:rl_r_ball01/WooferRig:rl_r_foot01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01/WooferRig:rp_l_leg01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:iks01/WooferRig:rp_r_leg01
+        weight: 1
+      - path: WooferRig:Woofer/WooferRig:globalMove01/WooferRig:joints01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

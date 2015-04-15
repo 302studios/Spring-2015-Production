@@ -63,10 +63,12 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRUGUI.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
+     <Compile Include="Assets\Scripts\Enemy\bossControls.cs" />
      <Compile Include="Assets\Scripts\Enemy\enemyControls.cs" />
      <Compile Include="Assets\Scripts\Enemy\enemyTrigger.cs" />
      <Compile Include="Assets\Scripts\Enemy\stunUI.cs" />
      <Compile Include="Assets\Scripts\Environment\lightPulse.cs" />
+     <Compile Include="Assets\Scripts\Player\bossBlast.cs" />
      <Compile Include="Assets\Scripts\Player\characterMovement.cs" />
      <Compile Include="Assets\Scripts\Player\crossHairCustom.cs" />
      <Compile Include="Assets\Scripts\Player\dropLight.cs" />
@@ -91,6 +93,7 @@
      <Compile Include="Assets\Scripts\World Controls\preloader.cs" />
      <Compile Include="Assets\Scripts\World Controls\textGrow.cs" />
      <Compile Include="Assets\Scripts\World Controls\worldInfo.cs" />
+     <Compile Include="Assets\djBooth.cs" />
      <Compile Include="Assets\djBoothForceField.cs" />
      <Compile Include="Assets\drawFacing.cs" />
      <Compile Include="Assets\movingTexture.cs" />

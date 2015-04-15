@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class metronomeBubble : MonoBehaviour {
 
 
-	float destroyTime = 15f; 
+	public float destroyTime = 15f; 
 	public Image bubbleFade;
 	public AudioSource theMusic;
 	public BeatSynchronizer sync;
@@ -14,6 +14,8 @@ public class metronomeBubble : MonoBehaviour {
 	GameObject forcefieldL;
 	GameObject djBooth;
 	Animator[] djAnims;
+	worldInfo theWorld;
+
 
 
 	// Use this for initialization
@@ -23,15 +25,23 @@ public class metronomeBubble : MonoBehaviour {
 		theMusic = GameObject.Find ("World").GetComponent<AudioSource> ();
 		sync = GameObject.Find ("World").GetComponent<BeatSynchronizer> ();
 		origBPM = sync.bpm;
+		theWorld = GameObject.Find ("World").GetComponent<worldInfo>();
+		if (theWorld.levelName == worldInfo.LevelNames.Boss) {
+			destroyTime = 15f;
+			Debug.Log("Boss Met");
+		}
+		else
+			destroyTime = 15f;
 		StartCoroutine (beforeDestroy ());
-		forcefieldR = GameObject.Find ("ForceField_R");
-		forcefieldL = GameObject.Find ("ForceField_L");
+		//forcefieldR = GameObject.Find ("ForceField_R");
+		//forcefieldL = GameObject.Find ("ForceField_L");
 		djBooth = GameObject.Find ("DJ Booth");
+
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
 
 
 	}
@@ -42,12 +52,18 @@ public class metronomeBubble : MonoBehaviour {
 		bubbleFade.enabled = false;
 		theMusic.pitch = 1f;
 		sync.bpm = origBPM;
-		forcefieldR.SetActive(true);
-		forcefieldL.SetActive(true);
-		djAnims = djBooth.GetComponentsInChildren<Animator>();
-		for(int i = 0; i < djAnims.Length; i++){
-			djAnims[i].speed = 1f;
+		//forcefieldR.SetActive(true);
+		//forcefieldL.SetActive(true);
+		//djAnims = djBooth.GetComponentsInChildren<Animator>();
+		//for(int i = 0; i < djAnims.Length; i++){
+		//	djAnims[i].speed = 1f;
+		//}
+
+		if (theWorld.levelName == worldInfo.LevelNames.Boss) {
+			destroyTime = 15f;
+
 		}
+
 		Destroy (this.gameObject);
 
 	}
@@ -73,6 +89,11 @@ public class metronomeBubble : MonoBehaviour {
 				djAnims[i].speed = 0.5f;
 			}
 		}
+
+		if (col.name == "DJ Booth Metronome Detect") {
+			col.gameObject.GetComponent<djBooth>().metronomeCheck();
+		}
+
 
 
 	}

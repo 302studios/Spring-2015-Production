@@ -11,7 +11,7 @@ public class sonicBoom : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+
 		theCam = GameObject.FindGameObjectWithTag ("MainCamera");
 		travel = theCam.transform.forward;
 	}
@@ -41,6 +41,16 @@ public class sonicBoom : MonoBehaviour {
 		if (col.tag == "Beast" || col.tag == "Brute" || col.tag == "Bat"){
 			col.gameObject.GetComponent<enemyControls> ().doStun ();
 
+		}
+
+	}
+
+	void OnTriggerEnter(Collider col){
+
+		if (col.name == "Malkior") {
+			if(col.gameObject.GetComponent<bossControls>().vulnerable)
+				col.gameObject.GetComponent<bossControls>().damage();
+			
 		}
 
 	}

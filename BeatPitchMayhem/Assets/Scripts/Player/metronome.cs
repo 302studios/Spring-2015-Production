@@ -14,10 +14,12 @@ public class metronome : MonoBehaviour {
 	
 	public Transform bubbleRot;
 
-	public float coolTime = 15f;
+	public float coolTime;
 
 	public Text name;
 	public Text timer;
+
+	worldInfo theWorld;
 
 
 
@@ -30,6 +32,13 @@ public class metronome : MonoBehaviour {
 			theMesh[i].enabled = false;
 
 		}
+
+		theWorld = GameObject.Find ("World").GetComponent<worldInfo>();
+		if (theWorld.levelName == worldInfo.LevelNames.Boss) {
+			coolTime = 15f;
+			Debug.Log ("Boss Met");
+		} else
+			coolTime = 15f;
 
 	}
 	
@@ -86,6 +95,7 @@ public class metronome : MonoBehaviour {
 	void activateMetronome(){
 
 		Instantiate (metBubble, this.transform.position, bubbleRot.rotation); 
+
 	}
 
 	IEnumerator coolDown(){

@@ -8,9 +8,6 @@ public class playerInfo : MonoBehaviour {
 	public float currHealth = 0;
 	float maxHealth = 100;
 	public int speakersComplete;
-	bool unlocked;
-
-	Animator doorAnim;
 
 	//AudioSource source;
 
@@ -21,9 +18,6 @@ public class playerInfo : MonoBehaviour {
 	void Start () {
 	
 		currHealth = maxHealth;
-		//doorAnim = GameObject.Find ("Doors").GetComponent<Animator> ();
-		//source = GetComponent<AudioSource>;
-		unlocked = false;
 	}
 	
 	// Update is called once per frame

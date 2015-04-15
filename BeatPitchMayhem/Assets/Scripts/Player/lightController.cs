@@ -22,6 +22,7 @@ public class lightController : MonoBehaviour {
 
 	public Text name;
 	public Text timer;
+	worldInfo theWorld;
 
 
 
@@ -29,6 +30,7 @@ public class lightController : MonoBehaviour {
 	void Start () {
 	
 		theMesh = this.gameObject.GetComponentsInChildren<MeshRenderer>();
+		theWorld = GameObject.Find ("World").GetComponent<worldInfo>();
 		lightReticle = GameObject.Find ("lightReticle");
 		for (int i = 0; i < theMesh.Length; i++) {
 		
@@ -97,8 +99,11 @@ public class lightController : MonoBehaviour {
 		tempPos.y = 7f;
 		Instantiate (lightDrop, tempPos, lightRot.rotation);
 		tempPos.y = 1f;
-		target.transform.parent = null;
-		target.transform.position = tempPos;
+
+		if (theWorld.levelName == worldInfo.LevelNames.Boss) {
+			target.transform.parent = null;
+			target.transform.position = tempPos;
+		}
 	}
 
 	void reticlePosition(){
