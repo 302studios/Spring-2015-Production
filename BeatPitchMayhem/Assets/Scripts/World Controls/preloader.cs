@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class preloader : MonoBehaviour {
+public class preloaderStart : MonoBehaviour {
 
-	string sceneName;
+	public string sceneName;
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +14,7 @@ public class preloader : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		sceneName = PlayerPrefs.GetString ("Last Scene");
+		//sceneName = PlayerPrefs.GetString ("Last Scene");
 
 		if(Input.GetKey(KeyCode.Space))
 			Application.LoadLevel (sceneName);

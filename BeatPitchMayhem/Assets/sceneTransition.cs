@@ -14,7 +14,7 @@ public class sceneTransition : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		if (Input.GetKey (KeyCode.Space) && isLoadingScene) {
+		if (Input.GetKeyUp (KeyCode.Space) && isLoadingScene) {
 			PlayerPrefs.SetString("Last Scene", sceneName);
 			Application.LoadLevel (sceneName);
 			//PlayerPrefs.SetString("Last Scene", sceneName);
