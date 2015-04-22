@@ -94,6 +94,7 @@
      <Compile Include="Assets\Scripts\World Controls\preloaderStart.cs" />
      <Compile Include="Assets\Scripts\World Controls\textGrow.cs" />
      <Compile Include="Assets\Scripts\World Controls\worldInfo.cs" />
+     <Compile Include="Assets\comicControls.cs" />
      <Compile Include="Assets\djBooth.cs" />
      <Compile Include="Assets\djBoothForceField.cs" />
      <Compile Include="Assets\djBoothMaterialCol.cs" />
