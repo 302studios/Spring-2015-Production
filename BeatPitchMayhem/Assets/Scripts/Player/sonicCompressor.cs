@@ -18,6 +18,10 @@ public class sonicCompressor : MonoBehaviour {
 	public Text name;
 	public Text timer;
 
+	playerInfo thePlayer;
+
+	bool canPad;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -28,6 +32,11 @@ public class sonicCompressor : MonoBehaviour {
 		
 		}
 
+		thePlayer = GameObject.FindGameObjectWithTag ("Player").GetComponent<playerInfo> ();
+		name = GameObject.Find ("Sonic Compressor Text").GetComponent<Text> ();
+		timer = name.gameObject.GetComponentInChildren<Text> ();
+
+		canPad = true;
 
 	}
 	
@@ -44,11 +53,25 @@ public class sonicCompressor : MonoBehaviour {
 		} else
 			timer.text = "";
 
-		if (Input.GetKeyDown (KeyCode.Alpha3) && !cooling)// && !active)
+		if (Input.GetKeyDown (KeyCode.Alpha3) && !cooling && thePlayer.hasSonicCompressor)// && !active)
 			active = !active;
 
 		if ((Input.GetKeyDown (KeyCode.Alpha1) || Input.GetKeyDown (KeyCode.Alpha2)) && active)// && !active)
 			active = !active;
+
+		if ((Input.GetAxis ("PadY") > .75f) && !cooling && thePlayer.hasSonicCompressor && canPad) {
+			active = !active;
+			canPad = false;
+		}
+		
+		if ((Input.GetAxis ("PadX") > .75f || Input.GetAxis ("PadX") < -.75f) && active && canPad) {
+			active = !active;
+			canPad = false;
+		}
+		
+		if ((Input.GetAxis ("PadX") == 0f) && (Input.GetAxis ("PadY") == 0f)) {
+			canPad = true;
+		}
 
 		if (active) {
 			for (int i = 0; i < theMesh.Length; i++) {
@@ -69,6 +92,13 @@ public class sonicCompressor : MonoBehaviour {
 
 		if (Input.GetMouseButtonDown (0) && canShoot && active) {
 
+			firePulse();
+			StartCoroutine(coolDown());
+			canShoot = false;
+		}
+
+		if ((Input.GetAxis("UseGadget") > .75f) && canShoot && active) {
+			
 			firePulse();
 			StartCoroutine(coolDown());
 			canShoot = false;

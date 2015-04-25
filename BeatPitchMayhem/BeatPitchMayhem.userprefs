@@ -1,26 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\setLightColor.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UNSORTED\speakerPanel.cs">
     <Files>
-      <File FileName="Assets\setLightColor.cs" Line="12" Column="24" />
-      <File FileName="Assets\Scripts\World Controls\preloaderStart.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\World Controls\preloader.cs" Line="1" Column="1" />
-      <File FileName="Assets\djBoothMaterialCol.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemy\enemyControls.cs" Line="1" Column="1" />
-      <File FileName="Assets\movingTexture.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\mouseLookBPM.cs" Line="56" Column="17" />
+      <File FileName="Assets\Scripts\Enemy\enemyControls.cs" Line="260" Column="1" />
       <File FileName="Assets\Scripts\Enemy\enemyTrigger.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\World Controls\worldInfo.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemy\bossControls.cs" Line="1" Column="1" />
-      <File FileName="Assets\djBooth.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\sonicBoom.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\bossBlast.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\playerInfo.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\sonicCompressor.cs" Line="1" Column="1" />
-      <File FileName="Assets\ForceFieldCheck.cs" Line="1" Column="1" />
-      <File FileName="Assets\worldAudio.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\dropLight.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\lightController.cs" Line="1" Column="1" />
-      <File FileName="Assets\sceneTransition.cs" Line="19" Column="38" />
+      <File FileName="Assets\Scripts\Player\characterMovement.cs" Line="163" Column="52" />
+      <File FileName="Assets\Scripts\Player\sonicCompressor.cs" Line="100" Column="42" />
+      <File FileName="Assets\Scripts\Player\lightController.cs" Line="117" Column="42" />
+      <File FileName="Assets\Scripts\Player\metronome.cs" Line="112" Column="31" />
+      <File FileName="Assets\Scripts\UNSORTED\comicControls.cs" Line="77" Column="22" />
+      <File FileName="Assets\Scripts\World Controls\preloader.cs" Line="26" Column="1" />
+      <File FileName="Assets\Scripts\UNSORTED\sceneTransition.cs" Line="19" Column="38" />
+      <File FileName="Assets\Scripts\UNSORTED\speakerPanel.cs" Line="62" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

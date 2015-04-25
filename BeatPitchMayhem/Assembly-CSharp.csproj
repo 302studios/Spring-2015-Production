@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_4;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_PRO_LICENSE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ForceFieldCheck.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
@@ -79,6 +78,20 @@
      <Compile Include="Assets\Scripts\Player\playerInfo.cs" />
      <Compile Include="Assets\Scripts\Player\sonicBoom.cs" />
      <Compile Include="Assets\Scripts\Player\sonicCompressor.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\ForceFieldCheck.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\comicControls.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\djBooth.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\djBoothForceField.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\djBoothMaterialCol.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\drawFacing.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\movingTexture.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\randomColor.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\sceneTransition.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\setLightColor.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\setMaterialColor.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\speakerPanel.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\thanksForPlaying.cs" />
+     <Compile Include="Assets\Scripts\UNSORTED\worldAudio.cs" />
      <Compile Include="Assets\Scripts\World Controls\Beat.cs" />
      <Compile Include="Assets\Scripts\World Controls\BeatSynchronizer\BeatCounter.cs" />
      <Compile Include="Assets\Scripts\World Controls\BeatSynchronizer\BeatCounterWithString.cs" />
@@ -94,19 +107,7 @@
      <Compile Include="Assets\Scripts\World Controls\preloaderStart.cs" />
      <Compile Include="Assets\Scripts\World Controls\textGrow.cs" />
      <Compile Include="Assets\Scripts\World Controls\worldInfo.cs" />
-     <Compile Include="Assets\comicControls.cs" />
-     <Compile Include="Assets\djBooth.cs" />
-     <Compile Include="Assets\djBoothForceField.cs" />
-     <Compile Include="Assets\djBoothMaterialCol.cs" />
-     <Compile Include="Assets\drawFacing.cs" />
-     <Compile Include="Assets\movingTexture.cs" />
-     <Compile Include="Assets\randomColor.cs" />
-     <Compile Include="Assets\sceneTransition.cs" />
-     <Compile Include="Assets\setLightColor.cs" />
-     <Compile Include="Assets\setMaterialColor.cs" />
-     <Compile Include="Assets\speakerPanel.cs" />
-     <Compile Include="Assets\thanksForPlaying.cs" />
-     <Compile Include="Assets\worldAudio.cs" />
+     <Compile Include="Assets\getGadget.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />
@@ -185,7 +186,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

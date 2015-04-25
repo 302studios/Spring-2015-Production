@@ -18,7 +18,15 @@ public class worldInfo : MonoBehaviour {
 	string levelNameString;
 	public int numberOfSpeakersNeeded;
 	public Color theColor;
+	public AudioSource worldAudio;
 
+	public AudioClip[] edmClips;
+	public AudioClip[] rockClips;
+	public AudioClip[] hipHopClips;
+	public AudioClip[] basementClips;
+	public AudioClip[] loungeClips;
+
+	public AudioClip[] currentClips;
 
 	// Boss Variables
 
@@ -33,25 +41,35 @@ public class worldInfo : MonoBehaviour {
 	void Start () {
 		Screen.lockCursor = true; 
 
+		worldAudio = this.gameObject.GetComponent<AudioSource> ();
+
 		switch (levelName) {
 
 			case LevelNames.EDM:
 				levelNameString = "L1-EDM";
+				PlayerPrefs.SetInt ("Metronome", 0);
+				PlayerPrefs.SetInt ("Light Controller", 0);
+				PlayerPrefs.SetInt ("Sonic Compressor", 0);
 				theColor = Color.green;
+				currentClips = edmClips;
 				break;
 			case LevelNames.Rock:
 				levelNameString = "L2a-Rock";	
 				theColor = Color.red;
+				currentClips = rockClips;
 				break;
 			case LevelNames.HipHop:
 				levelNameString = "L2b-Hip-Hop";	
 				theColor = Color.cyan;
+				currentClips = hipHopClips;
 				break;
 			case LevelNames.Basement:
-				levelNameString = "L3-Basement";	
+				levelNameString = "L3-Basement";
+				currentClips = basementClips;
 				break;
 			case LevelNames.Lounge:
-				levelNameString = "L4-Lounge";	
+				levelNameString = "L4-Lounge";
+				currentClips = loungeClips;
 				break;
 			case LevelNames.Boss:
 				levelNameString = "L5-Boss";
@@ -61,6 +79,8 @@ public class worldInfo : MonoBehaviour {
 				break;
 
 		}
+
+		worldAudio.clip = currentClips[0];
 
 		bossInitialized = false;
 		

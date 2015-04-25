@@ -59,6 +59,8 @@ public class enemyControls : MonoBehaviour {
 	public Vector3 relativePos;
 	GameObject trackPlayer;
 
+	worldInfo theWorld;
+
 	
 	
 	// Use this for initialization
@@ -68,17 +70,21 @@ public class enemyControls : MonoBehaviour {
 		thePlayer = GameObject.Find ("First Person Controller").GetComponent<characterMovement>();
 		beatObserver = GetComponent<BeatObserver>();
 		source = GetComponent<AudioSource>();
+		theWorld = GameObject.Find ("World").GetComponent<worldInfo> ();
 		anims = GetComponentInChildren<Animator>();
 		if (this.tag == "Brute"){
 			attackPower = 25f;
+			source.clip = theWorld.currentClips [1];
 		}
 		
 		if (this.tag == "Beast"){
 			attackPower = 10f;
+			source.clip = theWorld.currentClips [5];
 		}
 		
 		if (this.tag == "Bat") {
 			attackPower = 3f;
+			source.clip = theWorld.currentClips [3];
 		}
 		trackPlayer = GameObject.FindGameObjectWithTag ("PlayerFront");
 	}

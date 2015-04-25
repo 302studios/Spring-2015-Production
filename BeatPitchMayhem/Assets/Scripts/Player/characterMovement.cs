@@ -26,6 +26,8 @@ public class characterMovement : MonoBehaviour {
 	public bool vertException = false;
 	public float groundFloor = 1.6f;
 	public float gravity = .05f;
+	float v;
+	float h;
 	//public Transform groundCheck;
 	//float groundRadius = 0.2f;
 	//public LayerMask whatIsGround;
@@ -125,8 +127,8 @@ public class characterMovement : MonoBehaviour {
 
 		Vector3 right = new Vector3 (forward.z, 0, -forward.x);
 
-		float v = Input.GetAxisRaw ("Vertical");
-		float h = Input.GetAxisRaw ("Horizontal");
+		v = Input.GetAxisRaw ("Vertical");
+		h = Input.GetAxisRaw ("Horizontal");
 
 		if (v < -0.2)
 			movingBack = true;
@@ -158,7 +160,7 @@ public class characterMovement : MonoBehaviour {
 		float curSmooth = speedSmoothing * Time.deltaTime;
 
 		targetSpeed = Mathf.Min (targetDirection.magnitude, 1.0f);
-		isRunning = Input.GetKey(KeyCode.LeftShift);
+		isRunning = Input.GetKey(KeyCode.Joystick1Button8);
 		if (isRunning && !isCrouching) {
 			targetSpeed *= runSpeed;
 		} 
@@ -207,8 +209,37 @@ public class characterMovement : MonoBehaviour {
 				canDodge = false;
 				StartCoroutine (dodgeCooling ());
 			}
-
 		}
+
+		// Joystick Controls
+		if (canDodge) {
+			
+			if ((v > .75f) && Input.GetKeyDown(KeyCode.Joystick1Button2)) {
+				
+				moveSpeed *= dodgePower;
+				canDodge = false;
+				StartCoroutine (dodgeCooling ());
+			}
+			if ((h < -.75f) && Input.GetKeyDown(KeyCode.Joystick1Button2)) {
+				
+				moveSpeed *= dodgePower;
+				canDodge = false;
+				StartCoroutine (dodgeCooling ());
+			}
+			if ((v < -.75f) && Input.GetKeyDown(KeyCode.Joystick1Button2)) {
+				
+				moveSpeed *= dodgePower;
+				canDodge = false;
+				StartCoroutine (dodgeCooling ());
+			}
+			if ((h > .75f) && Input.GetKeyDown(KeyCode.Joystick1Button2)) {
+				
+				moveSpeed *= dodgePower;
+				canDodge = false;
+				StartCoroutine (dodgeCooling ());
+			}
+		}
+
 	}
 	void doubleTapDodge (){
 

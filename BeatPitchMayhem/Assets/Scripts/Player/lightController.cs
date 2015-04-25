@@ -23,7 +23,9 @@ public class lightController : MonoBehaviour {
 	public Text name;
 	public Text timer;
 	worldInfo theWorld;
+	playerInfo thePlayer;
 
+	bool canPad;
 
 
 	// Use this for initialization
@@ -38,6 +40,13 @@ public class lightController : MonoBehaviour {
 
 		}
 		lightReticle.GetComponent<Light> ().enabled = false;
+
+		thePlayer = GameObject.FindGameObjectWithTag ("Player").GetComponent<playerInfo> ();
+
+		name = GameObject.Find ("Light Controller Text").GetComponent<Text> ();
+		timer = name.gameObject.GetComponentInChildren<Text> ();
+
+		canPad = true;
 
 	}
 	
@@ -56,11 +65,25 @@ public class lightController : MonoBehaviour {
 
 		reticlePosition ();
 
-		if (Input.GetKeyDown (KeyCode.Alpha2) && !cooling)// && !active)
+		if (Input.GetKeyDown (KeyCode.Alpha2) && !cooling && thePlayer.hasLightController)// && !active)
 			active = !active;
 
 		if ((Input.GetKeyDown (KeyCode.Alpha1) || Input.GetKeyDown (KeyCode.Alpha3)) && active)// && !active)
 			active = !active;
+
+		if ((Input.GetAxis ("PadX") > .75f) && !cooling && thePlayer.hasLightController && canPad) {
+			active = !active;
+			canPad = false;
+		}
+		
+		if ((Input.GetAxis ("PadX") < -.75f || Input.GetAxis ("PadY") > .75f) && active && canPad) {
+			active = !active;
+			canPad = false;
+		}
+		
+		if ((Input.GetAxis ("PadX") == 0f) && (Input.GetAxis ("PadY") == 0f)) {
+			canPad = true;
+		}
 
 		if (active) {
 			for (int i = 0; i < theMesh.Length; i++) {
@@ -86,6 +109,13 @@ public class lightController : MonoBehaviour {
 
 		if (Input.GetMouseButtonDown (0) && canShoot && active) {
 
+			activateLight();
+			StartCoroutine(coolDown());
+			canShoot = false;
+		}
+
+		if ((Input.GetAxis("UseGadget") > .75f) && canShoot && active) {
+			
 			activateLight();
 			StartCoroutine(coolDown());
 			canShoot = false;

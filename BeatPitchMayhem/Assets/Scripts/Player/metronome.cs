@@ -20,6 +20,9 @@ public class metronome : MonoBehaviour {
 	public Text timer;
 
 	worldInfo theWorld;
+	playerInfo thePlayer;
+
+	bool canPad;
 
 
 
@@ -40,6 +43,11 @@ public class metronome : MonoBehaviour {
 		} else
 			coolTime = 15f;
 
+		thePlayer = GameObject.FindGameObjectWithTag ("Player").GetComponent<playerInfo> ();
+		name = GameObject.Find ("Metronome Text").GetComponent<Text> ();
+		timer = name.gameObject.GetComponentInChildren<Text> ();
+
+		canPad = true;
 	}
 	
 	// Update is called once per frame
@@ -55,11 +63,26 @@ public class metronome : MonoBehaviour {
 		} else
 			timer.text = "";
 
-		if (Input.GetKeyDown (KeyCode.Alpha1) && !cooling)// && !active)
+		if (Input.GetKeyDown (KeyCode.Alpha1) && !cooling && thePlayer.hasMetronome)// && !active)
 			active = !active;
 
 		if ((Input.GetKeyDown (KeyCode.Alpha2) || Input.GetKeyDown (KeyCode.Alpha3)) && active)// && !active)
 			active = !active;
+
+		if ((Input.GetAxis ("PadX") < -.75f) && !cooling && thePlayer.hasMetronome && canPad) {
+			active = !active;
+			canPad = false;
+		}
+		
+		if ((Input.GetAxis ("PadX") > .75f || Input.GetAxis ("PadY") > .75f) && active && canPad) {
+			active = !active;
+			canPad = false;
+		}
+
+		if ((Input.GetAxis ("PadX") == 0f) && (Input.GetAxis ("PadY") == 0f)) {
+			canPad = true;
+		}
+
 
 		if (active) {
 			for (int i = 0; i < theMesh.Length; i++) {
@@ -85,6 +108,13 @@ public class metronome : MonoBehaviour {
 
 		if (Input.GetMouseButtonDown (0) && canShoot && active) {
 
+			activateMetronome();
+			StartCoroutine(coolDown());
+			canShoot = false;
+		}
+
+		if ((Input.GetAxis("UseGadget") > .75f) && canShoot && active) {
+			
 			activateMetronome();
 			StartCoroutine(coolDown());
 			canShoot = false;
