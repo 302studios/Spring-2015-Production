@@ -17,15 +17,15 @@ public class enemyTrigger : MonoBehaviour {
 		attackAudio = this.GetComponent<AudioSource> ();
 		theWorld = GameObject.Find ("World").GetComponent<worldInfo> ();
 
-		if (this.tag == "Brute"){
+		if (this.transform.parent.tag == "Brute"){
 			attackAudio.clip = theWorld.currentClips [2];
 		}
 		
-		if (this.tag == "Beast"){
+		if (this.transform.parent.tag == "Beast"){
 			attackAudio.clip = theWorld.currentClips [6];
 		}
 		
-		if (this.tag == "Bat") {
+		if (this.transform.parent.tag == "Bat") {
 			attackAudio.clip = theWorld.currentClips [4];
 		}
 

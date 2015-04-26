@@ -18,6 +18,7 @@ public class characterMovement : MonoBehaviour {
 	private bool movingBack = false;
 	private bool isMoving = false;
 	bool isRunning = false;
+	bool isRunningWithJoy = false;
 	private bool slammed = false;
 	public Vector3 movement = Vector3.zero;
 	private Vector3 moveDirection = Vector3.zero;
@@ -160,8 +161,9 @@ public class characterMovement : MonoBehaviour {
 		float curSmooth = speedSmoothing * Time.deltaTime;
 
 		targetSpeed = Mathf.Min (targetDirection.magnitude, 1.0f);
-		isRunning = Input.GetKey(KeyCode.Joystick1Button8);
-		if (isRunning && !isCrouching) {
+		isRunning = Input.GetKey(KeyCode.LeftShift);
+		isRunningWithJoy = Input.GetKey(KeyCode.Joystick1Button8);
+		if ((isRunning || isRunningWithJoy )&& !isCrouching) {
 			targetSpeed *= runSpeed;
 		} 
 		else if(isCrouching)
@@ -320,6 +322,20 @@ public class characterMovement : MonoBehaviour {
 		}
 
 		if(Input.GetKeyUp(KeyCode.LeftControl))
+		{
+			isCrouching = false;	
+			theCamera.transform.localPosition = cameraLocStanding;
+			
+		}
+
+		if(Input.GetKeyDown(KeyCode.JoystickButton10))
+		{
+			isCrouching = true;
+			theCamera.transform.localPosition = cameraLocCrouching;
+			
+		}
+		
+		if(Input.GetKeyUp(KeyCode.JoystickButton10))
 		{
 			isCrouching = false;	
 			theCamera.transform.localPosition = cameraLocStanding;

@@ -73,17 +73,17 @@ public class enemyControls : MonoBehaviour {
 		theWorld = GameObject.Find ("World").GetComponent<worldInfo> ();
 		anims = GetComponentInChildren<Animator>();
 		if (this.tag == "Brute"){
-			attackPower = 25f;
+			attackPower = 40f;
 			source.clip = theWorld.currentClips [1];
 		}
 		
 		if (this.tag == "Beast"){
-			attackPower = 10f;
+			attackPower = 20f;
 			source.clip = theWorld.currentClips [5];
 		}
 		
 		if (this.tag == "Bat") {
-			attackPower = 3f;
+			attackPower = 7f;
 			source.clip = theWorld.currentClips [3];
 		}
 		trackPlayer = GameObject.FindGameObjectWithTag ("PlayerFront");
@@ -110,19 +110,19 @@ public class enemyControls : MonoBehaviour {
 				canAttack = false;
 		}*/
 		if (this.tag == "Brute") {
-			if (downBeat && ((beatObserver.beatMask & BeatType.DownBeat) == BeatType.DownBeat)) {
+			if (onBeat && ((beatObserver.beatMask & BeatType.OnBeat) == BeatType.OnBeat)) {
 				canAttack = true;
 			} else
 				canAttack = false;
 		}
 		if (this.tag == "Beast") {
-			if (downBeat && ((beatObserver.beatMask & BeatType.DownBeat) == BeatType.DownBeat)) {
+			if (onBeat && ((beatObserver.beatMask & BeatType.OnBeat) == BeatType.OnBeat)) {
 				canAttack = true;
 			} else
 				canAttack = false;
 		}
 		if (this.tag == "Bat") {
-			if (downBeat && ((beatObserver.beatMask & BeatType.DownBeat) == BeatType.DownBeat)) {
+			if (onBeat && ((beatObserver.beatMask & BeatType.OnBeat) == BeatType.OnBeat)) {
 				canAttack = true;
 			} else
 				canAttack = false;

@@ -27,7 +27,7 @@ public class BeatCounterWithString : MonoBehaviour {
 	private float currentSample;
 
 	
-	void Awake ()
+	void Start ()
 	{
 		// Calculate number of samples between each beat.
 		audioBpm = audioSource.GetComponent<BeatSynchronizer>().bpm;
@@ -45,6 +45,7 @@ public class BeatCounterWithString : MonoBehaviour {
 		nextBeatSample = 0f;
 
 		observers = GameObject.FindGameObjectsWithTag(tagName);
+		Debug.Log ("Tag: " + tagName);
 	}
 
 	void Update(){
@@ -124,6 +125,8 @@ public class BeatCounterWithString : MonoBehaviour {
 		samplePeriod *= beatScalar;
 		sampleOffset *= beatScalar;
 		nextBeatSample = 0f;*/
+
+		observers = GameObject.FindGameObjectsWithTag(tagName);
 	}
 
 }
