@@ -45,7 +45,6 @@ public class BeatCounterWithString : MonoBehaviour {
 		nextBeatSample = 0f;
 
 		observers = GameObject.FindGameObjectsWithTag(tagName);
-		Debug.Log ("Tag: " + tagName);
 	}
 
 	void Update(){

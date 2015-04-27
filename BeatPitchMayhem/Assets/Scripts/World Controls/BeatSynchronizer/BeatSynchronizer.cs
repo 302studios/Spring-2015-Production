@@ -38,7 +38,6 @@ public class BeatSynchronizer : MonoBehaviour {
 
 	IEnumerator audioStartDelay(){
 
-		Debug.Log ("Hello Delay");
 		yield return new WaitForSeconds (1);
 		audioGo();
 		

@@ -10,8 +10,8 @@ public class sceneTransition : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	
-
-		theWorld = GameObject.Find ("World").GetComponent<worldInfo>(); 
+		if(!isLoadingScene)
+			theWorld = GameObject.Find ("World").GetComponent<worldInfo>(); 
 
 	}
 	

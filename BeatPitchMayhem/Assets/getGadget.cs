@@ -16,9 +16,16 @@ public class getGadget : MonoBehaviour {
 	public bool attachedToForcefield;
 	public GameObject forceField1;
 	public GameObject forceField2;
+	public pauseScreen pause;
+	public mouseLookBPM camRotX;
+	public mouseLookBPM camRotY;
 
 	// Use this for initialization
 	void Start () {
+
+		pause = GameObject.Find ("Paused").GetComponent<pauseScreen> ();
+		camRotX = GameObject.Find ("First Person Controller").GetComponent<mouseLookBPM> ();
+		camRotY = GameObject.Find ("Main Camera").GetComponent<mouseLookBPM> ();
 
 	}
 	
@@ -39,18 +46,30 @@ public class getGadget : MonoBehaviour {
 				case TheGadgets.Metronome:
 					PlayerPrefs.SetInt ("Metronome", 1);
 					col.gameObject.GetComponent<playerInfo>().gadgetCheck();
+					pause.metDetails.enabled = true;
+					pause.thePlayer.canControl = false;
+					camRotX.canControl = false;
+					camRotY.canControl = false;
 					if(destroyOnGet)
 						Destroy(this.gameObject);
 					break;
 				case TheGadgets.LightController:
 					PlayerPrefs.SetInt ("Light Controller", 1);
 					col.gameObject.GetComponent<playerInfo>().gadgetCheck();
+					pause.lcDetails.enabled = true;
+					pause.thePlayer.canControl = false;
+					camRotX.canControl = false;
+					camRotY.canControl = false;
 					if(destroyOnGet)
 						Destroy(this.gameObject);
 					break;
 				case TheGadgets.SonicCompressor:
 					PlayerPrefs.SetInt ("Sonic Compressor", 1);
 					col.gameObject.GetComponent<playerInfo>().gadgetCheck();
+					pause.scDetails.enabled = true;
+					pause.thePlayer.canControl = false;
+					camRotX.canControl = false;
+					camRotY.canControl = false;
 					if(destroyOnGet)
 						Destroy(this.gameObject);
 					break;
