@@ -11,6 +11,9 @@ public class speakerPanel : MonoBehaviour {
 	public ParticleSystem psLeft;
 	public ParticleSystem psRight;
 	public worldInfo theWorld;
+	public pauseScreen pause;
+	public mouseLookBPM camRotX;
+	public mouseLookBPM camRotY;
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +25,10 @@ public class speakerPanel : MonoBehaviour {
 		thePlayer = GameObject.Find ("First Person Controller").GetComponent<playerInfo>();
 		psLeft.startColor = theWorld.theColor;
 		psRight.startColor = theWorld.theColor;
+
+		pause = GameObject.Find ("Paused").GetComponent<pauseScreen> ();
+		camRotX = GameObject.Find ("First Person Controller").GetComponent<mouseLookBPM> ();
+		camRotY = GameObject.Find ("Main Camera").GetComponent<mouseLookBPM> ();
 	}
 	
 	// Update is called once per frame
@@ -49,6 +56,10 @@ public class speakerPanel : MonoBehaviour {
 				if(PlayerPrefs.GetString("WhereTo") == "Lounge"){
 					PlayerPrefs.SetInt ("Sonic Compressor", 1);
 					thePlayer.gadgetCheck();
+					pause.scDetails.enabled = true;
+					pause.thePlayer.canControl = false;
+					camRotX.canControl = false;
+					camRotY.canControl = false;
 				}
 
 			}
@@ -73,6 +84,10 @@ public class speakerPanel : MonoBehaviour {
 				if(PlayerPrefs.GetString("WhereTo") == "Lounge"){
 					PlayerPrefs.SetInt ("Sonic Compressor", 1);
 					thePlayer.gadgetCheck();
+					pause.scDetails.enabled = true;
+					pause.thePlayer.canControl = false;
+					camRotX.canControl = false;
+					camRotY.canControl = false;
 				}
 			}
 			
