@@ -1,0 +1,2988 @@
+Initialize engine version: 4.6.4f1 (99f88340878d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M    (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     1972 MB
+FMOD failed to initialize ... A call to a standard soundcard driver failed, which could possibly mean a bug in the driver or resources were missing or exhausted. 
+ 
+(Filename:  Line: 241)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.231 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 4.6.4f1 (99f88340878d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M    (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     1972 MB
+FMOD failed to initialize ... A call to a standard soundcard driver failed, which could possibly mean a bug in the driver or resources were missing or exhausted. 
+ 
+(Filename:  Line: 241)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.203 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\System.Core.dll (this message is harmless)
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\System.dll (this message is harmless)
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+UnloadTime: 8.910944 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 226.
+Total: 2.005784 ms (FindLiveObjects: 0.021778 ms CreateObjectMapping: 0.015373 ms MarkObjects: 0.212236 ms  DeleteObjects: 0.826740 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at comicControls.panelTransition () [0x00000] in <filename unknown>:0 
+  at comicControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 1.135913 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 226.
+Total: 3.172017 ms (FindLiveObjects: 0.060211 ms CreateObjectMapping: 0.036725 ms MarkObjects: 0.631585 ms  DeleteObjects: 0.054233 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at comicControls.panelTransition () [0x00000] in <filename unknown>:0 
+  at comicControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 0.852362 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 225.
+Total: 1.961372 ms (FindLiveObjects: 0.025195 ms CreateObjectMapping: 0.028184 ms MarkObjects: 0.348887 ms  DeleteObjects: 0.023059 ms)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+UnloadTime: 0.814783 ms
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 39308.
+Total: 8.356653 ms (FindLiveObjects: 2.794518 ms CreateObjectMapping: 0.132380 ms MarkObjects: 4.364727 ms  DeleteObjects: 0.065763 ms)
+
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Boo.Lang.dll (this message is harmless)
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\System.Core.dll (this message is harmless)
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\System.dll (this message is harmless)
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+UnloadTime: 18.783571 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 228.
+Total: 4.047440 ms (FindLiveObjects: 0.077293 ms CreateObjectMapping: 0.063201 ms MarkObjects: 0.612795 ms  DeleteObjects: 1.295197 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+UnloadTime: 174.493011 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 753 unused Assets to reduce memory usage. Loaded Objects now: 239.
+Total: 21.661791 ms (FindLiveObjects: 0.093947 ms CreateObjectMapping: 0.273729 ms MarkObjects: 0.764820 ms  DeleteObjects: 18.948408 ms)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+UnloadTime: 0.702045 ms
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 44851.
+Total: 17.260765 ms (FindLiveObjects: 6.904733 ms CreateObjectMapping: 0.257929 ms MarkObjects: 8.877636 ms  DeleteObjects: 0.083698 ms)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+UnloadTime: 145.758240 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 894 unused Assets to reduce memory usage. Loaded Objects now: 241.
+Total: 17.633139 ms (FindLiveObjects: 0.168678 ms CreateObjectMapping: 0.583757 ms MarkObjects: 0.819907 ms  DeleteObjects: 14.244616 ms)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+UnloadTime: 1.314841 ms
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 7632.
+Total: 5.770954 ms (FindLiveObjects: 1.120967 ms CreateObjectMapping: 0.148608 ms MarkObjects: 2.311541 ms  DeleteObjects: 0.101207 ms)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+UnloadTime: 22.280565 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 238 unused Assets to reduce memory usage. Loaded Objects now: 240.
+Total: 6.848364 ms (FindLiveObjects: 0.043130 ms CreateObjectMapping: 0.109748 ms MarkObjects: 0.453938 ms  DeleteObjects: 4.146512 ms)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+UnloadTime: 0.858767 ms
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 41375.
+Total: 12.266160 ms (FindLiveObjects: 3.523467 ms CreateObjectMapping: 0.171668 ms MarkObjects: 7.367212 ms  DeleteObjects: 0.079855 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+No more box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+No more box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+No more box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+IndexOutOfRangeException: Array index is out of range.
+  at comicControls.panelTransition () [0x00000] in <filename unknown>:0 
+  at comicControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 1.053495 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 228.
+Total: 2.191544 ms (FindLiveObjects: 0.023486 ms CreateObjectMapping: 0.034162 ms MarkObjects: 0.342909 ms  DeleteObjects: 0.023913 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+UnloadTime: 209.949753 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 824 unused Assets to reduce memory usage. Loaded Objects now: 242.
+Total: 21.722857 ms (FindLiveObjects: 0.137078 ms CreateObjectMapping: 0.372374 ms MarkObjects: 0.488955 ms  DeleteObjects: 18.320238 ms)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+UnloadTime: 0.929655 ms
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 12263.
+Total: 7.793393 ms (FindLiveObjects: 2.127916 ms CreateObjectMapping: 0.309600 ms MarkObjects: 3.496564 ms  DeleteObjects: 0.057649 ms)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Target repo?
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Reset: (0.0, 3.4, 1.5)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Level '' (-1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 276)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Level '' (-1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 276)
+
+IndexOutOfRangeException: Array index is out of range.
+  at comicControls.panelTransition () [0x00000] in <filename unknown>:0 
+  at comicControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 1.468574 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 227.
+Total: 3.129741 ms (FindLiveObjects: 0.038006 ms CreateObjectMapping: 0.035443 ms MarkObjects: 0.620909 ms  DeleteObjects: 0.059357 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Level '' (-1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 276)
+
+Level '' (-1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 276)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+UnloadTime: 52.566761 ms
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 12265.
+Total: 8.340425 ms (FindLiveObjects: 1.457044 ms CreateObjectMapping: 0.220350 ms MarkObjects: 3.349664 ms  DeleteObjects: 1.287511 ms)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+UnloadTime: 31.103113 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 356 unused Assets to reduce memory usage. Loaded Objects now: 244.
+Total: 8.075236 ms (FindLiveObjects: 0.087115 ms CreateObjectMapping: 0.137505 ms MarkObjects: 0.679413 ms  DeleteObjects: 6.161691 ms)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+UnloadTime: 2.241081 ms
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An Unvloading 3 Unused Serialized files (Seria
+li
+zed filme:   Line: 311)
+
+/ Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 44044.
+Total: 17.598122 ms (FindLiveObjects: 5.436585 ms CreateObjectMapping: 0.231453 ms MarkObjects: 9.792345 ms  DeleteObjects: 0.090531 ms)
+
+Boss Met
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+IndexOutOfRangeException: Array index is out of range.
+  at worldInfo.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 1.044101 ms
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 39308.
+Total: 23.020617 ms (FindLiveObjects: 11.692225 ms CreateObjectMapping: 0.242128 ms MarkObjects: 9.270082 ms  DeleteObjects: 0.254085 ms)
+
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Take2_Data\Managed\Boo.Lang.dll (this message is harmless)
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+No more box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+No more box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+No more box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Boss Met
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Reset: (0.0, 0.8, 1.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Boss Met
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Reset: (0.0, 0.8, 1.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Boss Met
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+UnloadTime: 144.164963 ms
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 933 unused Assets to reduce memory usage. Loaded Objects now: 230.
+Total: 14.072948 ms (FindLiveObjects: 0.260918 ms CreateObjectMapping: 0.396288 ms MarkObjects: 0.576924 ms  DeleteObjects: 11.515859 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+UnloadTime: 0.427462 ms
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 44043.
+Total: 26.435617 ms (FindLiveObjects: 5.179937 ms CreateObjectMapping: 0.141348 ms MarkObjects: 18.911255 ms  DeleteObjects: 1.073993 ms)
+
+Boss Met
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+IndexOutOfRangeException: Array index is out of range.
+  at worldInfo.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 311)
+
+No more box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+No more box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+No more box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Boss Met
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Reset: (0.0, 0.8, 1.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+No more box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+No more box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Boss Met
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Reset: (0.0, 0.8, 1.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Boss Met
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Reset: (0.0, 0.8, 1.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+We Made It!!!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+UnloadTime: 101.675819 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 929 unused Assets to reduce memory usage. Loaded Objects now: 246.
+Total: 7.904849 ms (FindLiveObjects: 0.067044 ms CreateObjectMapping: 0.231026 ms MarkObjects: 0.363407 ms  DeleteObjects: 6.373928 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
