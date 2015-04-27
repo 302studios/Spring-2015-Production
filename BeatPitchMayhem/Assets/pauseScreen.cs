@@ -11,6 +11,7 @@ public class pauseScreen : MonoBehaviour {
 	public Text Tooltip1Text;
 	public Text Tooltip2Text;
 	public Text Tooltip3Text;
+	public Text ContinueText;
 	public Image TooltipBkgd;
 
 
@@ -25,6 +26,7 @@ public class pauseScreen : MonoBehaviour {
 		Tooltip2Text.enabled = false;
 		Tooltip3Text.enabled = false;
 		TooltipBkgd.enabled = false;
+		ContinueText.enabled = false;
 		this.GetComponent<Text> ().enabled = false;
 
 	}
@@ -54,6 +56,7 @@ public class pauseScreen : MonoBehaviour {
 			Tooltip2Text.enabled = false;
 			Tooltip3Text.enabled = false;
 			TooltipBkgd.enabled = false;
+			ContinueText.enabled = false;
 		}
 
 	}

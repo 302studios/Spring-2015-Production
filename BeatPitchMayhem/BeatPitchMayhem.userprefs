@@ -1,8 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\toolTipsMain.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Environment\lightPulse.cs">
     <Files>
-      <File FileName="Assets\toolTipsMain.cs" Line="7" Column="22" />
+      <File FileName="Assets\toolTipsMain.cs" Line="60" Column="38" />
+      <File FileName="Assets\toolTip.cs" Line="6" Column="9" />
+      <File FileName="Assets\getGadget.cs" Line="19" Column="2" />
+      <File FileName="Assets\pauseScreen.cs" Line="59" Column="1" />
+      <File FileName="Assets\Scripts\UNSORTED\speakerPanel.cs" Line="88" Column="22" />
+      <File FileName="Assets\Scripts\Player\characterMovement.cs" Line="395" Column="1" />
+      <File FileName="Assets\Scripts\UNSORTED\movingTexture.cs" Line="8" Column="2" />
+      <File FileName="Assets\Scripts\Environment\lightPulse.cs" Line="34" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

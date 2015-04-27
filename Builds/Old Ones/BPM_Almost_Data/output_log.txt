@@ -1,0 +1,3977 @@
+Initialize engine version: 4.6.4f1 (99f88340878d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
+    Vendor:   Intel
+    VRAM:     896 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Almost_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Almost_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Almost_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Almost_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Almost_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Almost_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Almost_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Almost_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Almost_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Almost_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.047 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Almost_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\BPM_Almost_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 3.243961 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 259.
+Total: 6.503282 ms (FindLiveObjects: 0.016263 ms CreateObjectMapping: 0.006927 ms MarkObjects: 0.093665 ms  DeleteObjects: 5.863284 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at comicControls.panelTransition () [0x00000] in <filename unknown>:0 
+  at comicControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 0.370747 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 259.
+Total: 0.620722 ms (FindLiveObjects: 0.009035 ms CreateObjectMapping: 0.008432 ms MarkObjects: 0.121674 ms  DeleteObjects: 0.008432 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at comicControls.panelTransition () [0x00000] in <filename unknown>:0 
+  at comicControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 0.267142 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 258.
+Total: 0.442426 ms (FindLiveObjects: 0.008131 ms CreateObjectMapping: 0.005722 ms MarkObjects: 0.099990 ms  DeleteObjects: 0.005722 ms)
+
+UnloadTime: 0.349664 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 39013.
+Total: 3.184629 ms (FindLiveObjects: 1.111638 ms CreateObjectMapping: 0.047284 ms MarkObjects: 1.666404 ms  DeleteObjects: 0.031924 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+UnloadTime: 34.991177 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 742 unused Assets to reduce memory usage. Loaded Objects now: 264.
+Total: 5.528980 ms (FindLiveObjects: 0.019576 ms CreateObjectMapping: 0.063849 ms MarkObjects: 0.111133 ms  DeleteObjects: 4.986563 ms)
+
+UnloadTime: 0.315330 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 44505.
+Total: 3.684882 ms (FindLiveObjects: 1.217652 ms CreateObjectMapping: 0.044272 ms MarkObjects: 2.069075 ms  DeleteObjects: 0.024696 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+UnloadTime: 35.289639 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 882 unused Assets to reduce memory usage. Loaded Objects now: 265.
+Total: 5.455493 ms (FindLiveObjects: 0.049995 ms CreateObjectMapping: 0.155707 ms MarkObjects: 0.137938 ms  DeleteObjects: 4.833565 ms)
+
+UnloadTime: 0.291839 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 7350.
+Total: 0.934547 ms (FindLiveObjects: 0.159924 ms CreateObjectMapping: 0.034334 ms MarkObjects: 0.396045 ms  DeleteObjects: 0.010541 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Target repo?
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at dropLight.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at enemyControls.enemyPatrol () [0x00000] in <filename unknown>:0 
+  at enemyControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 5.624452 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 233 unused Assets to reduce memory usage. Loaded Objects now: 267.
+Total: 3.909860 ms (FindLiveObjects: 0.022286 ms CreateObjectMapping: 0.025901 ms MarkObjects: 0.142757 ms  DeleteObjects: 3.407800 ms)
+
+UnloadTime: 0.314126 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 40714.
+Total: 3.371961 ms (FindLiveObjects: 1.095676 ms CreateObjectMapping: 0.047284 ms MarkObjects: 1.851325 ms  DeleteObjects: 0.022889 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+

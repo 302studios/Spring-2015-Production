@@ -35,6 +35,7 @@ public class toolTipsMain : MonoBehaviour {
 
 			pause.TooltipBkgd.enabled = true;
 			pause.Tooltip1Text.enabled = true;
+			pause.ContinueText.enabled = true;
 			pause.thePlayer.canControl = false;
 			camRotX.canControl = false;
 			camRotY.canControl = false;
@@ -45,6 +46,7 @@ public class toolTipsMain : MonoBehaviour {
 			
 			pause.TooltipBkgd.enabled = true;
 			pause.Tooltip2Text.enabled = true;
+			pause.ContinueText.enabled = true;
 			pause.thePlayer.canControl = false;
 			camRotX.canControl = false;
 			camRotY.canControl = false;
@@ -55,6 +57,7 @@ public class toolTipsMain : MonoBehaviour {
 			
 			pause.TooltipBkgd.enabled = true;
 			pause.Tooltip3Text.enabled = true;
+			pause.ContinueText.enabled = true;
 			pause.thePlayer.canControl = false;
 			camRotX.canControl = false;
 			camRotY.canControl = false;

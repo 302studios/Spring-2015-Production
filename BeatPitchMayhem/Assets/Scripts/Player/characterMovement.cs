@@ -54,7 +54,7 @@ public class characterMovement : MonoBehaviour {
 	bool isDodging = false;
 	bool canDodge = true;
 	public float dodgePower = 20f;
-	float dodgeCooldown = 1f;
+	float dodgeCooldown = 5f;
 	public int keyCount = 0;
 	public float keyCool = 0.2f;
 

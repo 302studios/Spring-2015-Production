@@ -1,0 +1,357 @@
+Initialize engine version: 4.6.4f1 (99f88340878d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
+    Vendor:   Intel
+    VRAM:     896 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.051 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\System.dll (this message is harmless)
+Joystick connected ("Controller (Xbox 360 Wireless Receiver for Windows)").
+ 
+(Filename:  Line: 1352)
+
+UnloadTime: 4.840191 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 257.
+Total: 6.579480 ms (FindLiveObjects: 0.017468 ms CreateObjectMapping: 0.009336 ms MarkObjects: 0.126493 ms  DeleteObjects: 6.047604 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at comicControls.panelTransition () [0x00000] in <filename unknown>:0 
+  at comicControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 0.314126 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 259.
+Total: 0.441523 ms (FindLiveObjects: 0.008131 ms CreateObjectMapping: 0.006625 ms MarkObjects: 0.118964 ms  DeleteObjects: 0.001807 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at comicControls.panelTransition () [0x00000] in <filename unknown>:0 
+  at comicControls.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 0.539405 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 258.
+Total: 0.737578 ms (FindLiveObjects: 0.022286 ms CreateObjectMapping: 0.025901 ms MarkObjects: 0.228592 ms  DeleteObjects: 0.026202 ms)
+
+UnloadTime: 0.328281 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 39337.
+Total: 4.239948 ms (FindLiveObjects: 1.329087 ms CreateObjectMapping: 0.061740 ms MarkObjects: 2.465723 ms  DeleteObjects: 0.025599 ms)
+
+Platform assembly: C:\Users\Kyle\Documents\GitHub\Spring-2015-Production\Builds\Fresh\BPM_CEM_Data\Managed\Boo.Lang.dll (this message is harmless)
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+UnloadTime: 42.904861 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 753 unused Assets to reduce memory usage. Loaded Objects now: 256.
+Total: 8.685901 ms (FindLiveObjects: 0.030418 ms CreateObjectMapping: 0.077402 ms MarkObjects: 0.186427 ms  DeleteObjects: 8.041687 ms)
+
+UnloadTime: 0.267142 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 39337.
+Total: 5.917496 ms (FindLiveObjects: 2.980131 ms CreateObjectMapping: 0.052404 ms MarkObjects: 2.133527 ms  DeleteObjects: 0.405683 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+UnloadTime: 51.149540 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 751 unused Assets to reduce memory usage. Loaded Objects now: 271.
+Total: 7.933264 ms (FindLiveObjects: 0.112338 ms CreateObjectMapping: 0.200281 ms MarkObjects: 0.336714 ms  DeleteObjects: 6.961370 ms)
+
+UnloadTime: 0.565306 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 44830.
+Total: 7.723043 ms (FindLiveObjects: 1.552860 ms CreateObjectMapping: 0.195462 ms MarkObjects: 5.548857 ms  DeleteObjects: 0.038249 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 70)
+
+UnloadTime: 61.636776 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 893 unused Assets to reduce memory usage. Loaded Objects now: 255.
+Total: 10.376701 ms (FindLiveObjects: 0.033731 ms CreateObjectMapping: 0.099689 ms MarkObjects: 0.138540 ms  DeleteObjects: 9.782783 ms)
+
+UnloadTime: 0.276177 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 44829.
+Total: 4.891090 ms (FindLiveObjects: 1.522743 ms CreateObjectMapping: 0.057825 ms MarkObjects: 2.558184 ms  DeleteObjects: 0.371951 ms)
+
