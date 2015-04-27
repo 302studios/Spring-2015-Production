@@ -16,10 +16,22 @@ public class preloaderStart : MonoBehaviour {
 	
 		//sceneName = PlayerPrefs.GetString ("Last Scene");
 
-		if(Input.GetKey(KeyCode.Space))
+		if (Input.GetKey (KeyCode.Space) && sceneName == "Start2") {
+			PlayerPrefs.SetString("UsingJoy", "false");
+			Application.LoadLevel (sceneName + "Keyboard");
+		}
+		else if (Input.GetKey (KeyCode.Space)) {
 			Application.LoadLevel (sceneName);
-		if(Input.GetKey(KeyCode.JoystickButton7))
+			PlayerPrefs.SetString("UsingJoy", "false");
+		}
+		if (Input.GetKey (KeyCode.JoystickButton7) && sceneName == "Start2") {
+			Application.LoadLevel (sceneName + "Controller");
+			PlayerPrefs.SetString ("UsingJoy", "true");
+		}
+		else if (Input.GetKey (KeyCode.JoystickButton7)) {
 			Application.LoadLevel (sceneName);
+			PlayerPrefs.SetString("UsingJoy", "true");
+		}
 
 		if(Input.GetKey(KeyCode.Escape))
 			Application.Quit();
