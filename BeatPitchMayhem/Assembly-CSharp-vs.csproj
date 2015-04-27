@@ -107,6 +107,7 @@
      <Compile Include="Assets\Scripts\World Controls\preloaderStart.cs" />
      <Compile Include="Assets\Scripts\World Controls\textGrow.cs" />
      <Compile Include="Assets\Scripts\World Controls\worldInfo.cs" />
+     <Compile Include="Assets\currentObjective.cs" />
      <Compile Include="Assets\getGadget.cs" />
      <Compile Include="Assets\toLounge.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
