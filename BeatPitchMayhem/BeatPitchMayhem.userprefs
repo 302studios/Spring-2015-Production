@@ -1,21 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\metronome.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy\enemyControls.cs">
     <Files>
+      <File FileName="Assets\getGadget.cs" Line="26" Column="18" />
+      <File FileName="Assets\Scripts\World Controls\worldInfo.cs" Line="96" Column="38" />
+      <File FileName="Assets\Scripts\UNSORTED\sceneTransition.cs" Line="31" Column="35" />
+      <File FileName="Assets\Scripts\UNSORTED\speakerPanel.cs" Line="50" Column="6" />
+      <File FileName="Assets\Scripts\UNSORTED\ForceFieldCheck.cs" Line="44" Column="54" />
+      <File FileName="Assets\Scripts\Player\characterMovement.cs" Line="96" Column="77" />
+      <File FileName="Assets\toLounge.cs" Line="32" Column="6" />
+      <File FileName="Assets\Scripts\Enemy\enemyControls.cs" Line="148" Column="1" />
+      <File FileName="Assets\Scripts\Player\sonicBoom.cs" Line="48" Column="3" />
       <File FileName="Assets\Scripts\Player\playerInfo.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\mouseLookBPM.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemy\enemyControls.cs" Line="103" Column="52" />
-      <File FileName="Assets\Scripts\Enemy\enemyTrigger.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\characterMovement.cs" Line="163" Column="52" />
-      <File FileName="Assets\Scripts\Player\sonicCompressor.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\lightController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\metronome.cs" Line="112" Column="31" />
-      <File FileName="Assets\Scripts\UNSORTED\comicControls.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\World Controls\preloader.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\UNSORTED\sceneTransition.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\UNSORTED\speakerPanel.cs" Line="62" Column="48" />
-      <File FileName="Assets\Scripts\UNSORTED\movingTexture.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\World Controls\BeatSynchronizer\BeatCounterWithString.cs" Line="109" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -43,6 +43,9 @@ public class sonicBoom : MonoBehaviour {
 
 		}
 
+		if (col.tag == "Glass")
+			col.gameObject.SetActive (false);
+
 	}
 
 	void OnTriggerEnter(Collider col){
@@ -50,7 +53,7 @@ public class sonicBoom : MonoBehaviour {
 		if (col.name == "Malkior") {
 			if(col.gameObject.GetComponent<bossControls>().vulnerable)
 				col.gameObject.GetComponent<bossControls>().damage();
-			
+
 		}
 
 	}

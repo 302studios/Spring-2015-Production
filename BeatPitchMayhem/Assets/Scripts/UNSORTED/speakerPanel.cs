@@ -45,6 +45,12 @@ public class speakerPanel : MonoBehaviour {
 				anim.SetBool("Panel Open", true);
 				isOpen = true;
 				thePlayer.speakersComplete++;
+
+				if(PlayerPrefs.GetString("WhereTo") == "Lounge"){
+					PlayerPrefs.SetInt ("Sonic Compressor", 1);
+					thePlayer.gadgetCheck();
+				}
+
 			}
 		
 		}
@@ -59,10 +65,15 @@ public class speakerPanel : MonoBehaviour {
 				}
 				done = true;
 			}
-			if(Input.GetKeyDown(KeyCode.JoystickButton0)){
+			if(Input.GetKeyUp(KeyCode.JoystickButton0)){
 				anim.SetBool("Panel Open", true);
 				isOpen = true;
 				thePlayer.speakersComplete++;
+
+				if(PlayerPrefs.GetString("WhereTo") == "Lounge"){
+					PlayerPrefs.SetInt ("Sonic Compressor", 1);
+					thePlayer.gadgetCheck();
+				}
 			}
 			
 		}

@@ -43,6 +43,8 @@ public class worldInfo : MonoBehaviour {
 
 		worldAudio = this.gameObject.GetComponent<AudioSource> ();
 
+		player = GameObject.Find ("First Person Controller");
+
 		switch (levelName) {
 
 			case LevelNames.EDM:
@@ -52,6 +54,7 @@ public class worldInfo : MonoBehaviour {
 				PlayerPrefs.SetInt ("Sonic Compressor", 0);
 				theColor = Color.green;
 				currentClips = edmClips;
+				PlayerPrefs.SetString ("WhereTo", "Start");
 				break;
 			case LevelNames.Rock:
 				levelNameString = "L2a-Rock";	
@@ -65,14 +68,32 @@ public class worldInfo : MonoBehaviour {
 				break;
 			case LevelNames.Basement:
 				levelNameString = "L3-Basement";
+				if(PlayerPrefs.GetInt ("Basement Location") == 1){
+					player.transform.position = GameObject.Find("FromHipHop").transform.position;
+					player.transform.rotation = GameObject.Find("FromHipHop").transform.rotation;
+					GameObject.Find("Metronome Pickup").SetActive(false);
+					GameObject.Find("Transition Trigger Hiphop").SetActive(false);
+				}
+				if(PlayerPrefs.GetInt ("Basement Location") == 2){
+					player.transform.position = GameObject.Find("FromRock").transform.position;
+					player.transform.rotation = GameObject.Find("FromRock").transform.rotation;
+					GameObject.Find("Light Controller Pickup").SetActive(false);		
+					GameObject.Find("Transition Trigger Rock").SetActive(false);
+				}
+				theColor = Color.white;
 				currentClips = basementClips;
 				break;
 			case LevelNames.Lounge:
 				levelNameString = "L4-Lounge";
+				PlayerPrefs.SetString ("WhereTo", "Boss");
 				currentClips = loungeClips;
 				break;
 			case LevelNames.Boss:
 				levelNameString = "L5-Boss";
+				PlayerPrefs.SetInt ("Metronome", 1);
+				PlayerPrefs.SetInt ("Light Controller", 1);
+				PlayerPrefs.SetInt ("Sonic Compressor", 1);
+				player.GetComponent<playerInfo>().gadgetCheck();
 				theColor = Color.cyan;
 				break;
 			default:
@@ -98,7 +119,7 @@ public class worldInfo : MonoBehaviour {
 			bossLevel();
 		}
 
-		if(Input.GetKey(KeyCode.Escape)){
+		if(Input.GetKey(KeyCode.Escape) || Input.GetKey(KeyCode.JoystickButton6)){
 			if(Screen.lockCursor == false){
 				Application.Quit();
 			} else{

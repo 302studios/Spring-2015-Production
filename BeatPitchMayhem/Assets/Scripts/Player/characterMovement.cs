@@ -93,7 +93,7 @@ public class characterMovement : MonoBehaviour {
 			leaningLeon ();
 		}
 
-		if(Input.GetKeyDown(KeyCode.B))
+		if(Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.JoystickButton7))
 			canControl = !canControl;
 
 		// Calculate actual motion
@@ -162,8 +162,9 @@ public class characterMovement : MonoBehaviour {
 
 		targetSpeed = Mathf.Min (targetDirection.magnitude, 1.0f);
 		isRunning = Input.GetKey(KeyCode.LeftShift);
-		isRunningWithJoy = Input.GetKey(KeyCode.Joystick1Button8);
-		if ((isRunning || isRunningWithJoy )&& !isCrouching) {
+		isRunningWithJoy = Input.GetKey(KeyCode.JoystickButton8);
+		Debug.Log (isRunningWithJoy);
+		if ((isRunning || isRunningWithJoy ) && !isCrouching) {
 			targetSpeed *= runSpeed;
 		} 
 		else if(isCrouching)
@@ -328,14 +329,14 @@ public class characterMovement : MonoBehaviour {
 			
 		}
 
-		if(Input.GetKeyDown(KeyCode.JoystickButton10))
+		if(Input.GetKeyDown(KeyCode.JoystickButton9))
 		{
 			isCrouching = true;
 			theCamera.transform.localPosition = cameraLocCrouching;
 			
 		}
 		
-		if(Input.GetKeyUp(KeyCode.JoystickButton10))
+		if(Input.GetKeyUp(KeyCode.JoystickButton9))
 		{
 			isCrouching = false;	
 			theCamera.transform.localPosition = cameraLocStanding;

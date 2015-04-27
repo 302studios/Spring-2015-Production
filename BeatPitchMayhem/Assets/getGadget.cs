@@ -13,6 +13,9 @@ public class getGadget : MonoBehaviour {
 	
 	public TheGadgets thisPickup;
 	public bool destroyOnGet;
+	public bool attachedToForcefield;
+	public GameObject forceField1;
+	public GameObject forceField2;
 
 	// Use this for initialization
 	void Start () {
@@ -53,6 +56,13 @@ public class getGadget : MonoBehaviour {
 					break;
 				default: 
 					break;
+
+				}
+
+				if(attachedToForcefield){
+
+					forceField1.SetActive(false);
+					forceField2.SetActive(false);
 
 				}
 
