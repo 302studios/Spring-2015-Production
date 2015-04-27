@@ -19,9 +19,19 @@ public class dropLight : MonoBehaviour {
 		} else {
 			StartCoroutine (targetReposition ());
 			Debug.Log("Target repo?");
-			target.GetComponent<SphereCollider> ().radius = 20f;
 			target = GameObject.Find ("Player-Front");
+			playerReset = target.transform.localPosition;
+			target.GetComponent<SphereCollider> ().radius = 20f;
+			target.transform.parent = this.transform;
+			target.transform.position = this.transform.position;
+			Vector3 tempPos = this.transform.position;
+			tempPos.y = 9f;
+			if (theWorld.levelName == worldInfo.LevelNames.Boss) {
+				target.transform.parent = null;
+				target.transform.position = tempPos;
+			}
 			player = GameObject.FindGameObjectWithTag ("Player");
+
 		}
 		Debug.Log ("Reset: " + playerReset);
 	}
