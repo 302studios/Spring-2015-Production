@@ -93,8 +93,11 @@ public class characterMovement : MonoBehaviour {
 			leaningLeon ();
 		}
 
-		if(Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.JoystickButton7))
+		if (Input.GetKeyDown (KeyCode.Return) || Input.GetKeyDown (KeyCode.JoystickButton7))
 			canControl = !canControl;
+
+		if (!canControl)
+			moveSpeed = 0f;
 
 		// Calculate actual motion
 		movement = moveDirection * moveSpeed;
@@ -163,7 +166,6 @@ public class characterMovement : MonoBehaviour {
 		targetSpeed = Mathf.Min (targetDirection.magnitude, 1.0f);
 		isRunning = Input.GetKey(KeyCode.LeftShift);
 		isRunningWithJoy = Input.GetKey(KeyCode.JoystickButton8);
-		Debug.Log (isRunningWithJoy);
 		if ((isRunning || isRunningWithJoy ) && !isCrouching) {
 			targetSpeed *= runSpeed;
 		} 

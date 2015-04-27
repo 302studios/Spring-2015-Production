@@ -9,15 +9,12 @@ public class metronome : MonoBehaviour {
 	
 	public GameObject metBubble;
 
-	bool cooling = false;
+	public bool cooling = false;
 	bool canShoot = true;
 	
 	public Transform bubbleRot;
 
 	public float coolTime;
-
-	public Text name;
-	public Text timer;
 
 	worldInfo theWorld;
 	playerInfo thePlayer;
@@ -44,24 +41,13 @@ public class metronome : MonoBehaviour {
 			coolTime = 15f;
 
 		thePlayer = GameObject.FindGameObjectWithTag ("Player").GetComponent<playerInfo> ();
-		name = GameObject.Find ("Metronome Text").GetComponent<Text> ();
-		timer = name.gameObject.GetComponentInChildren<Text> ();
+
 
 		canPad = true;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
-		if (active) {
-			name.color = Color.yellow;	
-		} else
-			name.color = Color.white;
-
-		if (cooling) {
-			name.color = Color.grey;
-		} else
-			timer.text = "";
 
 		if (Input.GetKeyDown (KeyCode.Alpha1) && !cooling && thePlayer.hasMetronome)// && !active)
 			active = !active;
@@ -135,8 +121,6 @@ public class metronome : MonoBehaviour {
 		active = false;
 		cooling = true;
 		for (float i = coolTime; i >= 0; i--) {
-			timer.text = ("| " + i);
-			timer.color = Color.red;
 			yield return new WaitForSeconds (1);
 		}
 		cooling = false;

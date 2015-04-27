@@ -37,7 +37,7 @@ public class mouseLookBPM : MonoBehaviour {
 	void Update ()
 	{
 
-		if(Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.JoystickButton7))
+		if(Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.JoystickButton7))
 			canControl = !canControl;
 
 		Quaternion xQuaternion; 

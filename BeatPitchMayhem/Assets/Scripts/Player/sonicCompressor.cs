@@ -7,16 +7,13 @@ public class sonicCompressor : MonoBehaviour {
 	public bool active = false;
 	MeshRenderer[] theMesh;
 
-	bool cooling = false;
+	public bool cooling = false;
 	bool canShoot = true;
 
 	public GameObject theBoom;
 	public Transform boomStart;
 
 	public float coolTime = 5f;
-
-	public Text name;
-	public Text timer;
 
 	playerInfo thePlayer;
 
@@ -33,8 +30,6 @@ public class sonicCompressor : MonoBehaviour {
 		}
 
 		thePlayer = GameObject.FindGameObjectWithTag ("Player").GetComponent<playerInfo> ();
-		name = GameObject.Find ("Sonic Compressor Text").GetComponent<Text> ();
-		timer = name.gameObject.GetComponentInChildren<Text> ();
 
 		canPad = true;
 
@@ -43,15 +38,6 @@ public class sonicCompressor : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		if (active) {
-			name.color = Color.yellow;	
-		} else
-			name.color = Color.white;
-		
-		if (cooling) {
-			name.color = Color.grey;
-		} else
-			timer.text = "";
 
 		if (Input.GetKeyDown (KeyCode.Alpha3) && !cooling && thePlayer.hasSonicCompressor)// && !active)
 			active = !active;

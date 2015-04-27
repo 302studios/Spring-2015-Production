@@ -12,7 +12,7 @@ public class lightController : MonoBehaviour {
 	public GameObject lightDrop;
 	public GameObject target;
 
-	bool cooling = false;
+	public bool cooling = false;
 	bool canShoot = true;
 
 	public GameObject theBoom;
@@ -43,25 +43,12 @@ public class lightController : MonoBehaviour {
 
 		thePlayer = GameObject.FindGameObjectWithTag ("Player").GetComponent<playerInfo> ();
 
-		name = GameObject.Find ("Light Controller Text").GetComponent<Text> ();
-		timer = name.gameObject.GetComponentInChildren<Text> ();
-
 		canPad = true;
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
-		if (active) {
-			name.color = Color.yellow;	
-		} else
-			name.color = Color.white;
-		
-		if (cooling) {
-			name.color = Color.grey;
-		} else
-			timer.text = "";
 
 		reticlePosition ();
 
