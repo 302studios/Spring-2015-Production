@@ -1,18 +1,21 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\dropLight.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\pauseScreen.cs">
     <Files>
       <File FileName="Assets\toolTipsMain.cs" Line="1" Column="1" />
       <File FileName="Assets\toolTip.cs" Line="1" Column="1" />
       <File FileName="Assets\getGadget.cs" Line="1" Column="1" />
-      <File FileName="Assets\pauseScreen.cs" Line="1" Column="1" />
+      <File FileName="Assets\pauseScreen.cs" Line="22" Column="30" />
       <File FileName="Assets\Scripts\UNSORTED\speakerPanel.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\characterMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\UNSORTED\movingTexture.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Environment\lightPulse.cs" Line="34" Column="2" />
-      <File FileName="Assets\Scripts\Enemy\enemyControls.cs" Line="262" Column="17" />
-      <File FileName="Assets\Scripts\Player\dropLight.cs" Line="23" Column="49" />
-      <File FileName="Assets\Scripts\Player\lightController.cs" Line="115" Column="3" />
+      <File FileName="Assets\Scripts\Environment\lightPulse.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy\enemyControls.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\dropLight.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\lightController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UNSORTED\sceneTransition.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy\bossControls.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\bossBlast.cs" Line="47" Column="63" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
