@@ -44,7 +44,7 @@ public class bossBlast : MonoBehaviour {
 		}
 
 		if (col.tag == "Player")
-			col.gameObject.GetComponent<playerInfo> ().currHealth -= 5;
+			col.gameObject.GetComponent<playerInfo> ().currHealth -= 1f;
 
 	}
 
